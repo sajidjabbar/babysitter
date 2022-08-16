@@ -1,0 +1,119 @@
+/* Service Main Section Start Here */
+section.services_main_section {
+    padding: 90px 0px 88px;
+}
+
+section.services_main_section .single_service.text-center span {
+    display: block;
+    padding: 11px 3px;
+    font-size: 21px;
+}
+
+.single_service.text-center {
+    border-radius: 12px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Service Main Section End Here */
+/* Our Experince ---> start Here */
+section.our_previous_history {
+    background-image: url(../img/about_back.png);
+    height: 802px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.our_previous_history .top_heading::after {
+    content: "";
+    display: block;
+    height: 8px;
+    width: 23%;
+    background: #FFFF;
+}
+
+section.our_previous_history .single_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 56px 0px;
+    gap: 13px;
+    background-color: #FFF;
+    border-radius: 12px;
+}
+
+section.our_previous_history .single_box h2.nunito {
+    font-family: "NunitoSans-Bold";
+    font-size: 90px;
+}
+
+section.our_previous_history .single_box span {
+    font-size: 17px;
+}
+section.our_previous_history .text_wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 7%;
+}
+@media (max-width: 991px){
+    section.our_previous_history .single_box span {
+        font-size: 10px;
+    }
+    section.our_previous_history .single_box h2.nunito {
+        font-size: 43px;
+    }
+}
+@media (max-width: 576px){
+    section.our_previous_history {
+        background-image: unset;
+        height: unset;
+        padding: 53px 0px;
+        background: #fa00a7;
+        display: block;
+        border-radius: 1px 175px 35px 97px;
+    }
+}
+/* Our Experince  End Here  <--- */
+/* Services Contact Section Start */
+.top_heading.pink_line.text-center {
+    margin-bottom: 62px;
+}
+section.service_contact {
+    padding: 55px 0px 212px;
+}
+.service_contact_start .single_contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.service_contact_start .single_contact span {
+    font-size: 20px;
+    color: #0C0B1A;
+    display: block;
+    line-height: 22px;
+}
+
+.service_contact_start .single_contact a {
+    color: #434343;
+    font-size: 18px;
+}
+.service_contact_start .single_contact img {
+    max-width: 35px;
+}
+@media (max-width: 991px){
+    .service_contact_start .single_contact img {
+        max-width: 28px;
+    }
+    .service_contact_start .single_contact span {
+        font-size: 17px;
+    }
+    .service_contact_start .single_contact a {
+        font-size: 12px;
+    }
+    .service_contact_start .single_contact{
+        justify-content: unset;
+    }
+}
