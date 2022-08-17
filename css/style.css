@@ -200,10 +200,19 @@ span.top_small_heading {
 	padding: 6px 31px;
 	color: #FFFFFF;
 	text-decoration: none;
-	transition: 0.6s;
+	transition: 1.5s;
 	border-radius: 50px;
 	font-size: 14px;
 	font-family: "Poppins-Medium";
+	border: 2px solid transparent;
+}
+
+.btn:hover {
+	background-color: #000000;
+	padding: 6px 31px;
+	color: #FA00A7;
+	border: 2px solid #FFF;
+	box-shadow: 0px 0px 0px 1px #000;
 }
 
 figure {
@@ -218,6 +227,10 @@ section.sub_banner {
 section.sub_banner h3 {
 	text-align: center;
 	color: #FFFFFF;
+}
+
+.over-hidden {
+	overflow: hidden;
 }
 
 /* Line Below Text */
@@ -904,45 +917,54 @@ section.client_feedback .reivews_start .single_review .top_section span {
 /* Client reviews start here */
 /* Services Contact Section Start */
 section.service_contact .top_heading.pink_line.text-center {
-    margin-bottom: 29px;
+	margin-bottom: 29px;
 }
+
 section.service_contact {
-    padding: 55px 0px 212px;
+	padding: 55px 0px 212px;
 }
+
 .service_contact_start .single_contact {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	justify-content: center;
 }
+
 .service_contact_start .single_contact span {
-    font-size: 20px;
-    color: #0C0B1A;
-    display: block;
-    line-height: 22px;
+	font-size: 20px;
+	color: #0C0B1A;
+	display: block;
+	line-height: 22px;
 }
 
 .service_contact_start .single_contact a {
-    color: #434343;
-    font-size: 18px;
+	color: #434343;
+	font-size: 18px;
 }
+
 .service_contact_start .single_contact img {
-    max-width: 35px;
+	max-width: 35px;
 }
-@media (max-width: 991px){
-    .service_contact_start .single_contact img {
-        max-width: 28px;
-    }
-    .service_contact_start .single_contact span {
-        font-size: 17px;
-    }
-    .service_contact_start .single_contact a {
-        font-size: 12px;
-    }
-    .service_contact_start .single_contact{
-        justify-content: unset;
-    }
+
+@media (max-width: 991px) {
+	.service_contact_start .single_contact img {
+		max-width: 28px;
+	}
+
+	.service_contact_start .single_contact span {
+		font-size: 17px;
+	}
+
+	.service_contact_start .single_contact a {
+		font-size: 12px;
+	}
+
+	.service_contact_start .single_contact {
+		justify-content: unset;
+	}
 }
+
 /* Services Contact Section End */
 /* Footer Start Here */
 footer.footer {

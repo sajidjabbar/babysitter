@@ -8,7 +8,7 @@
             <div class="carousel-item active">
                 <img src="img/banner.png" class="d-block w-100" alt="...">
                 <div class="container">
-                    <div class="carousel-caption d-md-block pink_line">
+                    <div class="carousel-caption d-md-block pink_line  wow animate__animated animate__backInLeft ">
                         <span class="top_small_heading">Welcome to Babysitter World</span>
                         <h1>We Help your baby to <br>
                             Stay in the <span>Right Hands</span></h1>
@@ -17,7 +17,7 @@
                             labore et dolore magna aliqua. Enim sit<br>amet venenatis urna. Eget magna fermentum iaculis
                             eu
                             non diam<br>phasellus vestibulum lorem. </p>
-                        <a href="" class="btn">Book Now</a>
+                        <a href="" class="btn wow animate__animated animate__fadeInDown animate__delay-1s">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-5">
-                <div class="about_images">
+                <div class="about_images "">
                     <figure class="back_image">
                         <img src="img/about1.png" class="img-fluid" alt="">
                     </figure>
@@ -40,8 +40,8 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-7">
-                <div class="about_text ms-2">
-                    <div class="top_text">
+                <div class="about_text ms-2 wow animate__animated animate__backInRight ">
+                    <div class="top_text ">
                         <span class="top_small_heading">About Babysitter World</span>
                         <h2>Everything you want to know<br>
                             About <span> LOVING </span></h2>
@@ -57,7 +57,7 @@
                             Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Vitae proin sagittis nisl
                             rhoncus mattis rhoncus urna neque viverra.
                         </p>
-                        <a href="" class="btn">Learn More</a>
+                        <a href="" class="btn wow animate__animated animate__fadeInDown animate__delay-1s">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -68,16 +68,16 @@
 <!-- Our Clints Section Start Here -->
 <section class="our_clients">
     <div class="container">
-        <div class="top_heading pink_line text-center">
+        <div class="top_heading pink_line text-center wow animate__animated animate__zoomIn">
             <span class="top_small_heading text-white">About Babysitter World</span>
             <h2 class="text-white">What we Offer Our Client</h2>
         </div>
         <div class="col-xl-10 col-lg-12 mx-auto">
-            <div class="all_services">
+            <div class="all_services over-hidden">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mt-5">
                         <a href="service-detail.php">
-                            <div class="single_service text-center">
+                            <div class="single_service text-center wow animate__animated animate__fadeInDown ">
                                 <figure>
                                     <img src="img/service1.png" class="img-fluid" alt="Service Image">
                                 </figure>
@@ -87,7 +87,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mt-5">
                         <a href="service-detail.php">
-                            <div class="single_service text-center">
+                            <div class="single_service text-center wow animate__animated animate__fadeInDown animate__delay-1s animated">
                                 <figure>
                                     <img src="img/service2.png" class="img-fluid" alt="Service Image">
                                 </figure>
@@ -97,7 +97,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mt-5">
                         <a href="service-detail.php">
-                            <div class="single_service text-center">
+                            <div class="single_service text-center wow animate__animated animate__fadeInDown animate__delay-2s animated">
                                 <figure>
                                     <img src="img/service3.png" class="img-fluid" alt="Service Image">
                                 </figure>
@@ -113,7 +113,7 @@
 <!-- Our Clints Section Start Here -->
 <section class="become_a_member">
     <div class="container">
-        <div class="top_heading pink_line text-center">
+        <div class="top_heading pink_line text-center wow animate__animated animate__zoomIn ">
             <span class="top_small_heading ">Become a member</span>
             <h2>Become Babysitter Or find One</h2>
         </div>
@@ -158,14 +158,14 @@
 <section class="client_feedback">
     <div class="container">
         <div class="reivews_start">
-            <div class="top_heading pink_line text-center">
+            <div class="top_heading pink_line text-center wow animate__animated animate__zoomIn">
                 <span class="top_small_heading text-white">Testimonials</span>
                 <h2 class="text-white">Have a look at Client Reviews</h2>
             </div>
-            <div class="col-xl-10 col-lg-12 mx-auto">
+            <div class="col-xl-10 col-lg-12 mx-auto over-hidden">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 px-2 mt-4">
-                        <div class="single_review">
+                        <div class="single_review wow animate__animated animate__fadeInDown ">
                             <div class="top_section">
                                 <figure><img src="img/client1.png" class="img-fluid" alt=""></figure>
                                 <div class="text">
@@ -179,7 +179,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 px-2 mt-4">
-                        <div class="single_review">
+                        <div class="single_review wow animate__animated animate__fadeInDown animate__delay-1s">
                             <div class="top_section">
                                 <figure><img src="img/client2.png" class="img-fluid" alt=""></figure>
                                 <div class="text">
@@ -193,7 +193,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 px-2 mt-4">
-                        <div class="single_review">
+                        <div class="single_review wow animate__animated animate__fadeInDown animate__delay-2s">
                             <div class="top_section">
                                 <figure><img src="img/client3.png" class="img-fluid" alt=""></figure>
                                 <div class="text">
@@ -217,13 +217,13 @@
     <div class="container">
         <div class="col-xxl-9 col-xl-11 col-lg-12 mx-auto">
             <div class="service_contact_start">
-                <div class="top_heading pink_line text-center">
+                <div class="top_heading pink_line text-center wow animate__animated animate__zoomIn">
                     <span class="top_small_heading">Contact Us</span>
                     <h2>Our Team is here to help You</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 mt-5">
-                        <div class="single_contact">
+                        <div class="single_contact wow animate__animated animate__fadeInDown ">
                             <figure>
                                 <img src="img/email.png" class="img-fluid" alt="">
                             </figure>
@@ -234,7 +234,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-5">
-                        <div class="single_contact">
+                        <div class="single_contact wow animate__animated animate__fadeInDown animate__delay-1s">
                             <figure>
                                 <img src="img/phone.png" class="img-fluid" alt="">
                             </figure>
@@ -245,7 +245,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-5">
-                        <div class="single_contact">
+                        <div class="single_contact wow animate__animated animate__fadeInDown animate__delay-2s">
                             <figure>
                                 <img src="img/map.png" class="img-fluid" alt="">
                             </figure>
