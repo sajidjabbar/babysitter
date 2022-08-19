@@ -248,7 +248,11 @@ section.sub_banner h3 {
 	margin-right: auto;
 	margin-top: 11px;
 }
-
+@media (max-width: 1400px) {
+	h2, h2 span {
+		font-size: 36px;
+	}
+}
 /* Line Below Text */
 @media (max-width: 1200px) {
 	span.top_small_heading {
@@ -260,9 +264,8 @@ section.sub_banner h3 {
 		font-size: 33px;
 	}
 
-	h2,
-	h2 span {
-		font-size: 33px;
+	h2, h2 span {
+		font-size: 29px;
 	}
 
 	p {
@@ -282,9 +285,8 @@ section.sub_banner h3 {
 
 @media (max-width: 991px) {
 
-	h2,
-	h2 span {
-		font-size: 31px;
+	h2, h2 span {
+		font-size: 25px;
 	}
 
 	p {
@@ -341,7 +343,7 @@ ul.header_start {
 }
 
 ul.header_start li.logo a img {
-	max-width: 128px;
+    max-width: 117px;
 }
 
 header.normal_header ul.header_start li.nav_links ul {
