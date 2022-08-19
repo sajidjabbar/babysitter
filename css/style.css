@@ -324,7 +324,7 @@ section.sub_banner h3 {
 
 /* Header Start Here */
 header.normal_header {
-	padding: 13px 0px;
+	padding: 13px 0px 0px;
 }
 
 header ul {
@@ -355,7 +355,7 @@ header.normal_header ul.header_start li.nav_links ul li.single_link:not(:first-c
 
 header.normal_header ul.header_start li.nav_links ul li.single_link a {
 	color: #0C0B1A;
-	font-size: 14px;
+	font-size: 15px;
 	font-family: "Poppins-Medium";
 }
 
@@ -363,14 +363,14 @@ header.normal_header ul.header_start li.header_contact {
 	display: flex;
 	align-items: center;
 	gap: 22px;
-	margin-left: 10%;
+	margin-left: 9%;
 	margin-right: 2%;
 }
 
 header.normal_header ul.header_start li.header_contact .contact_now {
 	display: flex;
 	align-items: center;
-	gap: 12px;
+	gap: 10px;
 }
 
 header.normal_header ul.header_start li.header_contact .profile_link {
@@ -396,7 +396,7 @@ header.normal_header ul.header_start li.header_contact .contact_now .header_cont
 }
 
 header.normal_header ul.header_start li.header_contact .profile_link figure img {
-	max-width: 40px;
+	max-width: 33px;
 	border-radius: 50%;
 }
 
@@ -784,10 +784,12 @@ section.baby_siting_about_text .about_images figure img {
 /* About Our Clients Start Here*/
 section.our_clients {
 	background-image: url(../img/about_back.png);
-	height: 802px;
+	/* height: 482px; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 section.our_clients {
@@ -921,7 +923,7 @@ section.service_contact .top_heading.pink_line.text-center {
 }
 
 section.service_contact {
-	padding: 55px 0px 212px;
+	padding: 55px 0px 140px;
 }
 
 .service_contact_start .single_contact {
@@ -993,7 +995,7 @@ footer.footer .footer_links {
 }
 
 footer.footer .footer_links ul {
-	margin-top: 22px;
+	margin-top: 13px;
 }
 
 footer.footer ul li {
@@ -1004,7 +1006,7 @@ footer.footer p,
 footer.footer a,
 footer.footer span {
 	color: #FFFFFF;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 footer.footer h5 {
@@ -1049,4 +1051,16 @@ footer.footer .footer_links.address ul li a img {
 
 .copy_right {
 	margin-top: 58px;
+}
+
+@media (max-width: 1400px) {
+	footer.footer h5 {
+		font-size: 21px;
+	}
+
+	footer.footer p,
+	footer.footer a,
+	footer.footer span {
+		font-size: 13px;
+	}
 }

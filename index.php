@@ -44,7 +44,7 @@
                     <div class="top_text ">
                         <span class="top_small_heading">About Babysitter World</span>
                         <h2>Everything you want to know<br>
-                            About <span> LOVING </span></h2>
+                            About <span> Babysitter World </span></h2>
                     </div>
                     <div class="text_box">
                         <p>
@@ -124,7 +124,7 @@
                         <figure class="text-center">
                             <img src="img/member1.png" class="img-fluid" alt="">
                         </figure>
-                        <div class="text">
+                        <div class="text mt-2">
                             <h5><span>Become Babysitter</span></h5>
                             <p class="text-center">Leo vel fringilla est ullamcorper eget nulla facilisi<br>etiam. Vitae
                                 proin sagittis nisl
@@ -139,13 +139,13 @@
                         <figure class="text-center">
                             <img src="img/member1.png" class="img-fluid" alt="">
                         </figure>
-                        <div class="text">
-                            <h5><span>Become Babysitter</span></h5>
+                        <div class="text mt-2">
+                            <h5><span>Find Babysitter</span></h5>
                             <p class="text-center">Leo vel fringilla est ullamcorper eget nulla facilisi<br>etiam. Vitae
                                 proin sagittis nisl
                                 rhoncus mattis<br>rhoncus urna neque viverra.
                             </p>
-                            <a href="" class="btn transparent">Get Started</a>
+                            <a href="" class="btn transparent">Book Now</a>
                         </div>
                     </div>
                 </div>
