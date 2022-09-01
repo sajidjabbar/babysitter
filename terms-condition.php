@@ -7,7 +7,7 @@
 <!-- Heading Banner Start Here -->
 <section class="sub_banner">
     <div class="container">
-        <h3>Privacy Policy</h3>
+        <h3>Terms and Conditions</h3>
     </div>
 </section>
 <!-- Sub_Banner End Here -->
@@ -17,7 +17,7 @@
         <div class="all_text">
             <div class="top_heading pink_line text-center">
                 <span class="top_small_heading">Have a look at</span>
-                <h2>Our Privacy Policy</h2>
+                <h2>Our Terms and Conditions</h2>
             </div>
             <div class="text_start">
                 <p>Varius vel pharetra vel turpis nunc eget lorem. Viverra aliquet eget sit amet tellus cras adipiscing.

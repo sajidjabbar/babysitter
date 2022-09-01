@@ -76,6 +76,33 @@ section.our_previous_history .text_wrapper {
     }
 }
 /* Our Experince  End Here  <--- */
+/* COMTACT INFO START HERE */
+section.contact_info {
+    padding: 11px 0px 76px;
+}
+section.contact_info .single_box {
+    display: flex;
+    gap: 6%;
+    border: 2px solid #DFE9DF;
+    padding: 29px 19px;
+    justify-content: center;
+    align-items: center;
+}
+section.contact_info .single_box .contact_detail {
+    display: flex;
+    flex-direction: column;
+}
+section.contact_info .single_box .contact_detail span, section.contact_info .single_box .contact_detail a {
+    color: #373838;
+    font-size: 16px;
+    font-family: "Poppins-Regular";
+    text-decoration: none;
+}
+section.contact_info .single_box figure img {
+    max-width: 49px;
+    max-height: 49px;
+    min-width: 49px;
+}
 /* Services Contact Section Start */
 .top_heading.pink_line.text-center {
     margin-bottom: 62px;
