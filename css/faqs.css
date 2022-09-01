@@ -1,0 +1,51 @@
+section.faqs_section .faqs_start .all_faqs  .accordion-item.\.active {
+    border: 0px;
+}
+
+section.faqs_section .faqs_start .all_faqs  button.accordion-button {
+    background: transparent;
+    font-size: 16px;
+    font-family: "Poppins-regular";
+    color: #000000 !important;
+}
+.accordion-button::after {
+    background-image: url(../img/plus.png);
+    background-size: 12px;
+    background-position: center right 20px;
+    width: 40px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/minus.png);
+    background-position: center;
+}
+.accordion-body p {
+    color: #707070;
+    font-size: 14px;
+}
+section.faqs_section .faqs_start .all_faqs .accordion-item.\.active button.accordion-button {
+    padding: 25px 0px;
+}
+section.faqs_section .faqs_start .all_faqs .accordion-item.\.active:not(:first-child) button.accordion-button {
+    border-top: 1px solid #707070 !important;
+}
+.accordion-body {
+    padding: 1rem 2.5rem 1rem  0rem;
+}
+section.faqs_section {
+    padding: 47px 0px 208px;
+}
+section.faqs_section .faqs_start .see_more_btn a.btn {
+    display: block;
+    width: 100%;
+    color: #FA00A7;
+    background: transparent;
+    border: 1px solid #FA00A7;
+}
+
+section.faqs_section .faqs_start .see_more_btn a.btn:hover {
+    background: #FA00A7;
+    color: #FFF;
+    border-color: #FFF;
+    box-shadow: 0px 0px 0px 2px #FA00A7 !important;
+}

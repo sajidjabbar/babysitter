@@ -1,0 +1,210 @@
+section.auth.login .auth_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.top_heading.pink_line::after {
+    margin-left: unset;
+    margin-top: 22px;
+}
+
+section.auth.register .top_heading.pink_line::after {
+    margin-left: unset;
+    margin-top: 6px;
+}
+
+
+section.auth .auth_content  .top_text.top_heading.pink_line span {
+    font-size: 11px;
+    font-family: "Poppins-Regular";
+}
+/* =============
+    CUSTOM checkbox
+================ */
+/* The remember_me */
+.remember_me {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.remember_me input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #FFF;
+    border: 1px solid #000;
+}
+
+/* On mouse-over, add a grey background color */
+.remember_me:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.remember_me input:checked~.checkmark {
+    background-color: #68C5FE;
+    border: 0px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.remember_me input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.remember_me .checkmark:after {
+    left: 6px;
+    top: 1px;
+    width: 7px;
+    height: 13px;
+    border: solid white;
+    border-width: 0px 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/* =======================
+
+    CUSTOM CHECKBOX END HERE
+
+======================== */
+/* fORM css sTART  */
+.form_start .form-row input {
+    width: 100%;
+    border-radius: 19px;
+    height: 40px;
+    border: 1px solid #A2A4B4;
+    padding: 0px 23px;
+    font-size: 12px;
+    font-family: "Poppins-Regular";
+    color: #00000085;
+    outline: none;
+}
+.form_start .form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form_start  .remember_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.form_start .form-row button {
+    width: 100%;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 24px;
+    border: 1px solid #FA00A7;
+    font-family: "Poppins-Medium";
+    font-size: 16px;
+    color: #FA00A7;
+    outline: none;
+}
+.form_start .form-row input::placeholder {
+    color: #00000085;
+}
+
+@media (max-width: 991px){
+    section.auth .auth_content{
+        margin-bottom: 54px;
+    }
+}
+
+/* ===============
+    Register CSS START HERE
+   ===============*/
+
+section.auth.register .auth_content.h-100 .all_register_tabs ul {
+    width: 100%;
+}
+
+section.auth.register .auth_content.h-100 .all_register_tabs ul li {
+    width: 50%;
+}
+
+section.auth.register .auth_content.h-100 .all_register_tabs ul li button {
+    color: #292929;
+    font-size: 13px;
+    width: 100%;
+    font-family: "Poppins-Regular";
+    background-color: transparent;
+    padding: 14px 0px;
+    border: 0px;
+    border-radius: 24px 24px 0px 0px;
+}
+
+section.auth.register .auth_content.h-100 .all_register_tabs ul li button.active {
+    background: #FA00A7;
+    color: #FFF;
+}
+.form_start .form-row .single-input {
+    width: 48%;
+}
+section.auth.register .auth_content.h-100 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 768px){
+    section.auth.register .auth_content.h-100 .all_register_tabs ul li button{
+        font-size: 10px;
+    }
+}
+/* ===================
+    FORGOT PASSWORD CSS START
+==================== */
+
+section.forgot_passsword {
+    padding: 128px 0px 199px;
+}
+section.forgot_passsword .top_heading.pink_line::after {
+    margin-left: auto;
+    margin-top: -5px;
+    height: 3px;
+}
+@media (max-width: 1200px){
+    section.forgot_passsword {
+        padding: 108px 0px 159px;
+    }   
+}
+@media (max-width: 991px){
+    section.forgot_passsword {
+        padding: 79px 0px;
+    }   
+}
+@media (max-width: 768px){
+    section.forgot_passsword {
+        padding: 40px 0px;
+    }   
+}

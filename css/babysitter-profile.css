@@ -1,0 +1,276 @@
+/* Profile Top SECTION */
+section.baby_sitter_profile_top {
+    padding: 99px 0px 53px;
+}
+section.baby_sitter_profile_top .profile_top .name_img {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+section.baby_sitter_profile_top .profile_top .name_img img {
+    max-width: 84px;
+    max-height: 84px;
+    border-radius: 50%;
+}
+section.baby_sitter_profile_top .profile_top .name_img h3 {
+    font-family: 'poppins-bold';
+    font-size: 32px;
+}
+
+section.baby_sitter_profile_top .profile_top .name_img  span.location {
+    color: #47474782;
+    font-size: 15px;
+    font-family: "poppins-regular";
+}
+
+section.baby_sitter_profile_top .profile_top .name_img span.rating {
+    color: #000000;
+    font-size: 14px;
+    font-family: "poppins-medium";
+    position: relative;
+    padding-left: 10px;
+}
+
+section.baby_sitter_profile_top .profile_top .name_img span.rating i {
+    color: #FFCC00;
+    font-size: 15px;
+}
+
+section.baby_sitter_profile_top .profile_top .name_img span.rating::before {
+    content: "";
+    position: absolute;
+    height: 19px;
+    width: 1px;
+    background: #E5E5E5;
+    top: 1px;
+    left: 3px;
+}
+@media (max-width: 768px) {
+    section.reviews .all-reviews .single_review {
+        margin-top: 20px;
+    }
+    
+    section.baby_sitter_profile_top a.btn {
+        display: block;
+        max-width: 39%;
+        margin-left: auto;
+    }
+    section.baby_sitter_profile_top {
+        padding: 62px 0px 37px;
+    }
+}
+@media (max-width: 576px){
+    section.baby_sitter_profile_top .profile_top .name_img h3 {
+        font-size: 31px;
+        line-height: 20px;
+    }
+    
+    section.baby_sitter_profile_top .profile_top .name_img span.location {
+        font-size: 12px;
+    }
+    
+    section.baby_sitter_profile_top .profile_top .name_img span.rating {
+        font-size: 13px;
+    }
+    
+    section.baby_sitter_profile_top .profile_top .name_img span.rating i {
+        font-size: 13px;
+    }
+    
+    section.baby_sitter_profile_top .profile_top .name_img img {
+        max-width: 65px;
+        max-height: 65px;
+    }
+    
+    section.baby_sitter_profile_top .profile_top .name_img {
+        gap: 18px;
+    }
+    
+    section.baby_sitter_profile_top .profile_top .name_img .location_rating {
+        line-height: 20px;
+    }
+}
+@media (max-width: 420px){
+    section.baby_sitter_profile_top .profile_top .name_img h3 {
+        font-size: 23px;
+        line-height: 17px;
+    }
+    
+    section.baby_sitter_profile_top .profile_top .name_img span.location {
+        font-size: 10px;
+    }
+    
+    section.baby_sitter_profile_top .profile_top .name_img span.rating {
+        font-size: 11px;
+    }
+    
+    section.baby_sitter_profile_top .profile_top .name_img span.rating i {
+        font-size: 11px;
+    }
+    
+    section.baby_sitter_profile_top .profile_top .name_img img {
+        max-width: 54px;
+        max-height: 54px;
+    }
+    
+    section.baby_sitter_profile_top .profile_top .name_img {
+        gap: 12px;
+    }
+    
+    section.baby_sitter_profile_top .profile_top .name_img .location_rating {
+        line-height: 15px;
+    }
+}
+    
+/* Profile Top SECTION */
+/* Personal Information Start Here */
+section.persoal_information {
+    padding: 34px 0px;
+}
+section.persoal_information .personal_information_start {
+    border: 1px solid #7070708c;
+    padding: 41px 4%;
+    border-radius: 6px;
+}
+section.persoal_information .personal_information_start {
+    border: 1px solid #707070;
+    padding: 57px 5%;
+    border-radius: 6px;
+    margin-top: 22px;
+}
+
+section.persoal_information .personal_information_start .single_side .single_row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    line-height: 32px;
+}
+
+section.persoal_information .personal_information_start .single_side span.quest {
+    width: 33%;
+    display: block;
+    font-size: 15px;
+    color: #000000;
+    font-family: "Poppins-Medium";
+}
+
+section.persoal_information .personal_information_start .single_side span.answer {
+    color: #0000008f;
+    font-size: 15px;
+    display: block;
+    font-family: "Poppins-Regular";
+    width: 67%;
+}
+@media (max-width: 991px){
+    section.persoal_information .personal_information_start .single_side span.quest {
+        font-size: 13px;
+    }
+    
+    section.persoal_information .personal_information_start .single_side span.answer {
+        font-size: 13px;
+    }
+    
+    section.persoal_information .personal_information_start .single_side .single_row {
+        line-height: 22px;
+    }
+}
+@media (max-width: 768px){
+    section.persoal_information {
+        padding: 17px 0px;
+    }
+    h6{
+        margin: 0px;
+    }
+    section.reviews .all-reviews{
+        margin-top: 0px !important;
+    }
+}
+@media (max-width: 576px){
+    section.persoal_information .personal_information_start .single_side span.quest {
+        font-size: 11px;
+    }
+    
+    section.persoal_information .personal_information_start .single_side span.answer {
+        font-size: 11px;
+    }
+    
+    section.persoal_information .personal_information_start .single_side .single_row {
+        line-height: 22px;
+    }
+}
+@media (max-width: 420px){
+    section.persoal_information .personal_information_start .single_side span.quest {
+        font-size: 9px;
+    }
+    
+    section.persoal_information .personal_information_start .single_side span.answer {
+        font-size: 9px;
+    }
+    section.persoal_information .personal_information_start {
+        padding: 57px 3%;
+    }
+}
+/* Personal Information End Here */
+/* Reviews Start Here */
+section.reviews {
+    padding: 37px 0px 101px;
+}
+section.reviews .all-reviews {    
+     margin-top: 19px;
+}
+section.reviews .all-reviews .single_review ul {
+    display: flex;
+    padding-left: 0;
+    gap: 9px;
+    margin-bottom: 10px;
+}
+
+section.reviews .all-reviews .single_review ul li {
+    list-style: none;
+}
+
+section.reviews .all-reviews .single_review ul li i {
+    color: #FFCC00;
+    font-size: 17px;
+}
+
+section.reviews .all-reviews .single_review ul li i.not_rated {
+    color: #C5C3C3;
+}
+
+section.reviews .all-reviews .single_review p {
+    color: #777777;
+}
+
+section.reviews .all-reviews .single_review  .user {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+section.reviews .all-reviews .single_review .user figure img {
+    max-width: 48px;
+    max-height: 48px;
+    border-radius: 505;
+}
+
+section.reviews .all-reviews .single_review .user .username span {
+    color: #000000;
+    font-size: 16px;
+    font-family: "poppins-medium";
+}
+
+section.reviews .all-reviews .single_review {
+    padding: 30px 27px 22px;
+    background-color: #F5F5F5;
+    border-radius: 13px;
+}
+@media (max-width: 768px){
+    section.reviews .all-reviews .single_review {
+        margin-top: 20px;
+    }
+    section.reviews {
+        padding: 20px 0px 66px;
+    }
+}
+/* Reviews End Here */

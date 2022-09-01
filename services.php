@@ -68,8 +68,10 @@
                         <h2 class="text_white">Best Babysitter You<br>Can Count On</h2>
                     </div>
                     <div class="text mt-4 pt-1">
-                        <p class="text_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Enim sit amet venenatis urna. Eget magna fermentum
+                        <p class="text_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                            incididunt ut labore et dolore magna aliqua. Enim sit amet venenatis urna. Eget magna
+                            fermentum
                             iaculis eu non diam phasellus vestibulum lorem. Eu mi bibendum neque egestas congue quisque
                             egestas. Et molestie ac feugiat</p>
                     </div>
