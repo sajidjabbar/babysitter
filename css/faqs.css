@@ -49,3 +49,10 @@ section.faqs_section .faqs_start .see_more_btn a.btn:hover {
     border-color: #FFF;
     box-shadow: 0px 0px 0px 2px #FA00A7 !important;
 }
+
+@media (min-width: 1200px){
+    section.faqs_section .faqs_start {
+        max-width: 84%;
+        margin: auto;
+    }
+}
