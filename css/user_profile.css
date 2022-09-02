@@ -3,11 +3,24 @@ section.profile_section {
     padding: 99px 0px;
 }
 
-.all_profile {
-    width: 80%;
-    margin: auto;
+@media (min-width: 1400px) {
+    .all_profile {
+        width: 80%;
+        margin: auto;
+    }
 }
-
+@media (max-width: 1400px) {
+    .all_profile {
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (max-width: 1200px) {
+    .all_profile {
+        width: 100%;
+        margin: auto;
+    }
+}
 section.profile_main_tab {
     padding: 30px 41px;
 }
@@ -33,10 +46,7 @@ section.profile_section .all_profile .tabs_side_bar {
     margin-top: 15px;
 }
 
-.all_profile {
-    width: 83%;
-    margin: auto;
-}
+
 
 .for_profile_img figure {
     margin: auto;
@@ -67,10 +77,6 @@ section.profile_section .all_profile .tabs_side_bar .tabs_controller {
 }
 
 /* Custom Container */
-.all_profile {
-    width: 80%;
-    margin: auto;
-}
 
 /* Custom Container */
 /* Right Side */
@@ -87,10 +93,6 @@ section.profile_section .all_profile .tabs_side_bar {
     flex-direction: column;
 }
 
-.all_profile {
-    width: 83%;
-    margin: auto;
-}
 
 .for_profile_img figure {
     margin: auto;
@@ -426,12 +428,14 @@ th.up-action {
 th.up-view {
     width: 13%;
 }
+
 table.table tbody tr td span.up-cancel {
     padding: 6px 12px;
     border-radius: 17px;
     color: #FFF;
     background: #FF0000;
 }
+
 table.table tbody tr td {
     font-family: "Poppins-Medium";
     font-size: 11px;
@@ -439,36 +443,43 @@ table.table tbody tr td {
     text-align: center;
     padding: 1rem 0.3rem;
 }
+
 table.table tbody tr td span.pending-accepted {
     background: #D2D2D2;
     color: #000;
     padding: 6px 13px;
     border-radius: 16px;
 }
+
 th.pen-status {
     width: 13%;
 }
+
 /* Table End Here */
 /* Booking Details Start Here */
 .booking_details {
     padding: 12px 40px;
 }
+
 .booking_details .top_texts {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .booking_details .top_texts h5 {
     font-size: 19px;
     font-family: "sf-ui-semibold";
     color: #2A263D;
 }
+
 .single_price span.fee {
     font-size: 17px;
     font-family: "Poppins-Regular";
     color: #296253';
 
 }
+
 .single_price span.payment {
     font-family: "Poppins-SemiBold";
     color: #296253;
