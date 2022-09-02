@@ -5,6 +5,34 @@ $(window).on("load", function () {
 });
 // Pre Loader Js
 
+
+
+$("#previous_booking_btn").click(function () {
+	$("#pending_booking").addClass("hide");
+	$("#upcoming_booking").addClass("hide");
+	$("#previous_booking").removeClass("hide");
+	$(".tab_btn").removeClass("active");
+	$(this).toggleClass("active");
+});
+$("#pending_booking_btn").click(function () {
+	$("#previous_booking").addClass("hide");
+	$("#upcoming_booking").addClass("hide");
+	$("#pending_booking").removeClass("hide");
+	$(".tab_btn").removeClass("active");
+	$(this).addClass("active");
+});
+$("#upcoming_booking_btn").click(function () {
+	$("#previous_booking").addClass("hide");
+	$("#pending_booking").addClass("hide");
+	$("#upcoming_booking").removeClass("hide");
+	$(".tab_btn").removeClass("active");
+	$(this).toggleClass("active");
+});
+$(".view_detail").click(function () {
+	$("#booking_start").addClass("hide");
+	$("#booking_details").removeClass("hide");
+});
+
 // Mobile Header Js
 $("header .canvas_btn").click(function () {
 	$(".mobile_header").addClass("show");
@@ -15,34 +43,7 @@ $(".mobile_header .cancel").click(function () {
 });
 // Mobile Header Js
 
-// Banner Video Js
-myVideo = document.getElementById("myvid");
-function playPause() {
-	if (myVideo.paused) {
-		myVideo.play();
-	} else {
-		myVideo.pause();
-	}
-}
-// Banner Video Js
-
-// Product Detail Video Js
-const video = document.getElementById("Provideo");
-const circlePlayButton = document.getElementById("circle-play-b");
-
-function togglePlay() {
-	if (video.paused || video.ended) {
-		video.play();
-	} else {
-		video.pause();
-	}
-}
-
-circlePlayButton.addEventListener("click", togglePlay);
-video.addEventListener("playing", function () {
-	circlePlayButton.style.opacity = 0;
+$("#edit_profile_btn").click(function () {
+	$(".see_profile").addClass("hide");
+	$("#edit_profile").removeClass("hide");
 });
-video.addEventListener("pause", function () {
-	circlePlayButton.style.opacity = 1;
-});
-// Product Detail Video Js
