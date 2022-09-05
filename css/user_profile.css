@@ -1,0 +1,487 @@
+/* Custom Container */
+section.profile_section {
+    padding: 99px 0px;
+}
+
+@media (min-width: 1400px) {
+    .all_profile {
+        width: 80%;
+        margin: auto;
+    }
+}
+@media (max-width: 1400px) {
+    .all_profile {
+        width: 90%;
+        margin: auto;
+    }
+}
+@media (max-width: 1200px) {
+    .all_profile {
+        width: 100%;
+        margin: auto;
+    }
+}
+section.profile_main_tab {
+    padding: 30px 41px;
+}
+
+.booking_top {
+    padding: 30px 41px 0px;
+}
+
+/* Custom Container */
+/* Right Side */
+section.profile_section .all_profile .all_tabs {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 34px 0px;
+}
+
+section.profile_section .all_profile .tabs_side_bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.all_profile .user_name {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+.for_profile_img figure {
+    margin: auto;
+    max-width: 65%;
+    text-align: center;
+    position: relative;
+}
+
+.for_profile_img figure span.add_icon {
+    position: absolute;
+    bottom: 0px;
+    right: 12%;
+}
+
+.for_profile_img figure img {
+    max-width: 69%;
+}
+
+section.profile_section .all_profile .tabs_side_bar .tabs_controller {
+    width: 100%;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    font-family: "Poppins-Medium";
+    color: #FA00A7;
+    outline: none;
+    box-shadow: none;
+}
+
+/* Custom Container */
+
+/* Custom Container */
+/* Right Side */
+section.profile_section .all_profile .all_tabs {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 34px 0px 153px;
+    border-radius: 10px;
+    max-height: 476px;
+    overflow: hidden;
+}
+
+section.profile_section .all_profile .tabs_side_bar {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.for_profile_img figure {
+    margin: auto;
+    max-width: 65%;
+    text-align: center;
+    position: relative;
+}
+
+.for_profile_img figure span.add_icon {
+    position: absolute;
+    bottom: 0px;
+    right: 12%;
+}
+
+.for_profile_img figure img {
+    max-width: 69%;
+}
+
+.all_profile .user_name {
+    text-align: center;
+    margin-top: 15px;
+}
+
+section.profile_section .all_profile .tabs_side_bar .tabs_controller {
+    width: 100%;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    font-family: "Poppins-Medium";
+    color: #9797979e;
+    outline: none;
+    box-shadow: none;
+    padding: 10px 16px;
+    background-color: transparent;
+    border-radius: 0px;
+    border: navajowhite;
+}
+
+section.profile_section .all_profile .tabs_side_bar .tabs_button_wrapper:not(:first-child) .tabs_controller {
+    border-top: 1px solid #70707059;
+}
+
+section.profile_section .all_profile .tabs_side_bar .tabs_controller.active {
+    color: #FA00A7;
+}
+
+section.profile_main_tab .top_heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+button.btn.edit_btn {
+    height: 33px;
+    padding: 0px 31px !important;
+    line-height: 0px;
+}
+
+
+/* Personal Information */
+/* Personal Information Start Here */
+.al_tabs_start {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    min-height: 100%;
+    border-radius: 10px;
+    height: 476px;
+}
+
+@media (min-width: 1200px) {
+    .al_tabs_start {
+        height: 476px;
+    }
+
+    .edit_profile {
+        height: 421px;
+        overflow-y: scroll;
+    }
+
+    .edit_profile::-webkit-scrollbar {
+        display: none;
+    }
+
+    .booking_start .table-responsive {
+        max-height: 321px;
+    }
+
+    .booking_start .table-responsive::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+section.persoal_information {
+    padding: 13px 0px 6px;
+}
+
+section.persoal_information .personal_information_start {
+    border: 1px solid #7070708c;
+    padding: 41px 4%;
+    border-radius: 6px;
+}
+
+section.persoal_information .personal_information_start {
+    border: 1px solid #70707061;
+    padding: 17px 5% 16px;
+    border-radius: 6px;
+    margin-top: 13px;
+}
+
+section.persoal_information .personal_information_start .single_side .single_row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    line-height: 26px;
+    justify-content: space-between;
+}
+
+section.persoal_information .personal_information_start .single_side span.quest {
+    width: 60%;
+    display: block;
+    font-size: 13px;
+    color: #000000;
+    font-family: "Poppins-Medium";
+}
+
+section.persoal_information .personal_information_start .single_side span.answer {
+    color: #0000008f;
+    font-size: 13px;
+    display: block;
+    font-family: "Poppins-Regular";
+    width: 40%;
+}
+
+section.persoal_information .personal_information_start .single_side span.answer.password {
+    font-size: 58px;
+    margin-top: -30px;
+}
+
+@media (max-width: 991px) {
+    section.persoal_information .personal_information_start .single_side span.quest {
+        font-size: 13px;
+    }
+
+    section.persoal_information .personal_information_start .single_side span.answer {
+        font-size: 13px;
+    }
+
+    section.persoal_information .personal_information_start .single_side .single_row {
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    section.persoal_information {
+        padding: 17px 0px;
+    }
+
+    h6 {
+        margin: 0px;
+    }
+
+    section.reviews .all-reviews {
+        margin-top: 0px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    section.persoal_information .personal_information_start .single_side span.quest {
+        font-size: 11px;
+    }
+
+    section.persoal_information .personal_information_start .single_side span.answer {
+        font-size: 11px;
+    }
+
+    section.persoal_information .personal_information_start .single_side .single_row {
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 420px) {
+    section.persoal_information .personal_information_start .single_side span.quest {
+        font-size: 9px;
+    }
+
+    section.persoal_information .personal_information_start .single_side span.answer {
+        font-size: 9px;
+    }
+
+    section.persoal_information .personal_information_start {
+        padding: 57px 3%;
+    }
+}
+
+/* Personal Information End Here */
+/* BOOKING CSS Start Here */
+h4 {
+    font-size: 30px;
+}
+
+.toogle_bookings .button_group {
+    display: flex;
+    gap: 0px;
+    width: 78%;
+    margin-left: auto;
+}
+
+.toogle_bookings .button_group button {
+    background: transparent;
+    border: 0px;
+    width: 33%;
+    font-size: 13px;
+    font-family: 'Poppins-Regular';
+    padding: 12px 0px 11px;
+    border-radius: 19px 19px 0px 0px;
+}
+
+.toogle_bookings .button_group button.active {
+    background: #FA00A7;
+    color: #FFF;
+}
+
+/* Booking CSS END HERE */
+
+/* Table CSS */
+tr,
+tbody {
+    border: unset;
+    border-style: hidden;
+}
+
+table.table tbody tr td img {
+    padding-right: 9px;
+}
+
+td:not(:last-child) {
+    border-right: 1px solid #0000002e;
+}
+
+table.table thead th {
+    font-size: 13px;
+    font-family: "Poppins-Medium";
+    color: #FFF;
+    text-shadow: unset;
+    font-weight: 400;
+    text-align: center;
+}
+
+table.table tbody tr td {
+    font-family: "Poppins-Medium";
+    font-size: 11px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0.5rem 0.3rem;
+}
+
+.table-responsive thead {
+    background: #68C5FE;
+}
+
+table.table tbody tr td button.view_detail {
+    border: none;
+    color: #404040;
+    background: transparent;
+    text-decoration: underline;
+}
+
+th.id {
+    width: 13%;
+}
+
+th.date {
+    width: 13%;
+}
+
+th.time {
+    width: 22%;
+}
+
+table.table tbody tr td span.cancel {
+    background: #FFB4C0;
+    padding: 6px 12px;
+    border-radius: 17px;
+    color: #FF0000;
+}
+
+table.table tbody tr td span.completed {
+    background: #E5FFDE;
+    padding: 6px 10px;
+    border-radius: 17px;
+    color: #00C807;
+}
+
+th.payment {
+    width: 13%;
+}
+
+th.status {
+    width: 13%;
+}
+
+th.action {
+    width: 12%;
+}
+
+/* Upcoming Table */
+th.up-time {
+    width: 11%;
+}
+
+th.up-date {
+    width: 12%;
+}
+
+th.up-payment {
+    width: 12%;
+}
+
+table.table tbody tr td span.accepted {
+    background: #35C930;
+    color: #FFF;
+    padding: 6px 13px;
+    border-radius: 16px;
+}
+
+th.up-status {
+    width: 24%;
+}
+
+th.up-action {
+    width: 15%;
+}
+
+th.up-view {
+    width: 13%;
+}
+
+table.table tbody tr td span.up-cancel {
+    padding: 6px 12px;
+    border-radius: 17px;
+    color: #FFF;
+    background: #FF0000;
+}
+
+table.table tbody tr td {
+    font-family: "Poppins-Medium";
+    font-size: 11px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 1rem 0.3rem;
+}
+
+table.table tbody tr td span.pending-accepted {
+    background: #D2D2D2;
+    color: #000;
+    padding: 6px 13px;
+    border-radius: 16px;
+}
+
+th.pen-status {
+    width: 13%;
+}
+
+/* Table End Here */
+/* Booking Details Start Here */
+.booking_details {
+    padding: 12px 40px;
+}
+
+.booking_details .top_texts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking_details .top_texts h5 {
+    font-size: 19px;
+    font-family: "sf-ui-semibold";
+    color: #2A263D;
+}
+
+.single_price span.fee {
+    font-size: 17px;
+    font-family: "Poppins-Regular";
+    color: #296253';
+
+}
+
+.single_price span.payment {
+    font-family: "Poppins-SemiBold";
+    color: #296253;
+    font-size: 22px;
+}

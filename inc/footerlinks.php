@@ -6,7 +6,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.min.js"></script>
 <!-- Bootstrap CDN -->
 <!-- Range Slider -->
-<script src="js/range.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.6.0/nouislider.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js"></script>
 <!-- Range Slider -->
@@ -36,6 +35,7 @@
 </script>
 
 <script>
+
     // NEW SCRIPTING
     $("#babysitterregister").click(function() {
         $(".login_option").addClass("hide");
@@ -362,3 +362,4 @@
     //bg
     // Hiring Calender End Here
 </script>
+
