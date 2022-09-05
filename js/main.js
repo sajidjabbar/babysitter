@@ -28,10 +28,27 @@ $("#upcoming_booking_btn").click(function () {
 	$(".tab_btn").removeClass("active");
 	$(this).toggleClass("active");
 });
-$(".view_detail").click(function () {
+$(".completed_bookling_details_button").click(function () {
+	$(".all_profile").addClass("hide");
+	$(".completed_bookling_details").removeClass("hide");
+});
+$(".add_review_btn").click(function () {
+	$(".add_review").removeClass("hide");
+	$("#completed_bookling_details").addClass("hide");
+}); 
+$(".canceled_booking").click(function () {
 	$("#booking_start").addClass("hide");
 	$("#booking_details").removeClass("hide");
 });
+$("#close_add_review").click(function () {
+	$("#completed_bookling_details").removeClass("hide");
+	$(".add_review").addClass("hide");
+});
+
+$("#close_booking_detail").click(function () {
+	$(".all_profile").removeClass("hide");
+	$("#completed_bookling_details").addClass("hide");
+}); 
 
 // Mobile Header Js
 $("header .canvas_btn").click(function () {
