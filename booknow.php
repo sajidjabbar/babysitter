@@ -1,8 +1,5 @@
-<!-- App Include Here -->
 <?php include 'inc/app.php'; ?>
-<!-- App Include Here -->
-<!-- Style Link Here -->
-<link rel="stylesheet" href="css/services.css">
+<link rel="stylesheet" href="css/booknow.css">
 <!-- Style Link Here -->
 <!-- Heading Banner Start Here -->
 <section class="sub_banner">
@@ -13,13 +10,12 @@
 <!-- Sub_Banner End Here -->
 <section class="booknow_section">
     <div class="container">
-        <div class="col-xxl-10 mx-auto">
-            <div class="all_books_start">
-
-            </div>
+        <div class="row">
+            <div class="col-md-2"></div>
         </div>
     </div>
 </section>
+
 <!-- Footer Include Here -->
 <?php include 'inc/footer.php'; ?>
 <!-- Footer Include Here -->

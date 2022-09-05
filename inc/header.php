@@ -12,7 +12,11 @@
                     <li class="single_link"><a href="index.php">Home</a></li>
                     <li class="single_link"><a href="about.php">About Us</a></li>
                     <li class="single_link"><a href="services.php">Services</a></li>
+
+                    <li class="single_link"><a href="booknow.php">Book Now</a></li>
+
                     <li class="single_link"><a href="">Book Now</a></li>
+
                     <li class="single_link"><a href="contact.php">Contact Us</a></li>
                 </ul>
             </li>
