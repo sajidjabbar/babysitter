@@ -12,11 +12,7 @@
                     <li class="single_link"><a href="index.php">Home</a></li>
                     <li class="single_link"><a href="about.php">About Us</a></li>
                     <li class="single_link"><a href="services.php">Services</a></li>
-
                     <li class="single_link"><a href="booknow.php">Book Now</a></li>
-
-                    <li class="single_link"><a href="">Book Now</a></li>
-
                     <li class="single_link"><a href="contact.php">Contact Us</a></li>
                 </ul>
             </li>
@@ -42,7 +38,7 @@
                     <figure>
                         <img src="img/profile_img.png" class="img-fluid" alt="">
                     </figure>
-                    <a href="" class="popins_m">John Doe</a>
+                    <a href="user_profile.php" class="popins_m">John Doe</a>
                 </div>
             </li>
             <li class="canvas_btn"><i class="fa fa-bars" aria-hidden="true"></i></li>

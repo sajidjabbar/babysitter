@@ -1,0 +1,42 @@
+section.profile_section .all_profile .all_tabs {
+    padding: 34px 0px 156px;
+    max-height: 536px;
+}
+
+section.profile_section .all_profile .tabs_side_bar {
+    padding-top: 20px;
+}
+
+.all_profile {
+    width: 86%;
+    margin: auto;
+}
+
+section.persoal_information .personal_information_start {
+    padding: 17px 4% 16px;
+}
+
+section.persoal_information .personal_information_start .single_side span.quest {
+    width: 32%;
+}
+
+section.persoal_information .personal_information_start .single_side span.answer {
+    width: 65%;
+}
+section.profile_main_tab .form_start .form-row button {
+    color: #FFF;
+    background: #FA00A7;
+    transition: 0.6s all;
+}
+section.profile_main_tab .form_start .form-row button:hover{
+    color: #FA00A7;
+    border: 1px solid #FA00A7;
+    background-color: #000;
+    box-shadow: 0px 0px 0px 2px #000;
+    z-index: 9999;
+}
+@media (min-width: 991px) {
+    .edit_profile {
+        height: 465px;
+    }
+}

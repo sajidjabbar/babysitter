@@ -132,6 +132,10 @@ section.profile_section .all_profile .tabs_side_bar .tabs_controller {
     background-color: transparent;
     border-radius: 0px;
     border: navajowhite;
+    background-image: url(../img/arrow.png);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: center right 20px;
 }
 
 section.profile_section .all_profile .tabs_side_bar .tabs_button_wrapper:not(:first-child) .tabs_controller {
