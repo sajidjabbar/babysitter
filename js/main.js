@@ -7,6 +7,7 @@ $(window).on("load", function () {
 
 
 
+
 $("#previous_booking_btn").click(function () {
 	$("#pending_booking").addClass("hide");
 	$("#upcoming_booking").addClass("hide");
@@ -63,4 +64,26 @@ $(".mobile_header .cancel").click(function () {
 $("#edit_profile_btn").click(function () {
 	$(".see_profile").addClass("hide");
 	$("#edit_profile").removeClass("hide");
+});
+
+
+
+// Babby Sitter Start Here start_bookling_button
+$(".start_bookling_button").click(function () {
+	$(".all_profile").addClass("hide");
+	$("#start_job_now_details").removeClass("hide");
+});
+
+$(".start_job_btn").click(function () {
+	$("#start_job_now_details").addClass("hide");
+	$("#end_job_now").removeClass("hide");
+}); 
+$("#end_job_btn").click(function () {
+	$("#end_job_now").addClass("hide");
+	$(".all_profile").removeClass("hide");
+});
+$(".close_details_now_close").click(function () {
+	$("#end_job_now").addClass("hide");
+	$("#start_job_now_details").addClass("hide");
+	$(".all_profile").removeClass("hide");
 });

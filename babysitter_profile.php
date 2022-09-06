@@ -227,104 +227,165 @@
                                             <table class="table">
                                                 <thead>
                                                     <tr>
-                                                        <th class="id">Booking Id</th>
-                                                        <th class="up-date">Date</th>
-                                                        <th class="up-time">Time</th>
-                                                        <th class="up-payment">Payment</th>
-                                                        <th class="pen-status">Status</th>
-                                                        <th class="up-action">Action</th>
-                                                        <th class="up-view">View</th>
+                                                        <th class="baby-id">Booking Id</th>
+                                                        <th class="baby-up-date">Date</th>
+                                                        <th class="baby-up-time">Time</th>
+                                                        <th class="baby-up-payment">Payment</th>
+                                                        <th class="baby-pen-status">Status</th>
+                                                        <th class="baby-up-view">View</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
+                                                        <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
-                                                        <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
+                                                        <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
-                                                        <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
+                                                        <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
-                                                        <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
+                                                        <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
-                                                        <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
+                                                        <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
-                                                        <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
+                                                        <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
-                                                        <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
+                                                        <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
-                                                        <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
+                                                        <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
-                                                        <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
+                                                        <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
-                                                        <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
+                                                        <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
-                                                        <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm to 6:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm to 6:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm to 6:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm to 6:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm to 6:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm to 6:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm to 6:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm to 6:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm to 6:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="baby-pending-accepted">Pending</span>&nbsp;&nbsp;<span class="baby-up-cancel">Canceled</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                 </tbody>
@@ -362,7 +423,7 @@
                                                         <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="completed">Completed</span></td>
-                                                        <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
+                                                        <td class="start_bookling_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
@@ -380,7 +441,7 @@
                                                         <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="completed">Completed</span></td>
-                                                        <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
+                                                        <td class="start_bookling_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
@@ -398,7 +459,7 @@
                                                         <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="completed">Completed</span></td>
-                                                        <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
+                                                        <td class="start_bookling_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
@@ -416,7 +477,7 @@
                                                         <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="completed">Completed</span></td>
-                                                        <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
+                                                        <td class="start_bookling_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
@@ -434,7 +495,7 @@
                                                         <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="completed">Completed</span></td>
-                                                        <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
+                                                        <td class="start_bookling_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
@@ -452,7 +513,7 @@
                                                         <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="completed">Completed</span></td>
-                                                        <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
+                                                        <td class="start_bookling_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
@@ -470,7 +531,7 @@
                                                         <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="completed">Completed</span></td>
-                                                        <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
+                                                        <td class="start_bookling_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
                                                         <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
@@ -488,7 +549,7 @@
                                                         <td>5:30pm to 6:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="completed">Completed</span></td>
-                                                        <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
+                                                        <td class="start_bookling_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     </ttbody>
                                             </table>
@@ -499,13 +560,13 @@
                                             <table class="table">
                                                 <thead>
                                                     <tr>
-                                                        <th class="id">Booking Id</th>
-                                                        <th class="up-date">Date</th>
-                                                        <th class="up-time">Time</th>
-                                                        <th class="up-payment">Payment</th>
-                                                        <th class="up-status">Action</th>
-                                                        <th class="up-action">Action</th>
-                                                        <th class="up-view">Actions</th>
+                                                        <th class="baby_up_id">Booking Id</th>
+                                                        <th class="baby_up-date">Date</th>
+                                                        <th class="baby_up-time">Time</th>
+                                                        <th class="baby_up-payment">Payment</th>
+                                                        <th class="baby_up-status">Action</th>
+                                                        <th class="baby_up-action">Action</th>
+                                                        <th class="baby_up-view">Actions</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -514,11 +575,11 @@
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm</td>
                                                         <td>$45.50</td>
-                                                        <td><span class="accepted">Accepted by babysitter</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="baby_accepted">Accepted</span></td>
+                                                        <td><span class="baby_up-cancel">Cancel</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
-                                                    <tr>
+                                                    <!-- <tr>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm</td>
@@ -589,7 +650,7 @@
                                                         <td><span class="accepted">Accepted by babysitter</span></td>
                                                         <td><span class="up-cancel">Canceled</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
-                                                    </tr>
+                                                    </tr> -->
                                                 </tbody>
                                             </table>
                                         </div>
@@ -656,7 +717,8 @@
                 </div>
             </div>
         </div>
-        <section class="completed_bookling_details hide" id="completed_bookling_details">
+
+        <section class="completed_bookling_details hide" id="start_job_now_details">
             <div class="col-xl-8 col-lg-10 col-md-12 mx-auto">
                 <div class="booking_details">
                     <div class=" top_texts">
@@ -687,7 +749,8 @@
                                 </div>
                             </div>
                             <div class="add_review_btn_wrapper text-end">
-                                <button class="btn add_review_btn" role="button">Add Review</button>
+                                <button class="btn start_job_btn" role="button">Start Job</button>
+                                <button class="btn transparent" role="button">Cancel</button>
                             </div>
                         </div>
                     </div>
@@ -708,7 +771,7 @@
                             </div>
                             <div class="single_details">
                                 <span class="question">Status:</span>
-                                <span class="anwer"><span class="cancelled"> Canceled </span></span>
+                                <span class="anwer"><span class="cancelled"> Accepted </span></span>
                             </div>
                             <div class="single_details">
                                 <span class="question">Accepted by:</span>
@@ -717,7 +780,80 @@
                         </div>
                     </div>
                     <div class="close_icon">
-                        <button class="close" id="close_booking_detail">
+                        <button class="close close_details_now_close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14.673" height="14.673" viewBox="0 0 17.673 17.673">
+                                <g id="Group_9221" data-name="Group 9221" transform="translate(1.768 1.768)">
+                                    <path id="Path_17384" data-name="Path 17384" d="M-11389.883,5760.416l-14.138,14.138" transform="translate(11404.021 -5760.416)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.5" />
+                                    <path id="Path_17385" data-name="Path 17385" d="M-11404.021,5760.416l14.138,14.138" transform="translate(11404.021 -5760.416)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.5" />
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="completed_bookling_details hide" id="end_job_now">
+            <div class="col-xl-8 col-lg-10 col-md-12 mx-auto">
+                <div class="booking_details">
+                    <div class=" top_texts">
+                        <div class="headings">
+                            <h4>Booking Details</h4>
+                            <h5>#1084598423154</h5>
+                        </div>
+                        <div class="booking_price text-end">
+                            <div class="single_price">
+                                <span class="fee">Booking Fee</span>
+                                <span class="payment">$158.07 </span>
+                            </div>
+                            <div class="single_price">
+                                <span class="fee">Total Amount</span>
+                                <span class="payment">$158.07 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="booking_details_data">
+                        <div class="baby_sioiter_info">
+                            <div class="about_user">
+                                <figure>
+                                    <img src="img/booking_details.png" class="img-fluid" alt="">
+                                </figure>
+                                <div class="text_about">
+                                    <span>Veronica Williams</span>
+                                    <span class="status">Babysitter</span>
+                                </div>
+                            </div>
+                            <div class="add_review_btn_wrapper text-end">
+                                <button class="btn red" role="button" id="end_job_btn">End job</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="babby_sitter_some_info">
+                        <h6 class="pink">Booking Detail</h6>
+                        <div class="details_start">
+                            <div class="single_details">
+                                <span class="question">Date :</span>
+                                <span class="anwer">22-25 june 22</span>
+                            </div>
+                            <div class="single_details">
+                                <span class="question">Time: </span>
+                                <span class="anwer">11:30 pm</span>
+                            </div>
+                            <div class="single_details">
+                                <span class="question">Address:</span>
+                                <span class="anwer">154 Holly Ave.Cherry Hill, NJ 08003</span>
+                            </div>
+                            <div class="single_details">
+                                <span class="question">Status:</span>
+                                <span class="anwer"><span class="cancelled"> Accepted </span></span>
+                            </div>
+                            <div class="single_details">
+                                <span class="question">Accepted by:</span>
+                                <span class="anwer">Veronica</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="close_icon">
+                        <button class="close close_details_now_close">
                             <svg xmlns="http://www.w3.org/2000/svg" width="14.673" height="14.673" viewBox="0 0 17.673 17.673">
                                 <g id="Group_9221" data-name="Group 9221" transform="translate(1.768 1.768)">
                                     <path id="Path_17384" data-name="Path 17384" d="M-11389.883,5760.416l-14.138,14.138" transform="translate(11404.021 -5760.416)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2.5" />

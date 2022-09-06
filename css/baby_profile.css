@@ -35,6 +35,105 @@ section.profile_main_tab .form_start .form-row button:hover{
     box-shadow: 0px 0px 0px 2px #000;
     z-index: 9999;
 }
+
+table.table tbody tr td span.baby-up-cancel {
+    padding: 6px 21px;
+    border-radius: 17px;
+    color: #FFFFFF;
+    background: #FF1A3E;
+}
+table.table tbody tr td span.baby-pending-accepted {
+    background: #35C930;
+    color: #FFFFFF;
+    padding: 6px 21px;
+    border-radius: 16px;
+}
+
+th.baby-pen-status {
+    width: 30%;
+}
+th.baby-id {
+    width: 13%;
+}
+
+
+th.baby-up-view {
+    width: 12%;
+}
+
+th.baby-up-payment {
+    width: 13%;
+}
+
+th.baby-up-date {
+    width: 14%;
+}
+
+th.baby-up-date {
+    width: 14%;
+}
+
+th.baby-up-time {
+    width: 18%;
+}
+
+
+
+
+/* Upcoming Babysitter */
+table.table tbody tr td span.baby_up-cancel {
+    padding: 6px 20px;
+    border-radius: 17px;
+    color: #FFF;
+    background: #FF1A3E;
+}
+table.table tbody tr td span.baby_accepted {
+    background: #DFDFDF;
+    color: #737373;
+    padding: 6px 18px;
+    border-radius: 16px;
+}
+
+th.baby_up_id {
+    width: 14%;
+}
+
+th.baby_up-date {
+    width: 13%;
+}
+
+th.baby_up-time {
+    width: 18%;
+}
+
+th.baby_up-payment {
+    width: 13%;
+}
+
+th.baby_up-view {
+    width: 12%;
+}
+
+th.baby_up-status {
+    width: 15%;
+}
+
+th.baby_up-action {
+    width: 15%;
+}
+.btn.transparent{
+    color: #FA00A7 !important;
+    border: 1px solid #FA00A7 !important;
+    background: transparent ;
+}
+button.btn.red {
+    background: #E80B30;
+    color: #FFF;
+}
+button.btn.red:hover {
+    background: #000000;
+    color: #E80B30;
+}
 @media (min-width: 991px) {
     .edit_profile {
         height: 465px;

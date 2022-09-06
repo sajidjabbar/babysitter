@@ -12,14 +12,14 @@ section.profile_section {
 
 @media (max-width: 1400px) {
     .all_profile {
-        width: 90%;
+        width: 90% !important;
         margin: auto;
     }
 }
 
 @media (max-width: 1200px) {
     .all_profile {
-        width: 100%;
+        width: 100% !important;
         margin: auto;
     }
 }
