@@ -50,7 +50,7 @@
         <div class="row justify-content-center">
             <div class="col-11 col-sm-10 col-md-10 col-lg-8 col-xl-8 text-center p-0 mb-2">
                 <div class="card px-0  pb-0  mb-3">
-                    <form id="msform">
+                    <form id="msform" action="thank-you.php">
                         <!-- progressbar -->
                         <ul id="progressbar">
                             <li class="active" id="account"><strong>step 01</strong></li>
@@ -554,7 +554,7 @@
 
                                 </div>
                             </div>
-                            <input type="button" name="next" class="next action-button submit-btns" value="Submit" />
+                            <input href="thank-you.php" type="submit" name="next"  class="next action-button submit-btns" value="Submit" />
                         </fieldset>
                     </form>
                 </div>
