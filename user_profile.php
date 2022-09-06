@@ -5,9 +5,9 @@
 <!-- Style Link Here -->
 <section class="profile_section">
     <div class="container">
-        <div class="all_profile ">
+        <div class="all_profile">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 px-2">
                     <div class="all_tabs">
                         <div class="for_profile_img">
                             <figure>
@@ -44,7 +44,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-9 px-2">
                     <div class="al_tabs_start">
                         <div class="tab-content" id="nav-tabContent">
                             <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
@@ -123,15 +123,15 @@
                                                     </div>
                                                     <div class="form-row mt-3">
                                                         <div class="single-input">
-                                                            <input type="text" name="" id="" placeholder="First Name">
+                                                            <input type="text" name="" id="" placeholder="Contact Number">
                                                         </div>
                                                         <div class="single-input">
-                                                            <input type="text" name="" id="" placeholder="Last Name">
+                                                            <input type="text" name="" id="" placeholder="Email">
                                                         </div>
                                                     </div>
                                                     <div class="form-row mt-3">
                                                         <div class="single-input">
-                                                            <button type="submit">Submit</button>
+                                                            <button type="submit">Save Changes</button>
                                                         </div>
                                                     </div>
                                                 </form>
@@ -141,20 +141,20 @@
                                                 <form method="POST" class="mt-4">
                                                     <div class="form-row mt-3">
                                                         <div class="single-input">
-                                                            <input type="text" name="" id="" placeholder="First Name">
+                                                            <input type="text" name="" id="" placeholder="Current Password">
                                                         </div>
                                                         <div class="single-input">
-                                                            <input type="text" name="" id="" placeholder="Last Name">
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-row mt-3">
-                                                        <div class="single-input">
-                                                            <input type="text" name="" id="" placeholder="First Name">
+                                                            <input type="text" name="" id="" placeholder="New Password">
                                                         </div>
                                                     </div>
                                                     <div class="form-row mt-3">
                                                         <div class="single-input">
-                                                            <button type="submit">Submit</button>
+                                                            <input type="text" name="" id="" placeholder="Confirm Password">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row mt-3">
+                                                        <div class="single-input">
+                                                            <button type="submit">Update Password</button>
                                                         </div>
                                                     </div>
                                                 </form>

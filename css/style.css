@@ -6,6 +6,11 @@
 html {
 	scroll-behavior: smooth;
 }
+body{
+	overflow-x: hidden !important;
+	width: 100%;
+}
+
 
 @font-face {
 	font-family: "arial-regular";
@@ -255,12 +260,14 @@ figure {
 
 section.sub_banner {
 	background-color: #0C0B1A;
-	padding: 10px 0px;
+	padding: 18px 0px;
 }
 
 section.sub_banner h3 {
 	text-align: center;
 	color: #FFFFFF;
+	font-size: 39px;
+	margin-bottom: 0px;
 }
 
 .over-hidden {
@@ -422,7 +429,8 @@ section.sub_banner h3 {
 
 /* Header Start Here */
 header.normal_header {
-	padding: 13px 0px 0px;
+	padding: 6px 0px 1px;
+	box-shadow: rgb(100 100 111 / 20%) 0px -7px 29px 0px;
 }
 
 header ul {
@@ -436,12 +444,12 @@ header ul li {
 ul.header_start {
 	display: flex;
 	align-items: center;
+	margin-bottom: 7px;
 }
 
 ul.header_start li.logo a img {
-	max-width: 117px;
+	max-width: 110px;
 }
-
 header.normal_header ul.header_start li.nav_links ul {
 	display: flex;
 	align-items: center;

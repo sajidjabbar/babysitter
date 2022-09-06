@@ -25,11 +25,11 @@ section.profile_section {
 }
 
 section.profile_main_tab {
-    padding: 30px 41px;
+    padding: 30px 19px 30px 41px;
 }
 
 .booking_top {
-    padding: 30px 41px 0px;
+    padding: 30px 0px 0px 41px;
 }
 
 /* Custom Container */
@@ -106,8 +106,8 @@ section.profile_section .all_profile .tabs_side_bar {
 
 .for_profile_img figure span.add_icon {
     position: absolute;
-    bottom: 0px;
-    right: 12%;
+    bottom: -3px;
+    right: 21%;
 }
 
 .for_profile_img figure img {
@@ -172,17 +172,48 @@ button.btn.edit_btn {
         height: 476px;
     }
 
-    .edit_profile {
-        height: 421px;
+    .edit_profile .form_start {
+        height: 343px;
         overflow-y: scroll;
+        padding-right: 35px;
     }
 
-
+}
+section.profile_section .form_start .form-row button {
+    background: #FA00A7;
+    color: #FFF;
+}
+/* width */
+.edit_profile .form_start::-webkit-scrollbar {
+    width: 5px;
 }
 
-.edit_profile::-webkit-scrollbar {
+/* Track */
+.edit_profile .form_start::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+.edit_profile .form_start::-webkit-scrollbar-thumb {
+    /* background: #FA00A7;
+    border-radius: 12px; */
+    background-color: red;
+    border: 4px solid #FA00A7;
+    border-radius: 8px;
+    background-clip: padding-box;
+}
+
+/* Handle on hover */
+.edit_profile .form_start::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+
+
+/* .edit_profile .form_start::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .booking_start .table-responsive {
     max-height: 321px;
@@ -333,7 +364,7 @@ h4 {
 .toogle_bookings .button_group button {
     background: transparent;
     border: 0px;
-    width: 33%;
+    width: 33.33%;
     font-size: 13px;
     font-family: 'Poppins-Regular';
     padding: 12px 0px 11px;
@@ -825,18 +856,20 @@ section.add_review .add_review_start_here h5 {
     .single_price span.fee {
         font-size: 14px;
     }
-                .booking_details .top_texts {
-                    display: block;
-                    padding: 31px 22px 12px;
-                }
-                                section.completed_bookling_details .baby_sioiter_info {
-                                    display: flex;
-                                    align-items: unset;
-                                    justify-content: space-between;
-                                    padding: 14px 15px;
-                                    flex-direction: column;
-                                    gap: 29px;
-                                }
+
+    .booking_details .top_texts {
+        display: block;
+        padding: 31px 22px 12px;
+    }
+
+    section.completed_bookling_details .baby_sioiter_info {
+        display: flex;
+        align-items: unset;
+        justify-content: space-between;
+        padding: 14px 15px;
+        flex-direction: column;
+        gap: 29px;
+    }
 }
 
 @media (max-width: 420px) {

@@ -2,24 +2,19 @@ section.profile_section .all_profile .all_tabs {
     padding: 34px 0px 156px;
     max-height: 536px;
 }
-
 section.profile_section .all_profile .tabs_side_bar {
     padding-top: 20px;
 }
-
 .all_profile {
     width: 86%;
     margin: auto;
 }
-
 section.persoal_information .personal_information_start {
     padding: 17px 4% 16px;
 }
-
 section.persoal_information .personal_information_start .single_side span.quest {
     width: 32%;
 }
-
 section.persoal_information .personal_information_start .single_side span.answer {
     width: 65%;
 }
@@ -28,14 +23,13 @@ section.profile_main_tab .form_start .form-row button {
     background: #FA00A7;
     transition: 0.6s all;
 }
-section.profile_main_tab .form_start .form-row button:hover{
+section.profile_main_tab .form_start .form-row button:hover {
     color: #FA00A7;
     border: 1px solid #FA00A7;
     background-color: #000;
     box-shadow: 0px 0px 0px 2px #000;
     z-index: 9999;
 }
-
 table.table tbody tr td span.baby-up-cancel {
     padding: 6px 21px;
     border-radius: 17px;
@@ -48,7 +42,6 @@ table.table tbody tr td span.baby-pending-accepted {
     padding: 6px 21px;
     border-radius: 16px;
 }
-
 th.baby-pen-status {
     width: 30%;
 }
@@ -56,27 +49,21 @@ th.baby-id {
     width: 13%;
 }
 
-
 th.baby-up-view {
     width: 12%;
 }
-
 th.baby-up-payment {
     width: 13%;
 }
-
 th.baby-up-date {
     width: 14%;
 }
-
 th.baby-up-date {
     width: 14%;
 }
-
 th.baby-up-time {
     width: 18%;
 }
-
 
 
 
@@ -93,38 +80,31 @@ table.table tbody tr td span.baby_accepted {
     padding: 6px 18px;
     border-radius: 16px;
 }
-
 th.baby_up_id {
     width: 14%;
 }
-
 th.baby_up-date {
     width: 13%;
 }
-
 th.baby_up-time {
     width: 18%;
 }
-
 th.baby_up-payment {
     width: 13%;
 }
-
 th.baby_up-view {
     width: 12%;
 }
-
 th.baby_up-status {
     width: 15%;
 }
-
 th.baby_up-action {
     width: 15%;
 }
-.btn.transparent{
+.btn.transparent {
     color: #FA00A7 !important;
     border: 1px solid #FA00A7 !important;
-    background: transparent ;
+    background: transparent;
 }
 button.btn.red {
     background: #E80B30;
@@ -134,8 +114,423 @@ button.btn.red:hover {
     background: #000000;
     color: #E80B30;
 }
+.booking_details .close_icon {
+    position: absolute;
+    top: -8px;
+    right: -13px;
+}
+.booking_details {
+    position: relative;
+}
+/* All Dtails Start  */
+section.completed_bookling_details.all_jobs_list .babby_sitter_some_info .details_start {
+    border-top: 1px solid #E9E9E9;
+    padding: 25px 0px;
+}
+section.completed_bookling_details.all_jobs_list .babby_sitter_some_info .details_start .single_details span {
+    font-family: "Poppins-Regular" !important;
+    font-size: 14px;
+    line-height: 31px;
+}
+section.completed_bookling_details.all_jobs_list .babby_sitter_some_info .details_start .single_details span.anwer {
+    width: 67%;
+}
+.jobs_accept .btns {
+    display: flex;
+    gap: 11px;
+    justify-content: right;
+}
+.jobs_accept .btns button.btn {
+    background: #E9E9E9;
+    color: #B5B5B5;
+    font-size: 11px;
+    padding: 5px 17px;
+    font-family: "Poppins-Medium";
+}
+.jobs_accept p {
+    color: #BABABA;
+    font-size: 13px;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 7px;
+}
+.jobs_accept p span {
+    background: #E9E9E9;
+    border-radius: 50%;
+    height: 22px;
+    width: 21px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #B5B5B5;
+    font-size: 12px;
+}
+.jobs_accept.active_jobs .btns button.btn.startbtn {
+    background: #FA00A7;
+    color: #FFF;
+}
+.jobs_accept.active_jobs .btns button.btn.red {
+    background-color: #E80B30;
+    color: #FFF;
+
+}
+section.profile_section .babby_sitter_some_info .details_start .single_details span.cancelled {
+    background: #FFB4C0;
+    padding: 0px 14px;
+    border-radius: 17px;
+    color: #2B2B2B;
+    display: inline-flex;
+    line-height: 25px !important;
+    font-size: 12px;
+}
+@media (max-width: 576px) {
+    section.completed_bookling_details.all_jobs_list .babby_sitter_some_info .details_start .single_details span {
+        font-size: 9px;
+    }
+    section.completed_bookling_details .babby_sitter_some_info {
+        padding: 19px 23px;
+    }
+}
 @media (min-width: 991px) {
     .edit_profile {
         height: 465px;
     }
+}
+.booking_start .table-responsive {
+    max-height: 372px;
+}
+
+
+.calender-detail {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+section.calendar {
+    position: relative;
+    margin: 11px 0 0 0;
+    width: auto;
+    padding: 0px 0px;
+}
+section.calendar .currentDateDisplay {
+    height: 130px;
+    width: 100%;
+    color: #5760e6;
+    font-weight: 600;
+}
+section.calendar .currentDateDisplay>p {
+    font-size: 2rem;
+    margin-top: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.4);
+}
+section.calendar .ui-datepicker {
+    display: inline-block;
+    margin: auto;
+    background-color: transparent;
+    box-shadow: 0;
+}
+section.calendar .ui-datepicker .ui-datepicker-calendar {
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+}
+section.calendar .ui-datepicker .ui-datepicker-calendar a {
+    text-decoration: none;
+    color: #5d5d5d;
+    font-size: 19px;
+    background: #f1f1f1;
+    width: 45px;
+    height: 34px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 11%;
+    margin: 11px 10px auto;
+    font-family: "poppins-regular";
+}
+section.calendar .ui-datepicker .ui-datepicker-calendar .ui-state-active {
+    background: #fa00a7;
+    width: 45px;
+    height: 34px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border-radius: 11%;
+    margin: 12px 10px auto;
+}
+section.calendar .ui-datepicker .ui-datepicker-calendar:nth-child(5) .ui-state-active {
+    background: #fa00a7;
+}
+.calendar tr:nth-child(2) td:last-child a.ui-state-default {
+    background: #68c5fe;
+    color: #fff;
+}
+.calendar tr:nth-child(3) td:first-child a.ui-state-default {
+    background: #68c5fe;
+    color: #fff;
+}
+.calendar tr:nth-child(4) td:nth-child(3) a.ui-state-default {
+    background: #68c5fe;
+    color: #fff;
+}
+.calendar tr:nth-child(5) td:nth-child(2) a.ui-state-default {
+    background: #68c5fe;
+    color: #fff;
+}
+section.calendar .ui-datepicker .ui-datepicker-header {
+    padding: 0 0px 39px 11px;
+    font-size: 1.3rem;
+    text-align: end;
+    font-size: 15px;
+    position: relative;
+}
+section.calendar .ui-datepicker .ui-datepicker-header span {
+    color: #1b1d21;
+    float: left;
+    margin: 0;
+    font-size: 30px;
+    / / display: none;/ / font-family: "Poppins-SemiBold";
+}
+section.calendar .ui-datepicker .ui-datepicker-prev {
+    float: right;
+    margin-left: -107px;
+    line-height: 2.5rem;
+    background-color: transparent;
+    /* padding: 3px 2px; */
+    border-radius: 50px;
+    border: 1px solid #b8babd;
+    position: absolute;
+    width: 44px;
+    height: 42px;
+    margin-top: -6px;
+}
+section.calendar .ui-datepicker .ui-datepicker-calendar span {
+    font-size: 29px;
+    font-family: "poppins-semibold";
+    color: #5d5d5d;
+}
+.calendert-wrapper .ui-datepicker .ui-datepicker-calendar th:nth-child(1) span {
+    color: #5d5d5d !important;
+}
+section.calendar .ui-datepicker .ui-datepicker-prev .fa-angle-left:before {
+    content: "\f0d9";
+    color: #b8babd;
+}
+.calendert-wrapper .ui-datepicker .ui-datepicker-prev:hover {
+    background: #a4a4a4 !important;
+    border: 1px solid #a4a4a4 !important;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.calendert-wrapper .ui-datepicker .ui-datepicker-prev:hover .fa-angle-left:before {
+    content: "\f0d9";
+    color: #fff;
+}
+.calendert-wrapper .ui-datepicker .ui-datepicker-prev .fa-angle-left:before {
+    content: "\f0d9";
+    color: #b8babd;
+}
+section.calendar .ui-datepicker .ui-datepicker-next {
+    float: right;
+    line-height: 2.5rem;
+    margin-top: -6px;
+    /* padding: 6px 7px; */
+    border-radius: 30px;
+    border: 1px solid #b8babd;
+    position: absolute;
+    background-color: #A4A4A4;
+    margin-left: -46px;
+    width: 42px;
+    height: 42px;
+}
+section.calendar .ui-datepicker .ui-datepicker-next .fa-angle-right:before {
+    content: "\f0da";
+    color: #FFFFFF;
+}
+.calendert-wrapper .ui-datepicker .ui-datepicker-next:hover {
+    background: #a4a4a4 !important;
+    border: 1px solid #a4a4a4 !important;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.calendert-wrapper .ui-datepicker .ui-datepicker-next:hover .fa-angle-right:before {
+    content: "\f0da";
+    color: #fff;
+}
+.calendert-wrapper .ui-datepicker .ui-datepicker-next .fa-angle-right:before {
+    content: "\f0da";
+    color: #b8babd;
+}
+span.ui-datepicker-year {
+    display: none;
+}
+section.calendar .ui-datepicker .ui-datepicker-header i {
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-left: 3px;
+    font-weight: 700;
+}
+section.calendar .ui-datepicker .ui-datepicker-year,
+section.calendar .ui-datepicker .ui-datepicker-month {
+    line-height: 2.5rem;
+}
+section.calendar .ui-datepicker .ui-datepicker-month {
+    margin-right: 1rem;
+}
+section.calendar .ui-datepicker .ui-datepicker-calendar th {
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+    padding: 0px 0 10px;
+}
+section.calendar .ui-datepicker td {
+    text-align: center;
+}
+section.calendar .ui-datepicker thead {
+    color: #5760e6;
+}
+section.calendar .ui-datepicker td:not(:last-child) {
+    border: none !important;
+}
+.hover-effect h6 {
+    font-size: 14px;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.hover-effect {
+    text-align: center;
+    display: none;
+    transition: all 0.9s;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    width: 30%;
+    padding: 10px 0px;
+    box-shadow: rgb(100 100 111 / 8%) 0px 1px 29px 0px;
+    border-radius: 2px;
+    background: #FFF;
+}
+.hover-effect h6 {
+    background: #fff !important;
+    position: relative;
+    z-index: 9;
+    height: 24px;
+}
+.hover-effect1 {
+    text-align: center;
+    display: none;
+    transition: all 0.9s;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    width: 30%;
+    padding: 10px 0px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+.btn-calander {
+    background-color: #a4a4a4 !important;
+}
+section.calendar .ui-datepicker .ui-datepicker-calendar .ui-state-active .color-manu ul li {
+    list-style: none;
+    font-size: 16px;
+    margin: 10px 0;
+    font-family: "poppins";
+    font-weight: 400;
+}
+.color-manu ul .mark0::before {
+    content: "";
+    /* padding: 0px 12px; */
+    width: 16px;
+    height: 16px;
+    border-radius: 70px;
+    background-color: #68c5fe;
+    list-style: none;
+    margin-right: 6px;
+    display: block;
+}
+.color-manu ul .mark1::before {
+    content: "";
+    /* padding: 0px 12px; */
+    width: 16px;
+    height: 16px;
+    border-radius: 70px;
+    background-color: #fa00a7;
+    list-style: none;
+    margin-right: 6px;
+    display: block;
+}
+.color-manu h6 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "poppins";
+    margin-bottom: 40px;
+}
+.color-manu ul .mark2::before {
+    content: "";
+    /* padding: 0px 12px; */
+    width: 16px;
+    height: 16px;
+    border-radius: 70px;
+    background-color: #f1f1f1;
+    list-style: none;
+    margin-right: 6px;
+    display: block;
+}
+.color-manu ul {
+    padding: 0;
+}
+.color-manu ul li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins-Regular";
+    color: #1d1d1d;
+    align-items: center;
+    display: flex;
+}
+.color-manu {
+    margin-left: 30px;
+}
+button.calander-btn {
+    border: none;
+    border-radius: 30px;
+    padding: 7px 27px;
+    font-size: 14px;
+    font-family: "Poppins-Regular";
+    font-weight: 400;
+    background-color: #68c5fe;
+    color: #FFF;
+}
+button.calander-btn a {
+    text-decoration: none;
+    color: #FFF;
+}
+.border-left {
+    border-left: 1px solid #d1d1d1;
+    padding: 0;
+}
+.calendert-wrapper {
+    padding-right: 30px;
+}
+div#see_profile {
+    position: relative;
+}
+.hover-effect {
+    z-index: 999999;
+}
+section.persoal_information.col-lg-12.col-md-12 p.main_para {
+    font-size: 16px;
 }

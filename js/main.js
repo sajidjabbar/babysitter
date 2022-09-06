@@ -68,8 +68,8 @@ $("#edit_profile_btn").click(function () {
 
 
 
-// Babby Sitter Start Here start_bookling_button
-$(".start_bookling_button").click(function () {
+// Babby Sitter Start Here 
+$(".upcomng_booking_view").click(function () {
 	$(".all_profile").addClass("hide");
 	$("#start_job_now_details").removeClass("hide");
 });
@@ -85,5 +85,31 @@ $("#end_job_btn").click(function () {
 $(".close_details_now_close").click(function () {
 	$("#end_job_now").addClass("hide");
 	$("#start_job_now_details").addClass("hide");
+	$(".all_profile").removeClass("hide");
+});
+$(".completed_booking_button").click(function () {
+	$("#booking_start").addClass("hide");
+	$("#booking_details_completd").removeClass("hide");
+});
+$(".view_details_pending_btn").click(function () {
+	$("#booking_start").addClass("hide");
+	$("#booking_details_pending").removeClass("hide");
+});
+$(".close_current_details_btn").click(function () {
+	$(".booking_details").addClass("hide");
+	$("#booking_start").removeClass("hide");
+});
+$(".startbtn.active").click(function () {
+	$(".endbtn.active").addClass("red");
+});
+$(".endbtn.active").click(function () {
+	$(".endbtn.active").removeClass("red");
+});
+$(".upcomng_booking_view_in_detail").click(function () {
+	$(".all_profile").addClass("hide");
+	$("#jobs_in_list_item").removeClass("hide");
+});
+$(".close_detail_now").click(function () {
+	$("#jobs_in_list_item").addClass("hide");
 	$(".all_profile").removeClass("hide");
 });

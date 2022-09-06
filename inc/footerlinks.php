@@ -36,7 +36,6 @@
 </script>
 
 <script>
-
     // NEW SCRIPTING
     $("#babysitterregister").click(function() {
         $(".login_option").addClass("hide");
@@ -82,14 +81,66 @@
     } else {
         $(".accordion-item").addClass('.active');
     }
-   
-
-
 </script>
 
 <!-- Wow Js CDN -->
 <!-- Hover Animation -->
 <script>
+    $("#datepicker_scnd10").datepicker({
+
+        firstDay: 7,
+        // changeMonth: true,
+        // changeYear: true,
+        prevText: '<i class="fa fa-fw fa-angle-left"></i>',
+        nextText: '<i class="fa fa-fw fa-angle-right"></i>',
+
+        //bg
+        onSelect: function() {
+            var dateText = $.datepicker.formatDate("MM dd", $(this).datepicker("getDate"));
+        }
+    });
+    $(document).ready(function() {
+        // Set div display to none
+        $("section.calendar .ui-datepicker .ui-datepicker-calendar .ui-state-default ")
+            .mouseover(function() {
+                $(".hover-effect").css({
+                    "display": "block",
+                    "transition": "1s all"
+                });
+            });
+        $("section.calendar .ui-datepicker .ui-datepicker-calendar .ui-state-default ").mouseout(
+            function() {
+                $(".hover-effect").css("display", "none");
+            });
+    });
+
+
+    $(document).ready(function() {
+        // Set div display to none
+        $("section.calendar .ui-datepicker .ui-datepicker-calendar .ui-state-active ").mouseover(function() {
+            $(".hover-effect1").css({
+                "display": "block",
+                "transition": "0.9s all"
+
+            });
+        });
+        $("section.calendar .ui-datepicker .ui-datepicker-calendar .ui-state-active ").mouseout(function() {
+            $(".hover-effect1").css("display", "none");
+        });
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
     const btn = document.querySelector('.btn');
     const wave = document.querySelector('#wave');
     const shapes = document.querySelector('#shapes');
@@ -101,52 +152,6 @@
     btn.addEventListener('mouseleave', function() {
         this.classList.remove('active');
     });
-
-
-    function drawWave() {
-        const p = new paper.PaperScope();
-
-        p.setup(wave);
-
-        let x = 0;
-        let y = 10;
-        let segments = [];
-        for (let i = 0; i < 25; i++) {
-            segments.push([x, y]);
-            y = y === 5 ? 10 : 5;
-            x += 10;
-        }
-
-        const path = new paper.Path({
-            segments
-        });
-        path.add(p.view.bounds.bottomRight);
-        path.add(p.view.bounds.bottomLeft);
-
-        path.fillColor = '#f4425f';
-
-        path.close = true;
-
-        path.smooth({
-            type: 'continuous'
-        });
-        p.view.onFrame = event => {
-            for (let i = 0; i < 25; i++) {
-                var segment = path.segments[i];
-                // A cylic value between -1 and 1
-                var sinus = Math.sin(event.time * 20 + i);
-                // Change the y position of the segment point:
-                segment.point.y = sinus * 3 + 3;
-                // segment.pp
-            }
-            path.smooth({
-                type: 'continuous'
-            });
-        }
-
-        p.view.draw();
-    }
-    drawWave();
 </script>
 
 <script>
@@ -262,4 +267,3 @@
     //bg
     // Hiring Calender End Here
 </script>
-

@@ -144,3 +144,18 @@ section.service_contact {
         justify-content: unset;
     }
 }
+
+
+section.contact_info .single_box:hover {
+    transition: 0.6s all;
+    background: #fa00a7;
+}
+
+section.contact_info .single_box:hover span,
+section.contact_info .single_box:hover a {
+    color: white;
+}
+
+section.contact_info .single_box:hover img {
+    filter: brightness(0)invert(1);
+}
