@@ -10,6 +10,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js"></script>
 <!-- Range Slider -->
 <!-- Main Js -->
+<script src="js/bootstrap.js"></script>
 <script src="js/main.js"></script>
 <!-- Main Js -->
 <!-- Jquery JS-->
@@ -75,116 +76,15 @@
     } else {
         $(".accordion-item").addClass('.active');
     }
-    // Accordion Js
-    $('.product-slider').slick({
-        centerMode: true,
-        arrows: false,
-        slidesToShow: 3,
-        responsive: [{
-                breakpoint: 768,
-                settings: {
-                    centerMode: true,
-                    slidesToShow: 3
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    slidesToShow: 1
-                }
-            }
-        ]
-    });
 
-    $('.blog_slider').slick({
-        centerMode: true,
-        arrows: false,
-        slidesToShow: 3,
-        responsive: [{
-                breakpoint: 768,
-                settings: {
-                    centerMode: true,
-                    slidesToShow: 3
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    slidesToShow: 1
-                }
-            }
-        ]
-    });
+    if ($(".accordion-button").is(".show")) {
+        $(".accordion-item").addClass('.non-active');
+    } else {
+        $(".accordion-item").addClass('.active');
+    }
+   
 
-    $('.all-feeds').slick({
-        centerMode: true,
-        arrows: false,
-        slidesToShow: 4,
-        responsive: [{
-                breakpoint: 768,
-                settings: {
-                    centerMode: true,
-                    slidesToShow: 4
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    arrows: false,
-                    centerMode: true,
-                    slidesToShow: 1
-                }
-            }
-        ]
-    });
 
-    $('.single-image').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.slider-images'
-    });
-    $('.slider-images').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        asNavFor: '.single-image',
-        dots: false,
-        arrows: false,
-        centerMode: false,
-        focusOnSelect: true
-    });
-
-    // Tabs Show Hide Js
-
-    // Tabs Show Hide Js
-
-    // Searcg Bar Js
-    $('#searchBtn').click(function() {
-        $('.search-bar').addClass('active')
-    })
-    $('.search-bar .cancel').click(function() {
-        $('.search-bar').removeClass('active')
-    })
-    // Searcg Bar Js
-
-    // Chats.js Js
-    var ctx = document.getElementById("myChart").getContext("2d");
-    var myChart = new Chart(ctx, {
-        type: "pie",
-        data: {
-            labels: [],
-            datasets: [{
-                backgroundColor: ["#C23127", "#fff"],
-                data: [75, 50],
-            }, ],
-        },
-    });
-    // Chats.js Js
 </script>
 
 <!-- Wow Js CDN -->

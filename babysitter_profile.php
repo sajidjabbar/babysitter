@@ -2,6 +2,7 @@
 <!-- App Include Here -->
 <!-- Style Link Here -->
 <link rel="stylesheet" href="css/user_profile.css">
+<link rel="stylesheet" href="css/baby_profile.css">
 <!-- Style Link Here -->
 <section class="profile_section">
     <div class="container">
@@ -11,7 +12,7 @@
                     <div class="all_tabs">
                         <div class="for_profile_img">
                             <figure>
-                                <img src="img/profile_main.png" alt="">
+                                <img src="img/babysitter.png" alt="">
                                 <span class="add_icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
                                         <g id="Group_9227" data-name="Group 9227" transform="translate(-1446.811 -285.811)">
@@ -29,9 +30,9 @@
                             <h5>John Doe</h5>
                         </div>
                         <ul class="nav nav-tabs tabs_side_bar" id="myTab" role="tablist">
-                            <!-- <li class="nav-item tabs_button_wrapper " role="presentation">
+                            <li class="nav-item tabs_button_wrapper " role="presentation">
                                 <button class="tabs_controller" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Calendar</button>
-                            </li> -->
+                            </li>
                             <li class="nav-item tabs_button_wrapper" role="presentation">
                                 <button class=" tabs_controller active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
                             </li>
@@ -39,7 +40,7 @@
                                 <button class=" tabs_controller" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Bookings</button>
                             </li>
                             <li class="nav-item tabs_button_wrapper " role="presentation">
-                                <button class="tabs_controller" onclick="window.location.href = 'login.php'">Logout</button>
+                                <button class="tabs_controller" onclick="window.location.href='login.php'">Logout</button>
                             </li>
                         </ul>
                     </div>
@@ -56,7 +57,7 @@
                                             <h4>Account</h4>
                                             <button class="btn edit_btn" id="edit_profile_btn">Edit Profile</button>
                                         </div>
-                                        <section class="persoal_information col-md-8">
+                                        <section class="persoal_information col-lg-10 col-md-12">
                                             <div class="heading">
                                                 <h6>Personal Information</h6>
                                             </div>
@@ -80,14 +81,34 @@
                                                                 <span class="quest">Contact Number:</span>
                                                                 <span class="answer">+1-202-555-0196</span>
                                                             </div>
+                                                            <div class="single_row">
+                                                                <span class="quest">Date Of Birth:</span>
+                                                                <span class="answer">05-09-1995</span>
+                                                            </div>
+                                                            <div class="single_row">
+                                                                <span class="quest">Bio:</span>
+                                                                <span class="answer">Vitae semper quis lectus nulla at volutpat.</span>
+                                                            </div>
+                                                            <div class="single_row">
+                                                                <span class="quest">Address:</span>
+                                                                <span class="answer">677 Miles St. Farmington, MI 48331</span>
+                                                            </div>
+                                                            <div class="single_row">
+                                                                <span class="quest">Experience:</span>
+                                                                <span class="answer">05 years</span>
+                                                            </div>
+                                                            <div class="single_row">
+                                                                <span class="quest">Hourly Rate</span>
+                                                                <span class="answer">$50</span>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </section>
-                                        <section class="persoal_information col-md-8">
+                                        <section class="persoal_information col-lg-10 col-md-12">
                                             <div class="heading">
-                                                <h6>Personal Information</h6>
+                                                <h6>Password</h6>
                                             </div>
                                             <div class="personal_information_start">
                                                 <div class="row">
@@ -123,15 +144,34 @@
                                                     </div>
                                                     <div class="form-row mt-3">
                                                         <div class="single-input">
-                                                            <input type="text" name="" id="" placeholder="First Name">
+                                                            <input type="text" name="" id="" placeholder="Contact Number">
                                                         </div>
                                                         <div class="single-input">
-                                                            <input type="text" name="" id="" placeholder="Last Name">
+                                                            <input type="text" name="" id="" placeholder="Email">
                                                         </div>
                                                     </div>
                                                     <div class="form-row mt-3">
                                                         <div class="single-input">
-                                                            <button type="submit">Submit</button>
+                                                            <input type="text" name="" id="" placeholder="DOB">
+                                                        </div>
+                                                        <div class="single-input">
+                                                            <input type="text" name="" id="" placeholder="Bio">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row mt-3">
+                                                        <input type="text" name="" id="" placeholder="Address">
+                                                    </div>
+                                                    <div class="form-row mt-3">
+                                                        <div class="single-input">
+                                                            <input type="text" name="" id="" placeholder="Experience">
+                                                        </div>
+                                                        <div class="single-input">
+                                                            <input type="text" name="" id="" placeholder="Hourly Rate">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-row mt-3">
+                                                        <div class="single-input">
+                                                            <button type="submit">Save Changes</button>
                                                         </div>
                                                     </div>
                                                 </form>
@@ -296,7 +336,7 @@
                                             <table class="table">
                                                 <thead>
                                                     <tr>
-                                                        <th class="name">Babysitter</th>
+                                                        <th class="name">Customer</th>
                                                         <th class="id">Booking Id</th>
                                                         <th class="date">Date</th>
                                                         <th class="time">Time</th>
@@ -307,7 +347,7 @@
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -316,7 +356,7 @@
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -325,7 +365,7 @@
                                                         <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -334,7 +374,7 @@
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -343,7 +383,7 @@
                                                         <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -352,7 +392,7 @@
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -361,7 +401,7 @@
                                                         <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -370,7 +410,7 @@
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -379,7 +419,7 @@
                                                         <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -388,7 +428,7 @@
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -397,7 +437,7 @@
                                                         <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -406,7 +446,7 @@
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -415,7 +455,7 @@
                                                         <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -424,7 +464,7 @@
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -433,7 +473,7 @@
                                                         <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>
@@ -442,7 +482,7 @@
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="img/booking.png" alt=""><span>Veronica</span></td>
+                                                        <td><img src="img/customer.png" alt=""><span>Veronica</span></td>
                                                         <td>#6519576</td>
                                                         <td>22-25 june 22</td>
                                                         <td>5:30pm to 6:30pm</td>

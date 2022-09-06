@@ -9,18 +9,21 @@ section.profile_section {
         margin: auto;
     }
 }
+
 @media (max-width: 1400px) {
     .all_profile {
         width: 90%;
         margin: auto;
     }
 }
+
 @media (max-width: 1200px) {
     .all_profile {
         width: 100%;
         margin: auto;
     }
 }
+
 section.profile_main_tab {
     padding: 30px 41px;
 }
@@ -129,6 +132,10 @@ section.profile_section .all_profile .tabs_side_bar .tabs_controller {
     background-color: transparent;
     border-radius: 0px;
     border: navajowhite;
+    background-image: url(../img/arrow.png);
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: center right 20px;
 }
 
 section.profile_section .all_profile .tabs_side_bar .tabs_button_wrapper:not(:first-child) .tabs_controller {
@@ -160,7 +167,7 @@ button.btn.edit_btn {
     height: 476px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 991px) {
     .al_tabs_start {
         height: 476px;
     }
@@ -170,19 +177,20 @@ button.btn.edit_btn {
         overflow-y: scroll;
     }
 
-    .edit_profile::-webkit-scrollbar {
-        display: none;
-    }
 
-    .booking_start .table-responsive {
-        max-height: 321px;
-    }
-
-    .booking_start .table-responsive::-webkit-scrollbar {
-        display: none;
-    }
 }
 
+.edit_profile::-webkit-scrollbar {
+    display: none;
+}
+
+.booking_start .table-responsive {
+    max-height: 321px;
+}
+
+.booking_start .table-responsive::-webkit-scrollbar {
+    display: none;
+}
 
 section.persoal_information {
     padding: 13px 0px 6px;
@@ -242,6 +250,25 @@ section.persoal_information .personal_information_start .single_side span.answer
     section.persoal_information .personal_information_start .single_side .single_row {
         line-height: 22px;
     }
+
+    .al_tabs_start {
+        min-height: 100%;
+        height: unset;
+    }
+
+    .for_profile_img figure {
+        max-width: 90%;
+    }
+
+    .for_profile_img figure img {
+        max-width: 100%;
+    }
+
+    .for_profile_img figure span.add_icon {
+        position: unset;
+        display: block;
+        transform: translate(44px, -23px);
+    }
 }
 
 @media (max-width: 768px) {
@@ -261,10 +288,12 @@ section.persoal_information .personal_information_start .single_side span.answer
 @media (max-width: 576px) {
     section.persoal_information .personal_information_start .single_side span.quest {
         font-size: 11px;
+        width: 31%;
     }
 
     section.persoal_information .personal_information_start .single_side span.answer {
         font-size: 11px;
+        width: 64%;
     }
 
     section.persoal_information .personal_information_start .single_side .single_row {
@@ -275,14 +304,16 @@ section.persoal_information .personal_information_start .single_side span.answer
 @media (max-width: 420px) {
     section.persoal_information .personal_information_start .single_side span.quest {
         font-size: 9px;
+        width: 38%;
     }
 
     section.persoal_information .personal_information_start .single_side span.answer {
         font-size: 9px;
+        width: 59%;
     }
 
     section.persoal_information .personal_information_start {
-        padding: 57px 3%;
+        padding: 16px 3%;
     }
 }
 
@@ -457,14 +488,12 @@ th.pen-status {
 
 /* Table End Here */
 /* Booking Details Start Here */
-.booking_details {
-    padding: 12px 40px;
-}
-
 .booking_details .top_texts {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 31px 40px 9px;
+    border-bottom: 1px solid #707070;
 }
 
 .booking_details .top_texts h5 {
@@ -484,4 +513,338 @@ th.pen-status {
     font-family: "Poppins-SemiBold";
     color: #296253;
     font-size: 22px;
+}
+
+.baby_sioiter_info {
+    display: flex;
+    gap: 14px;
+    padding: 14px 33px;
+    align-items: center;
+}
+
+.baby_sioiter_info .text_about span {
+    display: block;
+    line-height: 23px;
+    font-size: 19px;
+    color: #1F2C35;
+    font-family: "Poppins-Medium";
+}
+
+.baby_sioiter_info .text_about span.status {
+    font-family: 'Poppins-Regular';
+    font-size: 16px;
+    color: #70707087;
+}
+
+.baby_sioiter_info figure img {
+    max-width: 55px;
+    max-height: 55px;
+    border-radius: 50%;
+}
+
+.babby_sitter_some_info {
+    padding: 43px 33px 12px;
+}
+
+.babby_sitter_some_info .details_start {
+    padding-top: 13px;
+}
+
+.babby_sitter_some_info .details_start .single_details {
+    display: flex;
+    gap: 2%;
+    line-height: 33px;
+}
+
+.babby_sitter_some_info .details_start .single_details span {
+    display: block;
+    font-size: 17px;
+    font-family: "Poppins-Medium";
+    color: #000000;
+}
+
+.babby_sitter_some_info .details_start .single_details span.question {
+    width: 26%;
+}
+
+.babby_sitter_some_info .details_start .single_details span.anwer {
+    width: 58%;
+}
+
+.babby_sitter_some_info h6 {
+    color: #FA00A7;
+}
+
+.babby_sitter_some_info .details_start .single_details span.cancelled {
+    background: #FFB4C0;
+    padding: 0px 14px;
+    border-radius: 17px;
+    color: #FF0000;
+    display: inline-flex;
+    font-family: "Poppins-Regular";
+    font-size: 12px;
+    line-height: 27px;
+}
+
+/* Completed Bookings Details */
+
+section.completed_bookling_details .babby_sitter_some_info {
+    padding: 43px 33px 41px;
+}
+
+section.completed_bookling_details .booking_details {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-radius: 6px;
+    position: relative;
+}
+
+section.completed_bookling_details .baby_sioiter_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 33px;
+}
+
+section.completed_bookling_details .baby_sioiter_info .about_user {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.close_icon .close {
+    background: #FA00A7;
+    padding: 10px 13px 13px;
+    border-radius: 50%;
+    border: 0px;
+}
+
+section.completed_bookling_details .close_icon {
+    position: absolute;
+    top: -8px;
+    right: -13px;
+}
+
+/* Review CSS START HERE */
+section.add_review .add_review_start_here {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    padding: 28px 30px;
+    position: relative;
+}
+
+.form-row .ratings i.pink {
+    color: #FA00A7;
+    font-size: 17px;
+    border: 0px;
+}
+
+.form-row .ratings i.black {
+    color: #FA00A7;
+    font-size: 17px;
+}
+
+.form-row.star_ratings {
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+section.add_review .add_review_start_here h5 {
+    color: #0C0200;
+    font-size: 21px;
+    font-family: "Poppins-Medium";
+}
+
+.add_review_start_here .form_start .form-row button {
+    color: #FFF;
+    background: #FA00A7;
+}
+
+.add_review_start_here .close_icon {
+    position: absolute;
+    top: -8px;
+    right: -13px;
+}
+
+@media (min-width: 768px) {
+    section.add_review .add_review_start_here {
+        margin: 0px 25px;
+    }
+}
+
+
+
+/* Responsive CSS Start */
+@media (max-width: 1200px) {
+    .table-responsive {
+        min-width: 100%;
+        overflow-x: scroll;
+    }
+
+    .table-responsive .table {
+        min-width: 800px;
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 991px) {
+    table.table tbody tr td {
+        font-size: 10px;
+    }
+
+    table.table thead th {
+        font-size: 11px;
+    }
+
+    .table-responsive .table {
+        min-width: 750px;
+        overflow-x: scroll;
+    }
+
+    .al_tabs_start {
+        margin-top: 35px;
+    }
+
+    .booking_start .table-responsive {
+        max-height: 385px;
+    }
+
+    .booking_details .top_texts h4 {
+        font-size: 19px;
+    }
+
+    .booking_details .top_texts h5 {
+        font-size: 14px;
+    }
+
+    .booking_details .top_texts h5 {
+        font-size: 14px;
+    }
+
+    .booking_details .top_texts h5 {
+        font-size: 14px;
+    }
+
+    .baby_sioiter_info .text_about span {
+        font-size: 16px;
+    }
+
+    .baby_sioiter_info .text_about span {
+        font-size: 16px;
+    }
+
+    .baby_sioiter_info figure img {
+        max-width: 47px;
+        max-height: 47px;
+    }
+
+    .babby_sitter_some_info .details_start .single_details span {
+        font-size: 13px;
+    }
+
+    .babby_sitter_some_info {
+        padding: 33px 33px 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    table.table tbody tr td {
+        font-size: 9px;
+    }
+
+    table.table thead th {
+        font-size: 10px;
+    }
+
+    .table-responsive .table {
+        min-width: 700px;
+        overflow-x: scroll;
+    }
+
+    .toogle_bookings .button_group {
+        display: flex;
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .booking_top {
+        padding: 30px 15px 0px;
+    }
+
+    h4 {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 576px) {
+    table.table tbody tr td {
+        font-size: 8px;
+    }
+
+    table.table thead th {
+        font-size: 9px;
+    }
+
+    .table-responsive .table {
+        min-width: 600px;
+        overflow-x: scroll;
+    }
+
+    .toogle_bookings .button_group button {
+        font-size: 8px;
+        padding: 9px 0px 8px;
+        border-radius: 11px 11px 0px 0px;
+    }
+
+    h4 {
+        font-size: 19px;
+    }
+
+    button.btn.edit_btn {
+        height: 27px;
+        padding: 0px 12px !important;
+        line-height: 0px;
+        font-size: 9px;
+    }
+
+    section.profile_main_tab {
+        padding: 31px 17px 0px;
+    }
+
+    .booking_details .top_texts h4 {
+        font-size: 16px;
+    }
+
+    .booking_details .top_texts h5 {
+        font-size: 11px;
+    }
+
+    .single_price span.payment {
+        font-size: 13px;
+    }
+
+    .single_price span.fee {
+        font-size: 14px;
+    }
+                .booking_details .top_texts {
+                    display: block;
+                    padding: 31px 22px 12px;
+                }
+                                section.completed_bookling_details .baby_sioiter_info {
+                                    display: flex;
+                                    align-items: unset;
+                                    justify-content: space-between;
+                                    padding: 14px 15px;
+                                    flex-direction: column;
+                                    gap: 29px;
+                                }
+}
+
+@media (max-width: 420px) {
+    .babby_sitter_some_info .details_start .single_details span {
+        font-size: 9px;
+    }
+
+    .babby_sitter_some_info {
+        padding: 33px 15px 0px;
+    }
 }
