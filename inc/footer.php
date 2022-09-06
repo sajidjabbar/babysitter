@@ -31,11 +31,11 @@
                                     <h5>Menu</h5>
                                 </div>
                                 <ul>
-                                    <li><a href="">Home</a></li>
-                                    <li><a href="">About</a></li>
-                                    <li><a href="">Services</a></li>
-                                    <li><a href="">Book Now</a></li>
-                                    <li><a href="">Contact Us</a></li>
+                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="about.php">About</a></li>
+                                    <li><a href="services.php">Services</a></li>
+                                    <li><a href="booknow.php">Book Now</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
