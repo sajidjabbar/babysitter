@@ -156,7 +156,7 @@ h4 {
 }
 #msform .action-button:hover,
 #msform .action-button:focus {
-  background-color: #311B92
+  background-color: #68C5FE
 }
 
 #msform .action-button-previous {
@@ -953,23 +953,57 @@ input.last-step.next.action-button {
   color: #FA00A7;
   background-color: #FFFFFF;
 }
+@media (max-width: 768px){
+  section.calendar {
+    width: 100%;
+}
+section.calendar .ui-datepicker .ui-datepicker-calendar a {
+  width: 33px !important;
+  height: 45px !important;
+}
+section.calendar .ui-datepicker .ui-datepicker-prev {
+  padding: 0px 5px !important;
+  width: 38px !important;
+  margin-left: -64px !important;
+  height: 39px !important;
+  margin-top: 14px !important;
+}
 
+section.calendar .ui-datepicker .ui-datepicker-next {
+  margin-top: 12px !important;
+  padding: 2px 7px !important;
+  width: 38px !important;
+  height: 40px !important;
+}
+section.calendar .ui-datepicker .ui-datepicker-header span {
+  font-size: 16px !important;
+}
+section.calendar .ui-datepicker .ui-datepicker-header i {
+  font-size: 20px !important;
+}
+#progressbar .active {
+  font-size: 17px;
+}
+#progressbar li {
+  font-size: 16px;
+}
+}
 @media (max-width: 550px){
   #progressbar .active {
     color: black;
-    font-size: 18px;
+    font-size: 11px;
 }
-econd {
-  width: 100%;
-  top: 96%;
-}
+
 .detail-btns a.btn.btn-primary {
   padding: 5px 9px;
-  font-size: 10px;
+  font-size: 12px;
 }
 .detail-reply-btns {
   justify-content: center;
   flex-direction: column;
+}
+#msform .action-button {
+  width: 100%;
 }
 .year {
   padding-left: 34px;
@@ -981,9 +1015,150 @@ econd {
 input.last-step.next.action-button {
   left: 0;
 }
+input.second.next.action-button {
+  width: 100% !important;
+  top: 95% !important;
+}
 .submit-btns {
   left: 0;
   bottom: 0;
+}
+#progressbar li {
+  font-size: 11px;
+}
+.form h4 {
+  font-size: 16px;
+}
+.person-name {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.year {
+  text-align: center;
+  padding: 0;
+}
+.the-reply {
+  margin-top: 7px;
+  width: 100%;
+  text-align: center;
+}
+.name-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.detail-btns {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.detailbtns-one {
+  padding-bottom: 15px;
+}
+.detailbtns-two a.btn.btn-outline-info {
+  padding: 5px 13px;
+}
+.price h5 {
+  font-size: 14px;
+}
+.price span {
+  font-size: 11px;
+}
+.price {
+  padding: 12px 0;
+}
+.star {
+  border-right: 0;
+}
+.name-of-reply-person {
+  text-align: center;
+}
+.customer-reply {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name-detail span {
+  font-size: 12px;
+}
+input.last-step.next.action-button {
+  width: 100%;
+}
+.replies-heading {
+  font-size: 19px;
+}
+.checkout {
+    padding: 0 !important;
+}
+.checkout .payment-details .saved-payment-method label.container span.checkmark .card-details .visa-card {
+  padding-left: 0 !important;
+}
+.heading-bar h5 {
+ margin: 0;
+  font-size: 15px !important;
+}
+.num-bar h4 {
+  font-size: 17px !important;
+}
+.book-imfo-bar {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.form-row_radio.mt-3 .select_services {
+  display: block;
+}
+.booking-heading h3 {
+  font-size: 23px;
+}
+.cart-product-detail {
+  margin-bottom: 37px;
+}
+section.calendar .ui-datepicker .ui-datepicker-calendar a {
+  width: 33px !important;
+  height: 45px !important;
+}
+section.calendar .ui-datepicker .ui-datepicker-prev {
+  padding: 0px 5px !important;
+  width: 38px !important;
+  margin-left: -64px !important;
+  height: 39px !important;
+  margin-top: 14px !important;
+}
+
+section.calendar .ui-datepicker .ui-datepicker-next {
+  margin-top: 12px !important;
+  padding: 2px 7px !important;
+  width: 38px !important;
+  height: 40px !important;
+}
+section.calendar .ui-datepicker .ui-datepicker-header i {
+  font-size: 20px !important;
+}
+section.calendar {
+  width: 100% !important;
+}
+section.calendar .ui-datepicker .ui-datepicker-calendar a {
+  width: 32px !important;
+}
+.ui-datepicker-title {
+  padding: 14px 0  !important;
+  margin-left: -46px  !important;
+}
+section.calendar .ui-datepicker .ui-datepicker-header span {
+  font-size: 15px !important;
+
+}
+section.calendar .ui-datepicker .ui-datepicker-calendar span {
+  font-size: 14px !important;
+}
+.time-wrapper {
+  padding-top: 20px;
 }
 }
 
