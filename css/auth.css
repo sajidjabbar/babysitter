@@ -13,6 +13,7 @@ section.auth.login .auth_content {
 section.auth.register .top_heading.pink_line::after {
     margin-left: unset;
     margin-top: 6px;
+    height: 4px;
 }
 
 

@@ -16,8 +16,8 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-9">
-                <div class="booking-heading">
-                    <h3><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                <!-- <div class="booking-heading">
+                    <h3 style="display: block !important;"><svg xmlns="http://www.w3.org/2000/svg" class="previous" width="26" height="26" viewBox="0 0 26 26">
                             <g id="Group_9332" data-name="Group 9332" transform="translate(-416 -368)">
                                 <circle id="Ellipse_49" data-name="Ellipse 49" cx="13" cy="13" r="13" transform="translate(416 368)" fill="#1f1e2c" />
                                 <path id="Path_17400" data-name="Path 17400" d="M-8134.186,358h-12.41" transform="translate(8569.391 22.997)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
@@ -27,7 +27,7 @@
                         </svg>
                         Select Booking Type
                     </h3>
-                </div>
+                </div> -->
                 <div class="booking-chk">
                     <div class="form-row_radio mt-3">
                         <div class="select_services">
@@ -50,7 +50,7 @@
         <div class="row justify-content-center">
             <div class="col-11 col-sm-10 col-md-10 col-lg-8 col-xl-8 text-center p-0 mb-2">
                 <div class="card px-0  pb-0  mb-3">
-                    <form id="msform">
+                    <form id="msform" action="thank-you.php">
                         <!-- progressbar -->
                         <ul id="progressbar">
                             <li class="active" id="account"><strong>step 01</strong></li>
@@ -63,14 +63,26 @@
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
                         </div> <br> <!-- fieldsets -->
                         <fieldset>
+                            <div class="booking-heading previous-1">
+                                <h3 style="display: block !important;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                                        <g id="Group_9332" data-name="Group 9332" transform="translate(-416 -368)">
+                                            <circle id="Ellipse_49" data-name="Ellipse 49" cx="13" cy="13" r="13" transform="translate(416 368)" fill="#1f1e2c" />
+                                            <path id="Path_17400" data-name="Path 17400" d="M-8134.186,358h-12.41" transform="translate(8569.391 22.997)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17401" data-name="Path 17401" d="M-8146.231,356.118l4.745-4.745" transform="translate(8569.025 24.882)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17402" data-name="Path 17402" d="M-8146.231,351.373l4.745,4.745" transform="translate(8569.025 29.627)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                        </g>
+                                    </svg>
+                                    Select Booking Type
+                                </h3>
+                            </div>
                             <div class="form-card" id="one_no">
                                 <div class="col-md-6">
                                     <div class="form_start start-form-hide mt-3">
-                                        <div class="form-row mt-3">
+                                        <div class="form-row">
                                             <!-- <input placeholder="select Date" class="textbox-n" type="date" onfocus="(this.type='date')" id="date"> -->
                                             <input type="text" name="" class="input-dateone" placeholder="Select Date">
                                         </div>
-                                        <div class="form-row mt-3">
+                                        <div class="form-row">
                                             <div class="single-input">
                                                 <input type="text" name="" class="time-input" placeholder="Select Start Time ">
                                             </div>
@@ -89,7 +101,7 @@
                                             <h5>Recurring</h5>
                                         </div>
                                         <div class="form_start mt-3">
-                                            <div class="form-row mt-3">
+                                            <div class="form-row">
                                                 <div class="single-input">
                                                     <input type="text" name="" class="input-dateone" placeholder="Start Date">
                                                 </div>
@@ -97,7 +109,7 @@
                                                     <input type="text" name="" class="input-dateone" placeholder="end Date">
                                                 </div>
                                             </div>
-                                            <div class="form-row mt-3">
+                                            <div class="form-row">
                                                 <div class="single-input">
                                                     <input type="text" name="" class="time-input" placeholder="Select Start Time ">
 
@@ -156,27 +168,41 @@
                                     </div>
                                 </div>
                             </div>
-                            <input type="button" name="next" class="next action-button one-tonext" value="next step" />
+                            <input type="button" name="next" class="next action-button one-tonext first_step_btn" value="next step" />
                         </fieldset>
                         <fieldset class="second-field">
+                            <div class="booking-heading previous">
+                                <h3 style="display: block !important;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                                        <g id="Group_9332" data-name="Group 9332" transform="translate(-416 -368)">
+                                            <circle id="Ellipse_49" data-name="Ellipse 49" cx="13" cy="13" r="13" transform="translate(416 368)" fill="#1f1e2c" />
+                                            <path id="Path_17400" data-name="Path 17400" d="M-8134.186,358h-12.41" transform="translate(8569.391 22.997)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17401" data-name="Path 17401" d="M-8146.231,356.118l4.745-4.745" transform="translate(8569.025 24.882)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17402" data-name="Path 17402" d="M-8146.231,351.373l4.745,4.745" transform="translate(8569.025 29.627)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                        </g>
+                                    </svg>
+                                    Booking Details
+                                </h3>
+                            </div>
                             <div class="form-card">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h5>Booking Details</h5>
-                                        <div class="range-detail">
-                                            <h6>Provide hour rate range</h6>
-                                            <input type="range" class="win10-thumb" min="0" max="100" value="25" step="5" />
-                                            <div class="range-this">
-                                                <div class="start-range">
-                                                    <span>0$</span>
-                                                    <span style="color: #FA00A7;">10$</span>
+                                        <div class="dett pe-2">
+                                            <h5 class="mb-0">Booking Details</h5>
+                                            <div class="range-detail pt-4">
+                                                <h6>Provide hour rate range</h6>
+                                                <input type="range" class="win10-thumb" min="0" max="100" value="25" step="5" />
+                                                <div class="range-this">
+                                                    <div class="start-range">
+                                                        <span>0$</span>
+                                                        <span style="color: #FA00A7;" class="range_now">10$</span>
+                                                    </div>
+                                                    <span>50$</span>
                                                 </div>
-                                                <span>50$</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form_start this-form mt-3">
+                                        <div class="form_start this-form mt-3 ps-2">
                                             <div class="form-group">
                                                 <label for="exampleFormControlInput1" class="form-label">Number of children </label>
                                                 <input type="text" name="" id="" placeholder="Select Date">
@@ -187,7 +213,7 @@
                                                     <option value="3">Three</option>
                                                 </select>
                                             </div>
-                                            <div class="form-row mt-3">
+                                            <div class="form-row">
                                                 <div class="single-input">
 
                                                     <input type="text" name="" id="" placeholder="Select Start Time ">
@@ -212,6 +238,18 @@
                             </div> <input type="button" name="next" class="second next action-button" value="Next step" />
                         </fieldset>
                         <fieldset>
+                            <div class="booking-heading previous">
+                                <h3 style="display: block !important;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                                        <g id="Group_9332" data-name="Group 9332" transform="translate(-416 -368)">
+                                            <circle id="Ellipse_49" data-name="Ellipse 49" cx="13" cy="13" r="13" transform="translate(416 368)" fill="#1f1e2c" />
+                                            <path id="Path_17400" data-name="Path 17400" d="M-8134.186,358h-12.41" transform="translate(8569.391 22.997)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17401" data-name="Path 17401" d="M-8146.231,356.118l4.745-4.745" transform="translate(8569.025 24.882)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17402" data-name="Path 17402" d="M-8146.231,351.373l4.745,4.745" transform="translate(8569.025 29.627)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                        </g>
+                                    </svg>
+                                    Contact Information
+                                </h3>
+                            </div>
                             <div class="form-card">
                                 <div class="col-md-6">
                                     <div class="form_start mt-3">
@@ -254,10 +292,22 @@
                             </div> <input type="button" name="next" class="seconds next action-button" value="Next Step" />
                         </fieldset>
                         <fieldset>
+                            <div class="booking-heading previous">
+                                <h3 style="display: block !important;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                                        <g id="Group_9332" data-name="Group 9332" transform="translate(-416 -368)">
+                                            <circle id="Ellipse_49" data-name="Ellipse 49" cx="13" cy="13" r="13" transform="translate(416 368)" fill="#1f1e2c" />
+                                            <path id="Path_17400" data-name="Path 17400" d="M-8134.186,358h-12.41" transform="translate(8569.391 22.997)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17401" data-name="Path 17401" d="M-8146.231,356.118l4.745-4.745" transform="translate(8569.025 24.882)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17402" data-name="Path 17402" d="M-8146.231,351.373l4.745,4.745" transform="translate(8569.025 29.627)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                        </g>
+                                    </svg>
+                                    Select Babysitter
+                                </h3>
+                            </div>
                             <div class="form-card">
                                 <div class="replies-section-inner">
                                     <div class="for-total-replis-heading">
-                                        <h6 class="replies-heading">5 Comment</h6>
+                                        <h6 class="replies-heading">Select Babysitter</h6>
                                     </div>
                                     <div class="total-replies">
                                         <div class="col-md-12">
@@ -515,12 +565,24 @@
                             <input type="button" name="next " class="last-step next action-button" value="Next Step" />
                         </fieldset>
                         <fieldset>
+                            <div class="booking-heading previous">
+                                <h3 style="display: block !important;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                                        <g id="Group_9332" data-name="Group 9332" transform="translate(-416 -368)">
+                                            <circle id="Ellipse_49" data-name="Ellipse 49" cx="13" cy="13" r="13" transform="translate(416 368)" fill="#1f1e2c" />
+                                            <path id="Path_17400" data-name="Path 17400" d="M-8134.186,358h-12.41" transform="translate(8569.391 22.997)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17401" data-name="Path 17401" d="M-8146.231,356.118l4.745-4.745" transform="translate(8569.025 24.882)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17402" data-name="Path 17402" d="M-8146.231,351.373l4.745,4.745" transform="translate(8569.025 29.627)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                        </g>
+                                    </svg>
+                                    Checkout
+                                </h3>
+                            </div>
                             <div class="form-card">
                                 <div class="row">
                                     <!-- <div class="col-md-6">
                                     <div class="form_start mt-3">
                                         <input type="text" name="" id="" placeholder="Write Your Card Number">
-                                        <div class="form-row mt-3">
+                                        <div class="form-row">
                                             <div class="single-input">
                                                 <input type="text" name="" id="" placeholder="mm/yy">
                                             </div>
@@ -554,7 +616,7 @@
 
                                 </div>
                             </div>
-                            <input type="button" name="next" class="next action-button submit-btns" value="Submit" />
+                            <input href="thank-you.php" type="submit" name="next" class="next action-button submit-btns" value="Submit" />
                         </fieldset>
                     </form>
                 </div>

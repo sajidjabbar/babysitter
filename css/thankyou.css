@@ -1,86 +1,130 @@
 @font-face {
-    font-family: Poppinssemibold;
-    src: url(../fonts/Poppins-SemiBold.ttf);
+  font-family: Poppinssemibold;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+#header {
+  background-color: transparent !important;
+}
+
+.thank-you .thank-you-box-wrapper {
+  background: #FFFFFF;
+  padding: 27px;
+  text-align: center;
+  box-shadow: 0px 1px 4px 0px #a0bfa0;
+  margin: 89px 8px;
+  text-align: center;
+  padding: 59px 87px;
+  position: relative;
+  border-radius: 11px;
+  height: 286px;
+}
+
+.screen-wrapper {
+  box-shadow: none !important;
+  border: 2px solid #FA00A7;
+}
+
+.btn-contain .fa {
+  color: #00ADE3;
+}
+
+.beautifulsubmitbtn button.btn {
+  width: 100%;
+  margin-bottom: 1px;
+  border: 2px solid #FA00A7;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Poppins-Medium";
+  background-color: #FA00A7;
+}
+
+.beautifulsubmitbtn {
+  padding-top: 20px;
+}
+
+h1 {
+  font-family: 'Poppins-SemiBold';
+  color: #FA00A7;
+  font-size: 41px !important;
+  margin-bottom: 2px !important;
+}
+
+h2 {
+  font-family: 'Poppins-SemiBold';
+  color: #1B1D21;
+  font-size: 17px !important;
+  margin-bottom: 11px !important;
+}
+
+span {
+  font-family: "Poppins-Italic";
+  font-size: 47px;
+  color: #2C3C4A;
+  margin-bottom: 7px;
+  line-height: 2px;
+}
+
+p {
+  font-family: "Poppins-Italic" !important;
+  font-size: 14px;
+  color: #2C3C4A;
+  margin-bottom: 7px;
+}
+
+@media screen and (max-width: 760px) {
+  .form-check {
+    width: 43%;
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
   }
-  #header{
-    background-color: transparent !important;
-  }
-  .thank-you .thank-you-box-wrapper{
+
+  .thank-you .thank-you-box-wrapper {
     background: #F9F9F9;
     padding: 27px;
     text-align: center;
     box-shadow: 0px 0px 10px 4px #a4a9a4;
-    margin: 89px 8px;
-    text-align: center;
-    padding: 59px 53px;
+    margin: 0;
+    padding: 50px 10px;
     position: relative;
-    border-radius: 11px;
-}
-.screen-wrapper{
-    box-shadow: none !important;
-    border: 2px solid #FA00A7;
-}
-.btn-contain .fa {
-    color: #00ADE3;
   }
-.beautifulsubmitbtn button.btn {
+
+  .thank-you {
+    padding: 40px 0;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.thank-you .thank-you-box-wrapper a.btn:hover::after {
+  content: "";
+  background-image: url(../img/arrow1.png);
   width: 100%;
-    margin-bottom: 1px;
-    border: 2px solid #FA00A7;
-    font-size: 14px;
-    color: #ffffff;
-    font-family: "Poppins-Medium";
-    background-color: #FA00A7;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center right 33%;
+  top: 0px;
+  background-size: 15px;
 }
-.beautifulsubmitbtn {
-    padding-top: 20px;
+
+.thank-you .thank-you-box-wrapper:hover a.btn {
+  display: block;
 }
-h1 {
-    font-family: 'Poppins-SemiBold';
-    color: #FA00A7;
-    font-size: 34px;
-    margin-bottom: 20px;
+
+.thank-you .thank-you-box-wrapper a.btn {
+  position: relative;
+  display: none;
 }
-h2{
-    font-family: 'Poppins-SemiBold';
-    color: #1B1D21;
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-span {
-    font-family:  "Poppins-Italic";;
-    font-size: 13px;
-    color: #2C3C4A;
-    margin-bottom: 7px;
-  }
-  p{
-    font-size: 13px;
-    color: #2C3C4A;
-    margin-bottom: 7px;
-    font-family: "Poppins-Regular";
-  }
-@media screen and (max-width: 760px){
-    .form-check {
-        width: 43%;
-        position: relative;
-        display: block;
-        padding-left: 1.25rem;
-    }
-    .thank-you .thank-you-box-wrapper {
-        background: #F9F9F9;
-        padding: 27px;
-        text-align: center;
-        box-shadow: 0px 0px 10px 4px #a4a9a4;
-        margin: 0;
-        padding: 50px 10px;
-        position: relative;
-    }
-    .thank-you{
-        padding: 40px 0;
-    }
-    .form-group {
-        margin-bottom: 1rem;
-        display: flex;
-        justify-content: center;
-    }
+
+.thank-you .thank-you-box-wrapper a.btn::after {
+  content: "";
+  background-position: center right 35%;
+  transition: 0.6s all;
 }

@@ -19,7 +19,7 @@
                     <div class="col-lg-1 col-md-2"></div>
                     <div class="col-xxl-8 col-xl-11  col-xs-11 me-auto  h-100">
                         <div class="auth_content h-100">
-                            <div class="top_text top_heading pink_line">
+                            <div class="top_text top_heading pink_line pt-5">
                                 <span class="top_small_heading">Welcome To Babysitter</span>
                                 <h4>Register Your Account</h4>
                                 <p class="small_text mb-1">
@@ -28,7 +28,7 @@
                                     null
                                     Duis aute irure dolor
                                 </p>
-                                <span class="login_option">Don't have Account?
+                                <span class="login_option">Already have Account?
                                     <a href="login.php" class="popins_sb pink">Login</a>
                                 </span>
                             </div>
@@ -54,7 +54,7 @@
                                     <div class="tab-pane fade show active" id="home" role="tabpanel"
                                         aria-labelledby="home-tab">
                                         <div class="form_start">
-                                            <form method="POST">
+                                            <form method="POST" action="user_profile.php">
                                                 <div class="form-row  mt-3">
                                                     <div class="single-input">
                                                         <input type="text" name="" id="" placeholder="First Name">
@@ -86,7 +86,7 @@
                                     <div class="tab-pane fade" id="profile" role="tabpanel"
                                         aria-labelledby="profile-tab">
                                         <div class="form_start">
-                                            <form method="POST">
+                                            <form method="POST" action="babysitter_profile.php">
                                                 <div class="form-row  mt-3">
                                                     <div class="single-input">
                                                         <input type="text" name="" id="" placeholder="First Name">

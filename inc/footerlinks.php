@@ -39,17 +39,21 @@
     // NEW SCRIPTING
     $("#babysitterregister").click(function() {
         $(".login_option").addClass("hide");
+        // $(".pink_line").addClass("mt-5");
     });
     $("#normal_user").click(function() {
         $(".login_option").removeClass("hide");
+        $(".pink_line").removeClass("mt-5");
     });
     $('input[type=radio][name=booking_continuos]').change(function() {
         if (this.value == 'one_time') {
             $("#one_no").removeClass("hide");
             $("#two_no").addClass("hide");
+            $(".first_step_btn").removeClass("transp");
         } else if (this.value == 'two_time') {
             $("#two_no").removeClass("hide");
             $("#one_no").addClass("hide");
+            $(".first_step_btn").addClass("transp");
         }
     });
     // $(".single_servcie1[type=radio]:checked ").click(function() {
@@ -198,27 +202,27 @@
 
             current_fs = $(this).parent();
             previous_fs = $(this).parent().prev();
-            console.log(previous_fs)
+            console.log(previous_fs);
             //Remove class active
-            $("#progressbar li").eq($("fieldset").index(current_fs)).addClass("activeabcd");
+            $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
 
             //show the previous fieldset
             previous_fs.show();
 
             //hide the current fieldset with style
             current_fs.animate({
-                opacity: "1"
+                opacity: 0
             }, {
                 step: function(now) {
                     // for making fielset appear animation
                     opacity = 1 - now;
 
                     current_fs.css({
-                        'display': 'block',
+                        'display': 'none',
                         'position': 'relative',
                     });
                     previous_fs.css({
-                        'opacity': "1"
+                        'opacity': opacity
                     });
                 },
                 duration: 500
@@ -233,6 +237,8 @@
             console.log(percent)
             if (percent != 20) {
                 $(".booking-chk").addClass("hide");
+            } else {
+                $(".booking-chk").removeClass("hide");
             }
         }
 

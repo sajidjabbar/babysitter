@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-9">
-                <div class="booking-heading">
+                <!-- <div class="booking-heading">
                     <h3 style="display: block !important;"><svg xmlns="http://www.w3.org/2000/svg" class="previous" width="26" height="26" viewBox="0 0 26 26">
                             <g id="Group_9332" data-name="Group 9332" transform="translate(-416 -368)">
                                 <circle id="Ellipse_49" data-name="Ellipse 49" cx="13" cy="13" r="13" transform="translate(416 368)" fill="#1f1e2c" />
@@ -27,7 +27,7 @@
                         </svg>
                         Select Booking Type
                     </h3>
-                </div>
+                </div> -->
                 <div class="booking-chk">
                     <div class="form-row_radio mt-3">
                         <div class="select_services">
@@ -63,6 +63,18 @@
                             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
                         </div> <br> <!-- fieldsets -->
                         <fieldset>
+                            <div class="booking-heading previous-1">
+                                <h3 style="display: block !important;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                                        <g id="Group_9332" data-name="Group 9332" transform="translate(-416 -368)">
+                                            <circle id="Ellipse_49" data-name="Ellipse 49" cx="13" cy="13" r="13" transform="translate(416 368)" fill="#1f1e2c" />
+                                            <path id="Path_17400" data-name="Path 17400" d="M-8134.186,358h-12.41" transform="translate(8569.391 22.997)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17401" data-name="Path 17401" d="M-8146.231,356.118l4.745-4.745" transform="translate(8569.025 24.882)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17402" data-name="Path 17402" d="M-8146.231,351.373l4.745,4.745" transform="translate(8569.025 29.627)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                        </g>
+                                    </svg>
+                                    Select Booking Type
+                                </h3>
+                            </div>
                             <div class="form-card" id="one_no">
                                 <div class="col-md-6">
                                     <div class="form_start start-form-hide mt-3">
@@ -156,9 +168,21 @@
                                     </div>
                                 </div>
                             </div>
-                            <input type="button" name="next" class="next action-button one-tonext" value="next step" />
+                            <input type="button" name="next" class="next action-button one-tonext first_step_btn" value="next step" />
                         </fieldset>
                         <fieldset class="second-field">
+                            <div class="booking-heading previous">
+                                <h3 style="display: block !important;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                                        <g id="Group_9332" data-name="Group 9332" transform="translate(-416 -368)">
+                                            <circle id="Ellipse_49" data-name="Ellipse 49" cx="13" cy="13" r="13" transform="translate(416 368)" fill="#1f1e2c" />
+                                            <path id="Path_17400" data-name="Path 17400" d="M-8134.186,358h-12.41" transform="translate(8569.391 22.997)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17401" data-name="Path 17401" d="M-8146.231,356.118l4.745-4.745" transform="translate(8569.025 24.882)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17402" data-name="Path 17402" d="M-8146.231,351.373l4.745,4.745" transform="translate(8569.025 29.627)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                        </g>
+                                    </svg>
+                                    Booking Details
+                                </h3>
+                            </div>
                             <div class="form-card">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -214,6 +238,18 @@
                             </div> <input type="button" name="next" class="second next action-button" value="Next step" />
                         </fieldset>
                         <fieldset>
+                            <div class="booking-heading previous">
+                                <h3 style="display: block !important;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                                        <g id="Group_9332" data-name="Group 9332" transform="translate(-416 -368)">
+                                            <circle id="Ellipse_49" data-name="Ellipse 49" cx="13" cy="13" r="13" transform="translate(416 368)" fill="#1f1e2c" />
+                                            <path id="Path_17400" data-name="Path 17400" d="M-8134.186,358h-12.41" transform="translate(8569.391 22.997)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17401" data-name="Path 17401" d="M-8146.231,356.118l4.745-4.745" transform="translate(8569.025 24.882)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17402" data-name="Path 17402" d="M-8146.231,351.373l4.745,4.745" transform="translate(8569.025 29.627)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                        </g>
+                                    </svg>
+                                    Contact Information
+                                </h3>
+                            </div>
                             <div class="form-card">
                                 <div class="col-md-6">
                                     <div class="form_start mt-3">
@@ -256,6 +292,18 @@
                             </div> <input type="button" name="next" class="seconds next action-button" value="Next Step" />
                         </fieldset>
                         <fieldset>
+                            <div class="booking-heading previous">
+                                <h3 style="display: block !important;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                                        <g id="Group_9332" data-name="Group 9332" transform="translate(-416 -368)">
+                                            <circle id="Ellipse_49" data-name="Ellipse 49" cx="13" cy="13" r="13" transform="translate(416 368)" fill="#1f1e2c" />
+                                            <path id="Path_17400" data-name="Path 17400" d="M-8134.186,358h-12.41" transform="translate(8569.391 22.997)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17401" data-name="Path 17401" d="M-8146.231,356.118l4.745-4.745" transform="translate(8569.025 24.882)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17402" data-name="Path 17402" d="M-8146.231,351.373l4.745,4.745" transform="translate(8569.025 29.627)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                        </g>
+                                    </svg>
+                                    Select Babysitter
+                                </h3>
+                            </div>
                             <div class="form-card">
                                 <div class="replies-section-inner">
                                     <div class="for-total-replis-heading">
@@ -517,6 +565,18 @@
                             <input type="button" name="next " class="last-step next action-button" value="Next Step" />
                         </fieldset>
                         <fieldset>
+                            <div class="booking-heading previous">
+                                <h3 style="display: block !important;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+                                        <g id="Group_9332" data-name="Group 9332" transform="translate(-416 -368)">
+                                            <circle id="Ellipse_49" data-name="Ellipse 49" cx="13" cy="13" r="13" transform="translate(416 368)" fill="#1f1e2c" />
+                                            <path id="Path_17400" data-name="Path 17400" d="M-8134.186,358h-12.41" transform="translate(8569.391 22.997)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17401" data-name="Path 17401" d="M-8146.231,356.118l4.745-4.745" transform="translate(8569.025 24.882)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                            <path id="Path_17402" data-name="Path 17402" d="M-8146.231,351.373l4.745,4.745" transform="translate(8569.025 29.627)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.4" />
+                                        </g>
+                                    </svg>
+                                    Checkout
+                                </h3>
+                            </div>
                             <div class="form-card">
                                 <div class="row">
                                     <!-- <div class="col-md-6">
