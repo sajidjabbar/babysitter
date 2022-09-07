@@ -11,15 +11,15 @@
             <div class="col-lg-4 col-md-6 col-sm-9 mx-auto">
                 <div class="auth_content h-100">
                     <div class="top_text top_heading pink_line text-center">
-                        <span class="top_small_heading">Welcome To Babysitter</span>
-                        <h4>Forgot Password</h4>
+                        <!-- <span class="top_small_heading">Welcome To Babysitter</span> -->
+                        <h5 class="mb-3">Forgot Password</h5>
                         <p class="small_text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                             dolore eu fugiat null Duis aute irure dolor</p>
                     </div>
                     <div class="form_start">
                         <form method="POST">
                             <div class="form-row mt-4">
-                                <input type="text" name="" id="" placeholder="Email Address">
+                                <input type="text" name="" id="" class="text-center" placeholder="Email Address">
                             </div>
                             <div class="form-row mt-3">
                                 <button type="submit">Submit</button>

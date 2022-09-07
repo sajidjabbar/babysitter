@@ -37,7 +37,7 @@
                             <figure>
                                 <img src="img/service2.png" class="img-fluid" alt="Service Image">
                             </figure>
-                            <span class="top_small_heading">BabySitters</span>
+                            <span class="top_small_heading">Traveling</span>
                         </div>
                         <!-- </a> -->
                     </div>
@@ -47,7 +47,7 @@
                             <figure>
                                 <img src="img/service3.png" class="img-fluid" alt="Service Image">
                             </figure>
-                            <span class="top_small_heading">BabySitters</span>
+                            <span class="top_small_heading">Overnight</span>
                         </div>
                         <!-- </a> -->
                     </div>
@@ -58,7 +58,7 @@
 </section>
 <!-- Services Main Section End Here -->
 <!-- OUr History  Start Here -->
-<section class="our_previous_history">
+<!-- <section class="our_previous_history">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -107,7 +107,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- OUr History  End Here-->
 <!-- Service Contact Start Here -->
 <!-- <section class="service_contact">
@@ -159,6 +159,10 @@
 </section> -->
 <section class="contact_info">
     <div class="container">
+        <div class="top_heading pink_line text-center mb-4 pb-2">
+            <span class="top_small_heading">Contact Us</span>
+            <h2>Our Team is here to help You</h2>
+        </div>
         <div class="col-xl-10 col-lg-12 mx-auto">
             <div class="row">
                 <div class="col-lx-4 col-lg-4 col-md-6 col-sm-12 mt-2  px-1">

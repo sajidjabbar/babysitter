@@ -168,7 +168,6 @@
 
             current_fs = $(this).parent();
             next_fs = $(this).parent().next();
-
             //Add Class Active
             $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
 
@@ -199,27 +198,27 @@
 
             current_fs = $(this).parent();
             previous_fs = $(this).parent().prev();
-
+            console.log(previous_fs)
             //Remove class active
-            $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+            $("#progressbar li").eq($("fieldset").index(current_fs)).addClass("activeabcd");
 
             //show the previous fieldset
             previous_fs.show();
 
             //hide the current fieldset with style
             current_fs.animate({
-                opacity: 0
+                opacity: "1"
             }, {
                 step: function(now) {
                     // for making fielset appear animation
                     opacity = 1 - now;
 
                     current_fs.css({
-                        'display': 'none',
-                        'position': 'relative'
+                        'display': 'block',
+                        'position': 'relative',
                     });
                     previous_fs.css({
-                        'opacity': opacity
+                        'opacity': "1"
                     });
                 },
                 duration: 500
@@ -230,8 +229,11 @@
         function setProgressBar(curStep) {
             var percent = parseFloat(100 / steps) * curStep;
             percent = percent.toFixed();
-            $(".progress-bar")
-                .css("width", percent + "%")
+            $(".progress-bar").css("width", percent + "%")
+            console.log(percent)
+            if (percent != 20) {
+                $(".booking-chk").addClass("hide");
+            }
         }
 
         $(".submit").click(function() {

@@ -152,6 +152,7 @@ h4 {
   font-family: "Poppins-Medium";
   border: 2px solid transparent;
   padding: 10px 0;
+  text-transform: capitalize;
   float: left;
 }
 #msform .action-button:hover,
@@ -254,7 +255,7 @@ label{
   border: 1px solid #ccc;
   border-radius: 22px;
   margin-top: 2px;
-  margin-bottom: 25px;
+  margin-bottom: 13px;
   width: 100%;
   box-sizing: border-box;
   font-family: "Poppins-Regular";
@@ -302,8 +303,28 @@ select.form-select.detail {
   background-repeat: no-repeat;
   position: relative;
 }
+.dett.pe-2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 91%;
+  width: 1px;
+  background: #70707045;
+  top: 4%;
+  right: 50%;
+}
+.range-this span {
+  font-size: 12px;
+  font-family: "Poppins-Regular";
+  font-weight: 400;
+  color: #0000008c;
+}
+.start-range span.range_now {
+  font-size: 12px;
+  font-family: "Poppins-Semibold";
+}
 .second {
-  width: 48%;
+  width: 48% !important;
   background-color: transparent !important;
   color: #FA00A7 !important;
   text-decoration: none;
@@ -337,7 +358,7 @@ select.form-select.detail {
 .start-range {
   display: flex;
   justify-content: space-between;
-  width: 28%;
+  width: 30%;
 }
 .form h4{
   font-family: 'Poppins-SemiBold';
@@ -613,9 +634,9 @@ cursor: not-allowed;
 .for-total-replis-heading{
   margin-bottom: 56px;
 }
-.replies-heading{
-  color: #000000;
-  font-size: 28px;
+.replies-heading {
+  color: #0C0B1A;
+  font-size: 20px;
   font-family: 'Poppins-SemiBold';
 }
 .total-replies {

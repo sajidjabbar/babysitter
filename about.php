@@ -68,7 +68,7 @@
                             </div>
                         </div>
                         <div class="book_now wow animate__animated animate__fadeInDown animate__delay-3s animated">
-                            <a href="" class="btn">Book Now</a>
+                            <a href="booknow.php" class="btn">Book Now</a>
                         </div>
                     </div>
                 </div>

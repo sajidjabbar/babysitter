@@ -32,7 +32,7 @@
                                 </div>
                                 <ul>
                                     <li><a href="index.php">Home</a></li>
-                                    <li><a href="about.php">About</a></li>
+                                    <li><a href="about.php">About Us</a></li>
                                     <li><a href="services.php">Services</a></li>
                                     <li><a href="booknow.php">Book Now</a></li>
                                     <li><a href="contact.php">Contact Us</a></li>
@@ -62,12 +62,8 @@
                                 <ul>
                                     <li class="mt-4 pt-2">
                                         <a href="">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="12.459" height="22.084"
-                                                viewBox="0 0 15.459 22.084">
-                                                <path id="Icon_material-location-on"
-                                                    data-name="Icon material-location-on"
-                                                    d="M15.23,3A7.724,7.724,0,0,0,7.5,10.73c0,5.8,7.73,14.355,7.73,14.355s7.73-8.558,7.73-14.355A7.724,7.724,0,0,0,15.23,3Zm0,10.49A2.761,2.761,0,1,1,17.99,10.73,2.762,2.762,0,0,1,15.23,13.49Z"
-                                                    transform="translate(-7.5 -3)" fill="#fff"></path>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12.459" height="22.084" viewBox="0 0 15.459 22.084">
+                                                <path id="Icon_material-location-on" data-name="Icon material-location-on" d="M15.23,3A7.724,7.724,0,0,0,7.5,10.73c0,5.8,7.73,14.355,7.73,14.355s7.73-8.558,7.73-14.355A7.724,7.724,0,0,0,15.23,3Zm0,10.49A2.761,2.761,0,1,1,17.99,10.73,2.762,2.762,0,0,1,15.23,13.49Z" transform="translate(-7.5 -3)" fill="#fff"></path>
                                             </svg>
                                             <span>79 Branch Street
                                                 Lemont, IL 60439</span>
@@ -75,11 +71,8 @@
                                     </li>
                                     <li>
                                         <a href="">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="18.301" height="18.301"
-                                                viewBox="0 0 18.301 18.301">
-                                                <path id="Icon_awesome-phone-alt" data-name="Icon awesome-phone-alt"
-                                                    d="M.522,12.933l4-1.716a.858.858,0,0,1,1,.247L7.3,13.63A13.249,13.249,0,0,0,13.633,7.3L11.467,5.523a.856.856,0,0,1-.247-1l1.716-4a.864.864,0,0,1,.983-.5L17.636.88a.858.858,0,0,1,.665.836A16.584,16.584,0,0,1,1.716,18.3a.858.858,0,0,1-.836-.665L.021,13.92a.868.868,0,0,1,.5-.987Z"
-                                                    transform="translate(0 0)" fill="#fff"></path>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18.301" height="18.301" viewBox="0 0 18.301 18.301">
+                                                <path id="Icon_awesome-phone-alt" data-name="Icon awesome-phone-alt" d="M.522,12.933l4-1.716a.858.858,0,0,1,1,.247L7.3,13.63A13.249,13.249,0,0,0,13.633,7.3L11.467,5.523a.856.856,0,0,1-.247-1l1.716-4a.864.864,0,0,1,.983-.5L17.636.88a.858.858,0,0,1,.665.836A16.584,16.584,0,0,1,1.716,18.3a.858.858,0,0,1-.836-.665L.021,13.92a.868.868,0,0,1,.5-.987Z" transform="translate(0 0)" fill="#fff"></path>
                                             </svg>
                                             <span>202-555-0151</span>
                                         </a>
@@ -102,4 +95,4 @@
         </div>
     </div>
 </footer>
-<?php include 'footerlinks.php'?>
+<?php include 'footerlinks.php' ?>

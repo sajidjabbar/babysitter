@@ -1,7 +1,9 @@
 section.baby_siting_about_text {
     padding: 94px 0px 18px;
 }
-
+.about_text .top_text h2 span {
+    color: #FA00A7;
+}
 section.baby_siting_about_text .about_images figure.back_image {
     max-width: 64%;
 }

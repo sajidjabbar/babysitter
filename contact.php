@@ -30,16 +30,16 @@
                         <div class="form_start mt-3">
                             <form method="POST">
                                 <div class="form-row mt-3">
-                                    <input type="text" name="" id="" placeholder="Email Address">
+                                    <input type="text" name="" id="" placeholder="First Name">
                                 </div>
                                 <div class="form-row mt-3">
-                                    <input type="text" name="" id="" placeholder="Password">
+                                    <input type="text" name="" id="" placeholder="Last Name">
                                 </div>
                                 <div class="form-row mt-3">
-                                    <input type="text" name="" id="" placeholder="Password">
+                                    <input type="text" name="" id="" placeholder="Email">
                                 </div>
                                 <div class="form-row mt-3">
-                                    <input type="text" name="" id="" placeholder="Password">
+                                    <input type="text" name="" id="" placeholder="Contact Number">
                                 </div>
                                 <div class="form-row mt-3">
                                     <textarea name="" placeholder="Message" class="pt-3"></textarea>

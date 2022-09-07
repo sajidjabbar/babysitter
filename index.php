@@ -17,7 +17,7 @@
                             labore et dolore magna aliqua. Enim sit<br>amet venenatis urna. Eget magna fermentum iaculis
                             eu
                             non diam<br>phasellus vestibulum lorem. </p>
-                        <a href="" class="btn wow animate__animated animate__fadeInDown animate__delay-1s">Book Now</a>
+                        <a href="booknow.php" class="btn wow animate__animated animate__fadeInDown animate__delay-1s">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -130,7 +130,7 @@
                                 proin sagittis nisl
                                 rhoncus mattis<br>rhoncus urna neque viverra.
                             </p>
-                            <a href="" class="btn transparent">Get Started</a>
+                            <a href="register.php" class="btn transparent">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@
                                 proin sagittis nisl
                                 rhoncus mattis<br>rhoncus urna neque viverra.
                             </p>
-                            <a href="" class="btn transparent">Book Now</a>
+                            <a href="booknow.php" class="btn transparent">Book Now</a>
                         </div>
                     </div>
                 </div>
