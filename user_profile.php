@@ -33,7 +33,7 @@
                                 <button class="tabs_controller" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Calendar</button>
                             </li> -->
                             <li class="nav-item tabs_button_wrapper" role="presentation">
-                                <button class=" tabs_controller active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                                <button class=" tabs_controller active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="home" aria-selected="true">Account</button>
                             </li>
                             <li class="nav-item tabs_button_wrapper " role="presentation">
                                 <button class=" tabs_controller" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Bookings</button>
@@ -175,9 +175,9 @@
                                             <div class="button_group">
                                                 <button id="pending_booking_btn" class="tab_btn">Pending
                                                     Bookings</button>
-                                                <button class="active tab_btn" id="previous_booking_btn">Previous
+                                                <button id="upcoming_booking_btn" class="tab_btn active">Upcoming
                                                     Bookings</button>
-                                                <button id="upcoming_booking_btn" class="tab_btn">Upcoming
+                                                <button class="tab_btn" id="previous_booking_btn">Previous
                                                     Bookings</button>
                                             </div>
                                         </div>
@@ -203,7 +203,7 @@
                                                         <td>5:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
@@ -212,7 +212,7 @@
                                                         <td>5:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
@@ -221,7 +221,7 @@
                                                         <td>5:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
@@ -230,7 +230,7 @@
                                                         <td>5:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
@@ -239,7 +239,7 @@
                                                         <td>5:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
@@ -248,7 +248,7 @@
                                                         <td>5:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
@@ -257,7 +257,7 @@
                                                         <td>5:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
@@ -266,7 +266,7 @@
                                                         <td>5:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
@@ -275,7 +275,7 @@
                                                         <td>5:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     <tr>
@@ -284,14 +284,114 @@
                                                         <td>5:30pm</td>
                                                         <td>$45.50</td>
                                                         <td><span class="pending-accepted">Pending</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
                                                         <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
                                         </div>
                                     </div>
-                                    <div class="previous_booking" id="previous_booking">
+                                    <div class="upcoming_booking" id="upcoming_booking">
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="id">Booking Id</th>
+                                                        <th class="up-date">Date</th>
+                                                        <th class="up-time">Time</th>
+                                                        <th class="up-payment">Payment</th>
+                                                        <th class="up-status">Action</th>
+                                                        <th class="up-action">Action</th>
+                                                        <th class="up-view">Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="accepted">Accepted by babysitter</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="accepted">Accepted by babysitter</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="accepted">Accepted by babysitter</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="accepted">Accepted by babysitter</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="accepted">Accepted by babysitter</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="accepted">Accepted by babysitter</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="accepted">Accepted by babysitter</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="accepted">Accepted by babysitter</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>#6519576</td>
+                                                        <td>22-25 june 22</td>
+                                                        <td>5:30pm</td>
+                                                        <td>$45.50</td>
+                                                        <td><span class="accepted">Accepted by babysitter</span></td>
+                                                        <td><span class="up-cancel for_the_padding">Cancel</span></td>
+                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="previous_booking hide" id="previous_booking">
                                         <div class="table-responsive">
                                             <table class="table">
                                                 <thead>
@@ -451,106 +551,6 @@
                                                         <td class="completed_bookling_details_button"><button class="view_detail">View Detail</button></td>
                                                     </tr>
                                                     </ttbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    <div class="upcoming_booking hide" id="upcoming_booking">
-                                        <div class="table-responsive">
-                                            <table class="table">
-                                                <thead>
-                                                    <tr>
-                                                        <th class="id">Booking Id</th>
-                                                        <th class="up-date">Date</th>
-                                                        <th class="up-time">Time</th>
-                                                        <th class="up-payment">Payment</th>
-                                                        <th class="up-status">Action</th>
-                                                        <th class="up-action">Action</th>
-                                                        <th class="up-view">Actions</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>#6519576</td>
-                                                        <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
-                                                        <td>$45.50</td>
-                                                        <td><span class="accepted">Accepted by babysitter</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
-                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>#6519576</td>
-                                                        <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
-                                                        <td>$45.50</td>
-                                                        <td><span class="accepted">Accepted by babysitter</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
-                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>#6519576</td>
-                                                        <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
-                                                        <td>$45.50</td>
-                                                        <td><span class="accepted">Accepted by babysitter</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
-                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>#6519576</td>
-                                                        <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
-                                                        <td>$45.50</td>
-                                                        <td><span class="accepted">Accepted by babysitter</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
-                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>#6519576</td>
-                                                        <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
-                                                        <td>$45.50</td>
-                                                        <td><span class="accepted">Accepted by babysitter</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
-                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>#6519576</td>
-                                                        <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
-                                                        <td>$45.50</td>
-                                                        <td><span class="accepted">Accepted by babysitter</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
-                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>#6519576</td>
-                                                        <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
-                                                        <td>$45.50</td>
-                                                        <td><span class="accepted">Accepted by babysitter</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
-                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>#6519576</td>
-                                                        <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
-                                                        <td>$45.50</td>
-                                                        <td><span class="accepted">Accepted by babysitter</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
-                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>#6519576</td>
-                                                        <td>22-25 june 22</td>
-                                                        <td>5:30pm</td>
-                                                        <td>$45.50</td>
-                                                        <td><span class="accepted">Accepted by babysitter</span></td>
-                                                        <td><span class="up-cancel">Canceled</span></td>
-                                                        <td class="canceled_booking"><button class="view_detail">View Detail</button></td>
-                                                    </tr>
-                                                </tbody>
                                             </table>
                                         </div>
                                     </div>

@@ -8,7 +8,7 @@
 <!-- Heading Banner Start Here -->
 <section class="sub_banner">
     <div class="container">
-        <h3>Contact us</h3>
+        <h3>Query Form</h3>
     </div>
 </section>
 <!-- Sub_Banner End Here -->
@@ -18,9 +18,9 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="contact_start">
-                        <div class="top_heading pink_line">
+                        <!-- <div class="top_heading pink_line">
                             <h5 class="popins_b">Get In Touch</h5>
-                        </div>
+                        </div> -->
                         <div class="form_start mt-3">
                             <form method="POST">
                                 <div class="form-row_radio mt-3">

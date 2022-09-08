@@ -14,10 +14,9 @@
   box-shadow: 0px 1px 4px 0px #a0bfa0;
   margin: 89px 8px;
   text-align: center;
-  padding: 59px 87px;
+  padding: 59px 20px;
   position: relative;
   border-radius: 11px;
-  height: 286px;
 }
 
 .screen-wrapper {
@@ -66,8 +65,8 @@ span {
 }
 
 p {
-  font-family: "Poppins-Italic" !important;
-  font-size: 14px;
+  font-family: "Poppins-Regular" !important;
+  font-size: 16px;
   color: #2C3C4A;
   margin-bottom: 7px;
 }
@@ -101,6 +100,21 @@ p {
   }
 }
 
+
+
+.thank-you .thank-you-box-wrapper a.btn {
+  position: relative;
+  display: block;
+  width: 47%;
+  margin: auto;
+}
+
+.thank-you .thank-you-box-wrapper a.btn::after {
+  content: "";
+  background-position: center right 46%;
+  transition: 0.6s all;
+}
+
 .thank-you .thank-you-box-wrapper a.btn:hover::after {
   content: "";
   background-image: url(../img/arrow1.png);
@@ -109,22 +123,7 @@ p {
   display: block;
   position: absolute;
   background-repeat: no-repeat;
-  background-position: center right 33%;
+  background-position: center right 38%;
   top: 0px;
   background-size: 15px;
-}
-
-.thank-you .thank-you-box-wrapper:hover a.btn {
-  display: block;
-}
-
-.thank-you .thank-you-box-wrapper a.btn {
-  position: relative;
-  display: none;
-}
-
-.thank-you .thank-you-box-wrapper a.btn::after {
-  content: "";
-  background-position: center right 35%;
-  transition: 0.6s all;
 }

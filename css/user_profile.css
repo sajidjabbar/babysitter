@@ -881,3 +881,6 @@ section.add_review .add_review_start_here h5 {
         padding: 33px 15px 0px;
     }
 }
+span.up-cancel.for_the_padding {
+    padding: 6px 17px !important;
+}

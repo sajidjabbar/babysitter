@@ -80,14 +80,14 @@
                                     <div class="form_start start-form-hide mt-3">
                                         <div class="form-row">
                                             <!-- <input placeholder="select Date" class="textbox-n" type="date" onfocus="(this.type='date')" id="date"> -->
-                                            <input type="text" name="" class="input-dateone" placeholder="Select Date">
+                                            <input type="text" name="" onfocus="(this.type='date')" class="input-dateone time_input" placeholder="Select Date">
                                         </div>
                                         <div class="form-row">
                                             <div class="single-input">
-                                                <input type="text" name="" class="time-input" placeholder="Select Start Time ">
+                                                <input type="text" name="" onfocus="(this.type='time')" class="time-input time_input" placeholder="Select Start Time ">
                                             </div>
                                             <div class="single-input">
-                                                <input type="text" name="" class="time-input" placeholder="Select End Time ">
+                                                <input type="text" onfocus="(this.type='time')" name="" class="time-input time_input" placeholder="Select End Time ">
                                             </div>
                                         </div>
                                     </div>
@@ -168,7 +168,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <input type="button" name="next" class="next action-button one-tonext first_step_btn" value="next step" />
+                            <input type="button" name="next" class="next action-button one-tonext first_step_btn " value="next step" />
                         </fieldset>
                         <fieldset class="second-field">
                             <div class="booking-heading previous">
@@ -186,7 +186,7 @@
                             <div class="form-card">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="dett pe-2">
+                                        <div class="dett pe-4">
                                             <h5 class="mb-0">Booking Details</h5>
                                             <div class="range-detail pt-4">
                                                 <h6>Provide hour rate range</h6>
@@ -202,28 +202,26 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form_start this-form mt-3 ps-2">
+                                        <div class="form_start this-form mt-3 ps-4">
                                             <div class="form-group">
                                                 <label for="exampleFormControlInput1" class="form-label">Number of children </label>
                                                 <input type="text" name="" id="" placeholder="Select Date">
-                                                <select class="form-select detail" aria-label="Default select example">
+                                                <select class="form-select detail mt-3" aria-label="Default select example">
                                                     <option selected>Children 1 Detail</option>
                                                     <option value="1">One</option>
                                                     <option value="2">Two</option>
                                                     <option value="3">Three</option>
                                                 </select>
                                             </div>
-                                            <div class="form-row">
+                                            <div class="form-row mt-1">
                                                 <div class="single-input">
-
                                                     <input type="text" name="" id="" placeholder="Select Start Time ">
-
                                                 </div>
                                                 <div class="single-input">
                                                     <input type="text" name="" id="" placeholder="Select End Time ">
                                                 </div>
                                             </div>
-                                            <div class="form-group">
+                                            <div class="form-group mt-2">
                                                 <select class="form-select child-detail" aria-label="Default select example">
                                                     <option selected>Children 2 Detail</option>
                                                     <option value="1">One</option>
@@ -235,7 +233,7 @@
                                     </div>
 
                                 </div>
-                            </div> <input type="button" name="next" class="second next action-button" value="Next step" />
+                            </div> <input type="button" name="next" class="second next action-button" style="width: 46% !important;" value="Next step" />
                         </fieldset>
                         <fieldset>
                             <div class="booking-heading previous">
@@ -355,7 +353,7 @@
                                                                     <a href="" class="btn btn-primary">Hire babysitter</a>
                                                                 </div>
                                                                 <div class="detailbtns-two">
-                                                                    <a href="" class="btn btn-outline-info">Hire babysitter</a>
+                                                                    <a href="babysitter-profile.php" class="btn btn-outline-info">View Profile</a>
                                                                 </div>
                                                             </div>
                                                             <div class="price">
@@ -411,7 +409,7 @@
                                                                     <a href="" class="btn btn-primary">Hire babysitter</a>
                                                                 </div>
                                                                 <div class="detailbtns-two">
-                                                                    <a href="" class="btn btn-outline-info">Hire babysitter</a>
+                                                                    <a href="babysitter-profile.php" class="btn btn-outline-info">View Profile</a>
                                                                 </div>
                                                             </div>
                                                             <div class="price">
@@ -467,7 +465,7 @@
                                                                     <a href="" class="btn btn-primary">Hire babysitter</a>
                                                                 </div>
                                                                 <div class="detailbtns-two">
-                                                                    <a href="" class="btn btn-outline-info">Hire babysitter</a>
+                                                                    <a href="babysitter-profile.php" class="btn btn-outline-info">View Profile</a>
                                                                 </div>
                                                             </div>
                                                             <div class="price">
@@ -523,7 +521,7 @@
                                                                     <a href="" class="btn btn-primary">Hire babysitter</a>
                                                                 </div>
                                                                 <div class="detailbtns-two">
-                                                                    <a href="" class="btn btn-outline-info">Hire babysitter</a>
+                                                                    <a href="babysitter-profile.php" class="btn btn-outline-info">View Profile</a>
                                                                 </div>
                                                             </div>
                                                             <div class="price">
@@ -616,7 +614,8 @@
 
                                 </div>
                             </div>
-                            <input href="thank-you.php" type="submit" name="next" class="next action-button submit-btns" value="Submit" />
+                            <!-- <input href="thank-you.php" type="submit" name="next" class="next action-button submit-btns" value="Submit" /> -->
+                            <button type="button" name="next" class="next action-button submit-btns" onclick="window.location.href='thankyou-screen.php'">Submit</button>
                         </fieldset>
                     </form>
                 </div>

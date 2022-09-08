@@ -17,7 +17,7 @@
                             dolore eu fugiat null Duis aute irure dolor</p>
                     </div>
                     <div class="form_start">
-                        <form method="POST">
+                        <form method="POST" action="new-password.php">
                             <div class="form-row mt-4">
                                 <input type="text" name="" id="" class="text-center" placeholder="Email Address">
                             </div>

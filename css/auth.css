@@ -9,11 +9,13 @@ section.auth.login .auth_content {
     margin-left: unset;
     margin-top: 22px;
 }
-
+.top_heading.pink_line::after {
+    margin-top: 4px;
+    height: 4px;
+}
 section.auth.register .top_heading.pink_line::after {
     margin-left: unset;
     margin-top: 6px;
-    height: 4px;
 }
 
 
@@ -208,4 +210,13 @@ section.forgot_passsword .top_heading.pink_line::after {
     section.forgot_passsword {
         padding: 40px 0px;
     }   
+}
+input.text-center.new_pass {
+    color: #A2A4B4;
+    font-size: 13px;
+}
+
+input.text-center.new_pass::placeholder {
+    color: #A2A4B4;
+    font-size: 13px;
 }

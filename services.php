@@ -22,34 +22,34 @@
             <div class="all_services">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mt-5 over-hidden">
-                        <!-- <a href="service-detail.php"> -->
-                        <div class="single_service text-center  wow animate__animated animate__fadeInLeft  animated">
-                            <figure>
-                                <img src="img/service1.png" class="img-fluid" alt="Service Image">
-                            </figure>
-                            <span class="top_small_heading">BabySitters</span>
-                        </div>
-                        <!-- </a> -->
+                        <a href="booknow.php">
+                            <div class="single_service text-center  wow animate__animated animate__fadeInLeft  animated">
+                                <figure>
+                                    <img src="img/service1.png" class="img-fluid" alt="Service Image">
+                                </figure>
+                                <span class="top_small_heading">BabySitters</span>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mt-5 over-hidden">
-                        <!-- <a href="service-detail.php"> -->
-                        <div class="single_service text-center  wow animate__animated animate__fadeInDown animate__delay-1s animated">
-                            <figure>
-                                <img src="img/service2.png" class="img-fluid" alt="Service Image">
-                            </figure>
-                            <span class="top_small_heading">Traveling</span>
-                        </div>
-                        <!-- </a> -->
+                        <a href="query-form.php">
+                            <div class="single_service text-center  wow animate__animated animate__fadeInDown animate__delay-1s animated">
+                                <figure>
+                                    <img src="img/service2.png" class="img-fluid" alt="Service Image">
+                                </figure>
+                                <span class="top_small_heading">Traveling</span>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mt-5 over-hidden">
-                        <!-- <a href="service-detail.php"> -->
-                        <div class="single_service text-center  wow animate__animated animate__fadeInRight animate__delay-2s animated">
-                            <figure>
-                                <img src="img/service3.png" class="img-fluid" alt="Service Image">
-                            </figure>
-                            <span class="top_small_heading">Overnight</span>
-                        </div>
-                        <!-- </a> -->
+                        <a href="query-form.php">
+                            <div class="single_service text-center  wow animate__animated animate__fadeInRight animate__delay-2s animated">
+                                <figure>
+                                    <img src="img/service3.png" class="img-fluid" alt="Service Image">
+                                </figure>
+                                <span class="top_small_heading">Overnight</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

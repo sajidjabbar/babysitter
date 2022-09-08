@@ -187,6 +187,11 @@ section.profile_section .babby_sitter_some_info .details_start .single_details s
     line-height: 25px !important;
     font-size: 12px;
 }
+
+section.completed_bookling_details.all_jobs_list .babby_sitter_some_info .details_start .single_details span.cancelled {
+    background: #F5F5F5;
+}
+
 @media (max-width: 576px) {
     section.completed_bookling_details.all_jobs_list .babby_sitter_some_info .details_start .single_details span {
         font-size: 9px;
@@ -533,4 +538,12 @@ div#see_profile {
 }
 section.persoal_information.col-lg-12.col-md-12 p.main_para {
     font-size: 16px;
+}
+
+span.baby-pending-accepted.for_padding_baby {
+    padding: 6px 22px !important;
+}
+
+span.baby-up-cancel.for_padding_baby {
+    padding: 6px 24px !important;
 }

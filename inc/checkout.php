@@ -6,26 +6,30 @@
 <!-- Stylesheet -->
 
 <!-- Checkout Start Here -->
-<section class="checkout">
+<section class="checkout pt-4">
 
     <form action="thank-you.php">
         <div class="row">
             <div class="col-lg-6">
+                <h5>Add Card</h5>
                 <div class="form_start mt-3">
-                    <input type="text" name="" id="" placeholder="Write Your Card Number">
+                    <div class="form-row">
+                        <input type="text" class="mb-0" name="" id="" placeholder="Write Your Card Number">
+                    </div>
                     <div class="form-row mt-3">
                         <div class="single-input">
-                            <input type="text" name="" id="" placeholder="mm/yy">
+                            <input type="text" class="mb-0" name="" id="" placeholder="mm/yy">
                         </div>
                         <div class="single-input">
-                            <input type="text" name="" id="" placeholder="CVV">
+                            <input type="text" class="mb-0" name="" id="" placeholder="CVV">
                         </div>
                     </div>
                 </div>
 
 
+
                 <div class="grid">
-                    <div class="payment" onclick="chosePaymentMethod('visa')">
+                    <div class="payment visa_card" onclick="chosePaymentMethod('visa')">
                         <img src="img/visa.png" class="img-fluid">
                     </div>
                     <div class="payment" onclick="chosePaymentMethod('googleplay')">
@@ -100,20 +104,21 @@
                 </div>
             </div>
             <div class="col-lg-6">
+                <h5>Summary</h5>
                 <div class="book-imfo-bar">
                     <div class="heading-bar">
-                        <h5>Booking Fees:</h5>
+                        <h5 class="mb-0">Booking Fees:</h5>
                     </div>
                     <div class="num-bar">
-                        <h4>$20.00</h4>
+                        <h4 class="mb-0">$20.00</h4>
                     </div>
                 </div>
                 <div class="book-imfo-bar">
                     <div class="heading-bar">
-                        <h5>Total Amount</h5>
+                        <h5 class="mb-0">Total Amount</h5>
                     </div>
                     <div class="num-bar">
-                        <h4>$20.00</h4>
+                        <h4 class="mb-0">$20.00</h4>
                     </div>
                 </div>
                 <div class="cart-product-detail">

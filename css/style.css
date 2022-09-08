@@ -246,13 +246,13 @@ span.top_small_heading {
 	border: 2px solid transparent;
 }
 
-.btn:hover {
+/* .btn:hover {
 	background-color: #000000;
 	padding: 6px 31px;
 	color: #FA00A7;
 	border: 2px solid #FFF;
 	box-shadow: 0px 0px 0px 1px #000;
-}
+} */
 
 figure {
 	margin-bottom: 0;

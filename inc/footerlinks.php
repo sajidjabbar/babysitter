@@ -36,6 +36,9 @@
 </script>
 
 <script>
+    // $("p").mouseout(function() {
+    //     $("p").css("background-color", "gray");
+    // });
     // NEW SCRIPTING
     $("#babysitterregister").click(function() {
         $(".login_option").addClass("hide");

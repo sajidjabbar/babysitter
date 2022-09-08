@@ -11,19 +11,19 @@
             <div class="col-lg-4 col-md-6 col-sm-9 mx-auto">
                 <div class="auth_content h-100">
                     <div class="top_text top_heading pink_line text-center">
-                        <h5>Forgot Password</h5>
+                        <h5>Create New Password</h5>
                         <p class="small_text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                             dolore eu fugiat null Duis aute irure dolor</p>
                     </div>
-                    <div class="form_start">
+                    <div class="form_start mt-4">
                         <form method="POST">
-                            <div class="form-row mt-4">
-                                <input type="text" name="" id="" placeholder="Password">
+                            <div class="form-row mt-2 pt-1">
+                                <input type="text" name="" id="" class="text-center new_pass" placeholder="New Password">
                             </div>
-                            <div class="form-row mt-4">
-                                <input type="text" name="" id="" placeholder="Comfirm Password">
+                            <div class="form-row mt-2 pt-1">
+                                <input type="text" name="" id="" class="text-center new_pass" placeholder="Comfirm Password">
                             </div>
-                            <div class="form-row mt-3">
+                            <div class="form-row mt-2 pt-1">
                                 <button type="submit">Submit</button>
                             </div>
                         </form>
