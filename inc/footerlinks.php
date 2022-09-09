@@ -56,10 +56,12 @@
             $("#one_no").removeClass("hide");
             $("#two_no").addClass("hide");
             $(".first_step_btn").removeClass("transp");
+            $(".djgoij").removeClass("width-53");
         } else if (this.value == 'two_time') {
             $("#two_no").removeClass("hide");
             $("#one_no").addClass("hide");
             $(".first_step_btn").addClass("transp");
+            $(".djgoij").addClass("width-53");
         }
     });
     // $(".single_servcie1[type=radio]:checked ").click(function() {

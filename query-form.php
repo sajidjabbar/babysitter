@@ -16,7 +16,7 @@
     <div class="container">
         <div class="query_for_start">
             <div class="row align-items-end">
-                <div class="col-md-6">
+                <div class="col-md-6 pe-5">
                     <div class="contact_start">
                         <!-- <div class="top_heading pink_line">
                             <h5 class="popins_b">Get In Touch</h5>

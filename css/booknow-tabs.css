@@ -3035,9 +3035,12 @@ input.last-step.next.action-button {
 .monday-heading h6 {
   font-family: "Poppins-Regular";
   color: #000000;
+  font-size: 13px;
+  margin-bottom: 0px;
 }
 
 .monday-heading span {
+  font-size: 15px;
   color: #68C5FE;
   font-family: "Poppins-Regular";
 }
@@ -3050,7 +3053,7 @@ input.last-step.next.action-button {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #80808057;
-  padding: 10px;
+  padding: 10px 10px 9px;
 }
 
 .one-tonext {
@@ -3081,7 +3084,7 @@ section.calendar {
   margin: 20px 0 0 0;
   /* width: 90%; */
   background-color: #FFFFFF;
-  padding: 24px 15px;
+  padding: 9px 15px 12px;
   border-radius: 24px;
   box-shadow: 0px 0px 23px 6px #dfe7dfba;
 }
@@ -3119,7 +3122,7 @@ section.calendar .ui-datepicker .ui-datepicker-calendar a {
   font-size: 14px;
   background: transparent;
   width: 40px;
-  height: 45px;
+  height: 42px;
   text-align: center;
   align-items: center;
   display: flex;
@@ -3131,8 +3134,8 @@ section.calendar .ui-datepicker .ui-datepicker-calendar a {
 
 section.calendar .ui-datepicker .ui-datepicker-calendar .ui-state-active {
   background: #FA00A7;
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   text-align: center;
   align-items: center;
   display: flex;
@@ -3428,7 +3431,7 @@ label.detail.mt-3.form-label.mb-1 {
   background-position: center right 15px;
 }
 
-.tabs_hide .the_form{
+.tabs_hide .the_form {
   display: none;
 }
 
@@ -3454,9 +3457,22 @@ li.for_baby_sit .text p.small.pink {
   color: #474747;
   opacity: 0.5;
 }
+
 .product-price.baby_sit_price p {
   margin-bottom: 3px;
   font-size: 11px;
   font-family: 'Poppins-Medium';
   text-align: end;
+}
+
+.width-53 {
+  width: 53% !important;
+}
+
+.form-row_radio .select_services [type="radio"]:checked+label:before {
+  border: 2px solid #FA00A7 !important;
+}
+
+.form-row_radio .select_services [type="radio"]:not(:checked)+label:before {
+  border: 2px solid #9C9BA1 !important;
 }

@@ -201,6 +201,7 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <input type="button" name="next" class="second next action-button" value="Next step" />
                                     <div class="col-md-6">
                                         <div class="form_start this-form mt-3 ps-2">
                                             <div class="form-group">
@@ -234,7 +235,7 @@
                                     </div>
 
                                 </div>
-                            </div> <input type="button" name="next" class="second next action-button" value="Next step" />
+                            </div>
                         </fieldset>
                         <fieldset>
                             <div class="booking-heading previous">

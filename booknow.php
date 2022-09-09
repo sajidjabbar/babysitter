@@ -95,7 +95,7 @@
                             </div>
                             <div class="tab-two hide" id="two_no">
                                 <div class="row">
-                                    <div class="col-md-7">
+                                    <div class="col-md-7 pe-5">
                                         <div class="this-tab-heading">
                                             <h5>Recurring</h5>
                                         </div>
@@ -105,7 +105,7 @@
                                                     <input type="text" name="" onfocus="(this.type='date')" class="input-dateone" placeholder="Start Date">
                                                 </div>
                                                 <div class="single-input">
-                                                    <input type="text" name="" onfocus="(this.type='date')" class="input-dateone" placeholder="end Date">
+                                                    <input type="text" name="" onfocus="(this.type='date')" class="input-dateone" placeholder="End Date">
                                                 </div>
                                             </div>
                                             <div class="form-row">
@@ -131,7 +131,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
+                                    <div class="col-md-5 ps-5">
                                         <div class="time-wrapper">
                                             <div class="this-tab-heading">
                                                 <h5>Days Selection</h5>
@@ -167,7 +167,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <input type="button" name="next" class="next action-button one-tonext first_step_btn " value="next step" />
+                            <input type="button" name="next" class="next action-button one-tonext first_step_btn djgoij" value="next step" />
                         </fieldset>
                         <fieldset class="second-field">
                             <div class="booking-heading previous">
@@ -254,7 +254,7 @@
                                     </div>
 
                                 </div>
-                            </div> <input type="button" name="next" class="second next action-button" style="width: 46% !important;" value="Next step" />
+                            </div> <input type="button" name="next" class="second next action-button" style="width: 46% !important; top: 163px !important;" value="Next step" />
                         </fieldset>
                         <fieldset>
                             <div class="booking-heading previous">
