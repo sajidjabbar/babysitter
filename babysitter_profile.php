@@ -589,7 +589,7 @@
                                                         <th class="baby_up-time">Time</th>
                                                         <th class="baby_up-payment">Payment</th>
                                                         <th class="baby_up-status">Status</th>
-                                                        <th class="baby_up-action">Action</th>
+                                                        <th class="baby_up-action">Actions</th>
                                                         <th class="baby_up-view">View</th>
                                                     </tr>
                                                 </thead>

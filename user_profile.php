@@ -192,7 +192,7 @@
                                                         <th class="up-time">Time</th>
                                                         <th class="up-payment">Payment</th>
                                                         <th class="pen-status">Status</th>
-                                                        <th class="up-action">Action</th>
+                                                        <th class="up-action">Actions</th>
                                                         <th class="up-view">View</th>
                                                     </tr>
                                                 </thead>
@@ -300,9 +300,9 @@
                                                         <th class="up-date">Date</th>
                                                         <th class="up-time">Time</th>
                                                         <th class="up-payment">Payment</th>
-                                                        <th class="up-status">Action</th>
-                                                        <th class="up-action">Action</th>
-                                                        <th class="up-view">Actions</th>
+                                                        <th class="up-status">Status</th>
+                                                        <th class="up-action">Actions</th>
+                                                        <th class="up-view">View</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>

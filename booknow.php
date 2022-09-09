@@ -134,7 +134,7 @@
                                     <div class="col-md-5 ps-5">
                                         <div class="time-wrapper">
                                             <div class="this-tab-heading">
-                                                <h5>Days Selection</h5>
+                                                <h5>Select Time</h5>
                                             </div>
                                             <div class="monday-time">
                                                 <div class="monday-heading">
