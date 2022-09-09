@@ -117,8 +117,8 @@
                                                     <input type="text" name="" onfocus="(this.type='time')" class="time-input" placeholder="Select End Time ">
                                                 </div>
                                             </div>
-                                            <div class="this-tab-heading">
-                                                <h5>Days Selection</h5>
+                                            <div class="this-tab-heading mt-3 mb-2">
+                                                <h5 class="mb-0">Days Selection</h5>
                                             </div>
                                             <div class="calendert-wrapper">
                                                 <section class="calendar">
@@ -133,8 +133,8 @@
                                     </div>
                                     <div class="col-md-5 ps-5">
                                         <div class="time-wrapper">
-                                            <div class="this-tab-heading">
-                                                <h5>Select Time</h5>
+                                            <div class="this-tab-heading mt-4">
+                                                <h5 class="mb-2">Select Time</h5>
                                             </div>
                                             <div class="monday-time">
                                                 <div class="monday-heading">

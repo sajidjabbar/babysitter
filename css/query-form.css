@@ -90,3 +90,7 @@ section.contact_section {
         padding: 50px 0px;
     }
 }
+
+.form-row_radio .select_services [type="radio"]:checked+label:before {
+    border: 2px solid #FA00A7;
+}
