@@ -715,7 +715,7 @@ li.canvas_btn {
 .carousel-caption.pink_line h1::after {
 	content: "";
 	display: block;
-	height: 6px;
+	height: 7px;
 	width: 178px;
 	background: #FA00A7;
 	margin-top: 5px;
