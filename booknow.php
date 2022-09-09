@@ -94,7 +94,6 @@
                                 </div>
                             </div>
                             <div class="tab-two hide" id="two_no">
-
                                 <div class="row">
                                     <div class="col-md-7">
                                         <div class="this-tab-heading">
@@ -103,19 +102,19 @@
                                         <div class="form_start mt-3">
                                             <div class="form-row">
                                                 <div class="single-input">
-                                                    <input type="text" name="" class="input-dateone" placeholder="Start Date">
+                                                    <input type="text" name="" onfocus="(this.type='date')" class="input-dateone" placeholder="Start Date">
                                                 </div>
                                                 <div class="single-input">
-                                                    <input type="text" name="" class="input-dateone" placeholder="end Date">
+                                                    <input type="text" name="" onfocus="(this.type='date')" class="input-dateone" placeholder="end Date">
                                                 </div>
                                             </div>
                                             <div class="form-row">
                                                 <div class="single-input">
-                                                    <input type="text" name="" class="time-input" placeholder="Select Start Time ">
+                                                    <input type="text" name="" onfocus="(this.type='time')" class="time-input" placeholder="Select Start Time ">
 
                                                 </div>
                                                 <div class="single-input">
-                                                    <input type="text" name="" class="time-input" placeholder="Select End Time ">
+                                                    <input type="text" name="" onfocus="(this.type='time')" class="time-input" placeholder="Select End Time ">
                                                 </div>
                                             </div>
                                             <div class="this-tab-heading">
@@ -205,30 +204,52 @@
                                         <div class="form_start this-form mt-3 ps-4">
                                             <div class="form-group">
                                                 <label for="exampleFormControlInput1" class="form-label">Number of children </label>
-                                                <input type="text" name="" id="" placeholder="Select Date">
-                                                <select class="form-select detail mt-3" aria-label="Default select example">
+                                                <!-- <input type="text" name="" id="" placeholder="Select Date"> -->
+                                                <div class="form-row">
+                                                    <select name="" id="" class="select">
+                                                        <option value="">Select the Number of children</option>
+                                                        <option value="">1</option>
+                                                        <option value="">2</option>
+                                                    </select>
+                                                </div>
+                                                <!-- <select class="form-select detail mt-3" aria-label="Default select example">
                                                     <option selected>Children 1 Detail</option>
                                                     <option value="1">One</option>
                                                     <option value="2">Two</option>
                                                     <option value="3">Three</option>
-                                                </select>
+                                                </select> -->
                                             </div>
-                                            <div class="form-row mt-1">
-                                                <div class="single-input">
-                                                    <input type="text" name="" id="" placeholder="Select Start Time ">
-                                                </div>
-                                                <div class="single-input">
-                                                    <input type="text" name="" id="" placeholder="Select End Time ">
+                                            <div class="for_the_hidinh_field ">
+                                                <label for="" class="detail mt-3 form-label mb-1">Children 1 Detail</label>
+                                                <div class="form-row mt- the_form">
+                                                    <div class="single-input">
+                                                        <input type="text" name="" id="" placeholder="Select Start Time ">
+                                                    </div>
+                                                    <div class="single-input">
+                                                        <input type="text" name="" id="" placeholder="Select End Time ">
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="form-group mt-2">
+                                            <div class="for_the_hidinh_field tabs_hide">
+                                                <label for="" class="detail mt-3 form-label mb-1">Children 2 Detail</label>
+                                                <div class="form-row mt- the_form">
+                                                    <div class="single-input">
+                                                        <input type="text" name="" id="" placeholder="Select Start Time ">
+                                                    </div>
+                                                    <div class="single-input">
+                                                        <input type="text" name="" id="" placeholder="Select End Time ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="form-group mt-2">
                                                 <select class="form-select child-detail" aria-label="Default select example">
                                                     <option selected>Children 2 Detail</option>
                                                     <option value="1">One</option>
                                                     <option value="2">Two</option>
                                                     <option value="3">Three</option>
                                                 </select>
-                                            </div>
+                                            </div> -->
+
                                         </div>
                                     </div>
 
@@ -259,7 +280,7 @@
 
 
                                         </div>
-                                        <div class="form">
+                                        <div class="form mt-3">
                                             <h4>Address</h4>
                                             <!-- <input placeholder="select Date" class="textbox-n" type="date" onfocus="(this.type='date')" id="date"> -->
                                             <input type="text" name="" id="" placeholder="Address Line1">
@@ -615,7 +636,7 @@
                                 </div>
                             </div>
                             <!-- <input href="thank-you.php" type="submit" name="next" class="next action-button submit-btns" value="Submit" /> -->
-                            <button type="button" name="next" class="next action-button submit-btns" onclick="window.location.href='thankyou-screen.php'">Submit</button>
+                            <button type="button" name="next" class="next action-button second " onclick="window.location.href='thankyou-screen.php'">Submit</button>
                         </fieldset>
                     </form>
                 </div>

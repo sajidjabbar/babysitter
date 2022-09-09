@@ -37,22 +37,17 @@
                                 <div class="all_register_tabs">
                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                                         <li class="nav-item" id="normal_user" role="presentation">
-                                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
-                                                data-bs-target="#home" type="button" role="tab" aria-controls="home"
-                                                aria-selected="true">Sign up as a Customer</button>
+                                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Sign up as a Customer</button>
                                         </li>
                                         <li class="nav-item" id="babysitterregister" role="presentation">
-                                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
-                                                data-bs-target="#profile" type="button" role="tab"
-                                                aria-controls="profile" aria-selected="false">Sign up as a
+                                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Sign up as a
                                                 Baby Sitter</button>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
-                                        aria-labelledby="home-tab">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                         <div class="form_start">
                                             <form method="POST" action="user_profile.php">
                                                 <div class="form-row  mt-3">
@@ -83,8 +78,7 @@
                                             </form>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel"
-                                        aria-labelledby="profile-tab">
+                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                         <div class="form_start">
                                             <form method="POST" action="babysitter_profile.php">
                                                 <div class="form-row  mt-3">
@@ -143,7 +137,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="form-row my-3">
-                                                    <button type="submit">Login</button>
+                                                    <button type="submit">Sign up</button>
                                                 </div>
                                             </form>
                                         </div>

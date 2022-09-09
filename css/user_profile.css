@@ -884,3 +884,6 @@ section.add_review .add_review_start_here h5 {
 span.up-cancel.for_the_padding {
     padding: 6px 17px !important;
 }
+button.btn.edit_btn:hover{
+    color: #FFF;
+}

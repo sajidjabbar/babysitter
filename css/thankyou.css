@@ -108,8 +108,10 @@ p {
   width: 47%;
   margin: auto;
 }
-
-.thank-you .thank-you-box-wrapper a.btn::after {
+.btn:hover{
+  color: #FFFFFF;
+}
+/* .thank-you .thank-you-box-wrapper a.btn::after {
   content: "";
   background-position: center right 46%;
   transition: 0.6s all;
@@ -126,4 +128,4 @@ p {
   background-position: center right 38%;
   top: 0px;
   background-size: 15px;
-}
+} */

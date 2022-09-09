@@ -215,7 +215,6 @@
                                             </div>
                                             <div class="form-row">
                                                 <div class="single-input">
-
                                                     <input type="text" name="" id="" placeholder="Select Start Time ">
 
                                                 </div>

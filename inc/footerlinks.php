@@ -36,6 +36,9 @@
 </script>
 
 <script>
+    $(".for_the_hidinh_field").click(function() {
+        $(this).toggleClass("tabs_hide");
+    });
     // $("p").mouseout(function() {
     //     $("p").css("background-color", "gray");
     // });

@@ -1384,7 +1384,7 @@ input.last-step.next.action-button {
 section.calendar {
   position: relative;
   margin: 20px 0 0 0;
-  width: 90%;
+  /* width: 90%; */
   background-color: #FFFFFF;
   padding: 24px 15px;
   border-radius: 24px;
@@ -1692,6 +1692,7 @@ section.booking-sec {
   border: 1px solid #68C5FE;
   border-radius: 34px;
 }
+
 .form-row_radio.mt-3 .select_services {
   display: flex;
   gap: 24px;
@@ -3078,7 +3079,7 @@ input.last-step.next.action-button {
 section.calendar {
   position: relative;
   margin: 20px 0 0 0;
-  width: 90%;
+  /* width: 90%; */
   background-color: #FFFFFF;
   padding: 24px 15px;
   border-radius: 24px;
@@ -3162,13 +3163,12 @@ section.calendar .ui-datepicker .ui-datepicker-prev {
   margin-left: -75px;
   line-height: 2.5rem;
   background-color: transparent;
-
-  padding: 6px 3px;
+  padding: 3px 2px;
   border-radius: 50px;
   border: 1px solid #B8BABD;
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 43px;
+  height: 43px;
   margin-top: 23px;
 }
 
@@ -3204,15 +3204,15 @@ section.calendar .ui-datepicker .ui-datepicker-next {
   float: right;
   line-height: 2.5rem;
   margin-top: 23px;
-  padding: 6px 7px;
+  padding: 3px 6px;
   border-radius: 30px;
   border: 1px solid #B8BABD;
   position: absolute;
   background-color: transparent;
-  margin-left: -5px;
+  margin-left: -17px;
   background: #FA00A7;
-  width: 50px;
-  height: 50px;
+  width: 43px;
+  height: 43px;
 }
 
 section.calendar .ui-datepicker .ui-datepicker-next .fa-angle-right:before {
@@ -3244,7 +3244,7 @@ span.ui-datepicker-year {
 
 section.calendar .ui-datepicker .ui-datepicker-header i {
   color: #5760e6;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 700;
 }
 
@@ -3403,6 +3403,7 @@ input.next.action-button.one-tonext.first_step_btn {
   background: #FA00A7 !important;
   border: 1px solid transparent !important;
 }
+
 input.next.action-button.one-tonext.first_step_btn {
   color: #FA00A7 !important;
   background: #FFF !important;
@@ -3411,9 +3412,51 @@ input.next.action-button.one-tonext.first_step_btn {
 
 #msform .action-button:hover {
   color: #FFF !important;
-  background:  #FA00A7 !important;
+  background: #FA00A7 !important;
   border: 1px solid transparent !important;
 }
-.time_input{
+
+.time_input {
   cursor: pointer;
+}
+
+
+label.detail.mt-3.form-label.mb-1 {
+  display: block;
+  background-image: url(../img/down.png);
+  background-repeat: no-repeat;
+  background-position: center right 15px;
+}
+
+.tabs_hide .the_form{
+  display: none;
+}
+
+li.for_baby_sit {
+  display: flex !important;
+  gap: 11px;
+}
+
+li.for_baby_sit img {
+  max-width: 34px;
+  max-height: 36px;
+}
+
+li.for_baby_sit .text h5 {
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-family: 'Poppins-Medium';
+}
+
+li.for_baby_sit .text p.small.pink {
+  font-size: 10px !important;
+  font-family: 'Poppins-Regular';
+  color: #474747;
+  opacity: 0.5;
+}
+.product-price.baby_sit_price p {
+  margin-bottom: 3px;
+  font-size: 11px;
+  font-family: 'Poppins-Medium';
+  text-align: end;
 }

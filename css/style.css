@@ -276,7 +276,8 @@ section.sub_banner h3 {
 
 /* Constan Inputs */
 .form_start .form-row input,
-.form_start .form-row textarea {
+.form_start .form-row textarea,
+.form_start .form-row .select {
 	width: 100%;
 	border-radius: 19px;
 	height: 40px;
@@ -292,7 +293,13 @@ section.sub_banner h3 {
 	height: 100px;
 	resize: none;
 }
-
+.form_start .form-row .select {
+	appearance: none;
+	background-image: url(../img/down.png);
+	background-size: 8px;
+	background-position: center right 15px;
+	background-repeat: no-repeat;
+}
 .form_start .form-row {
 	display: flex;
 	justify-content: space-between;
@@ -708,7 +715,7 @@ li.canvas_btn {
 .carousel-caption.pink_line h1::after {
 	content: "";
 	display: block;
-	height: 5px;
+	height: 6px;
 	width: 178px;
 	background: #FA00A7;
 	margin-top: 5px;

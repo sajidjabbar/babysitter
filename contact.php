@@ -15,15 +15,15 @@
     <div class="container">
         <div class="col-xl-10 col-lg-12 mx-auto">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 pe-4">
                     <div class="side_img">
                         <figure>
                             <img src="img/contact.png" class="img-fluid" alt="">
                         </figure>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="contact_start">
+                <div class="col-md-6 ps-4">
+                    <div class="contact_start ps-1">
                         <div class="top_heading pink_line">
                             <h5 class="popins_b">Get In Touch</h5>
                         </div>

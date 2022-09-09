@@ -58,7 +58,7 @@
                                         </div>
                                         <section class="persoal_information col-md-8">
                                             <div class="heading">
-                                                <h6>Personal Information</h6>
+                                                <h6>My Profile</h6>
                                             </div>
                                             <div class="personal_information_start">
                                                 <div class="row">
@@ -87,7 +87,7 @@
                                         </section>
                                         <section class="persoal_information col-md-8">
                                             <div class="heading">
-                                                <h6>Personal Information</h6>
+                                                <h6>Password</h6>
                                             </div>
                                             <div class="personal_information_start">
                                                 <div class="row">

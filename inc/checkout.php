@@ -121,6 +121,7 @@
                         <h4 class="mb-0">$20.00</h4>
                     </div>
                 </div>
+                <p class="cash_on_del">Cash on delivery</p>
                 <div class="cart-product-detail">
                     <div class="checkout-products">
                         <div class="edit-product-heading">
@@ -128,13 +129,14 @@
                                 <h5 class="name">Date and Time (One Time)</h5>
                             </div>
                             <div class="edit-product">
-                                <a class="btn btn-primary edit" href="#" role="button">edit <svg xmlns="http://www.w3.org/2000/svg" width="15.214" height="15.213" viewBox="0 0 15.214 15.213">
-                                        <g id="Group_9157" data-name="Group 9157" transform="translate(-1710.096 -801.484)">
-                                            <path id="Path_213" data-name="Path 213" d="M13.191,18.254H3.563A2.066,2.066,0,0,1,1.5,16.191V6.563A2.066,2.066,0,0,1,3.563,4.5H8.377a.688.688,0,0,1,0,1.375H3.563a.689.689,0,0,0-.688.688v9.628a.689.689,0,0,0,.688.688h9.628a.689.689,0,0,0,.688-.688V11.377a.688.688,0,1,1,1.375,0v4.814A2.066,2.066,0,0,1,13.191,18.254Z" transform="translate(1708.596 798.442)" fill="#fa00a7" />
-                                            <path id="Path_214" data-name="Path 214" d="M19.44,1.318a2.147,2.147,0,0,1,1.518,3.664l-6.533,6.533a.688.688,0,0,1-.319.181l-2.751.688a.688.688,0,0,1-.834-.834L11.208,8.8a.688.688,0,0,1,.181-.319l6.533-6.533A2.133,2.133,0,0,1,19.44,1.318Zm-5.853,9.091,6.4-6.4A.771.771,0,0,0,18.9,2.919l-6.4,6.4-.364,1.454Z" transform="translate(1703.722 800.166)" fill="#fa00a7" />
-                                        </g>
-                                    </svg>
+                                <a class="btn btn-primary edit" href="#" role="button">edit
                                 </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10.214" height="10.213" viewBox="0 0 15.214 15.213">
+                                    <g id="Group_9157" data-name="Group 9157" transform="translate(-1710.096 -801.484)">
+                                        <path id="Path_213" data-name="Path 213" d="M13.191,18.254H3.563A2.066,2.066,0,0,1,1.5,16.191V6.563A2.066,2.066,0,0,1,3.563,4.5H8.377a.688.688,0,0,1,0,1.375H3.563a.689.689,0,0,0-.688.688v9.628a.689.689,0,0,0,.688.688h9.628a.689.689,0,0,0,.688-.688V11.377a.688.688,0,1,1,1.375,0v4.814A2.066,2.066,0,0,1,13.191,18.254Z" transform="translate(1708.596 798.442)" fill="#fa00a7" />
+                                        <path id="Path_214" data-name="Path 214" d="M19.44,1.318a2.147,2.147,0,0,1,1.518,3.664l-6.533,6.533a.688.688,0,0,1-.319.181l-2.751.688a.688.688,0,0,1-.834-.834L11.208,8.8a.688.688,0,0,1,.181-.319l6.533-6.533A2.133,2.133,0,0,1,19.44,1.318Zm-5.853,9.091,6.4-6.4A.771.771,0,0,0,18.9,2.919l-6.4,6.4-.364,1.454Z" transform="translate(1703.722 800.166)" fill="#fa00a7" />
+                                    </g>
+                                </svg>
                             </div>
                         </div>
                         <div class="products br-right">
@@ -157,13 +159,14 @@
                                 <h5 class="name">Booking Details</h5>
                             </div>
                             <div class="edit-product">
-                                <a class="btn btn-primary edit" href="#" role="button">edit <svg xmlns="http://www.w3.org/2000/svg" width="15.214" height="15.213" viewBox="0 0 15.214 15.213">
-                                        <g id="Group_9157" data-name="Group 9157" transform="translate(-1710.096 -801.484)">
-                                            <path id="Path_213" data-name="Path 213" d="M13.191,18.254H3.563A2.066,2.066,0,0,1,1.5,16.191V6.563A2.066,2.066,0,0,1,3.563,4.5H8.377a.688.688,0,0,1,0,1.375H3.563a.689.689,0,0,0-.688.688v9.628a.689.689,0,0,0,.688.688h9.628a.689.689,0,0,0,.688-.688V11.377a.688.688,0,1,1,1.375,0v4.814A2.066,2.066,0,0,1,13.191,18.254Z" transform="translate(1708.596 798.442)" fill="#fa00a7" />
-                                            <path id="Path_214" data-name="Path 214" d="M19.44,1.318a2.147,2.147,0,0,1,1.518,3.664l-6.533,6.533a.688.688,0,0,1-.319.181l-2.751.688a.688.688,0,0,1-.834-.834L11.208,8.8a.688.688,0,0,1,.181-.319l6.533-6.533A2.133,2.133,0,0,1,19.44,1.318Zm-5.853,9.091,6.4-6.4A.771.771,0,0,0,18.9,2.919l-6.4,6.4-.364,1.454Z" transform="translate(1703.722 800.166)" fill="#fa00a7" />
-                                        </g>
-                                    </svg>
+                                <a class="btn btn-primary edit" href="#" role="button">edit
                                 </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10.214" height="10.213" viewBox="0 0 15.214 15.213">
+                                    <g id="Group_9157" data-name="Group 9157" transform="translate(-1710.096 -801.484)">
+                                        <path id="Path_213" data-name="Path 213" d="M13.191,18.254H3.563A2.066,2.066,0,0,1,1.5,16.191V6.563A2.066,2.066,0,0,1,3.563,4.5H8.377a.688.688,0,0,1,0,1.375H3.563a.689.689,0,0,0-.688.688v9.628a.689.689,0,0,0,.688.688h9.628a.689.689,0,0,0,.688-.688V11.377a.688.688,0,1,1,1.375,0v4.814A2.066,2.066,0,0,1,13.191,18.254Z" transform="translate(1708.596 798.442)" fill="#fa00a7" />
+                                        <path id="Path_214" data-name="Path 214" d="M19.44,1.318a2.147,2.147,0,0,1,1.518,3.664l-6.533,6.533a.688.688,0,0,1-.319.181l-2.751.688a.688.688,0,0,1-.834-.834L11.208,8.8a.688.688,0,0,1,.181-.319l6.533-6.533A2.133,2.133,0,0,1,19.44,1.318Zm-5.853,9.091,6.4-6.4A.771.771,0,0,0,18.9,2.919l-6.4,6.4-.364,1.454Z" transform="translate(1703.722 800.166)" fill="#fa00a7" />
+                                    </g>
+                                </svg>
                             </div>
                         </div>
                         <div class="products br-right">
@@ -188,13 +191,14 @@
                                 <h5 class="name">Contact Information</h5>
                             </div>
                             <div class="edit-product">
-                                <a class="btn btn-primary edit" href="#" role="button">edit <svg xmlns="http://www.w3.org/2000/svg" width="15.214" height="15.213" viewBox="0 0 15.214 15.213">
-                                        <g id="Group_9157" data-name="Group 9157" transform="translate(-1710.096 -801.484)">
-                                            <path id="Path_213" data-name="Path 213" d="M13.191,18.254H3.563A2.066,2.066,0,0,1,1.5,16.191V6.563A2.066,2.066,0,0,1,3.563,4.5H8.377a.688.688,0,0,1,0,1.375H3.563a.689.689,0,0,0-.688.688v9.628a.689.689,0,0,0,.688.688h9.628a.689.689,0,0,0,.688-.688V11.377a.688.688,0,1,1,1.375,0v4.814A2.066,2.066,0,0,1,13.191,18.254Z" transform="translate(1708.596 798.442)" fill="#fa00a7" />
-                                            <path id="Path_214" data-name="Path 214" d="M19.44,1.318a2.147,2.147,0,0,1,1.518,3.664l-6.533,6.533a.688.688,0,0,1-.319.181l-2.751.688a.688.688,0,0,1-.834-.834L11.208,8.8a.688.688,0,0,1,.181-.319l6.533-6.533A2.133,2.133,0,0,1,19.44,1.318Zm-5.853,9.091,6.4-6.4A.771.771,0,0,0,18.9,2.919l-6.4,6.4-.364,1.454Z" transform="translate(1703.722 800.166)" fill="#fa00a7" />
-                                        </g>
-                                    </svg>
+                                <a class="btn btn-primary edit" href="#" role="button">edit
                                 </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10.214" height="10.213" viewBox="0 0 15.214 15.213">
+                                    <g id="Group_9157" data-name="Group 9157" transform="translate(-1710.096 -801.484)">
+                                        <path id="Path_213" data-name="Path 213" d="M13.191,18.254H3.563A2.066,2.066,0,0,1,1.5,16.191V6.563A2.066,2.066,0,0,1,3.563,4.5H8.377a.688.688,0,0,1,0,1.375H3.563a.689.689,0,0,0-.688.688v9.628a.689.689,0,0,0,.688.688h9.628a.689.689,0,0,0,.688-.688V11.377a.688.688,0,1,1,1.375,0v4.814A2.066,2.066,0,0,1,13.191,18.254Z" transform="translate(1708.596 798.442)" fill="#fa00a7" />
+                                        <path id="Path_214" data-name="Path 214" d="M19.44,1.318a2.147,2.147,0,0,1,1.518,3.664l-6.533,6.533a.688.688,0,0,1-.319.181l-2.751.688a.688.688,0,0,1-.834-.834L11.208,8.8a.688.688,0,0,1,.181-.319l6.533-6.533A2.133,2.133,0,0,1,19.44,1.318Zm-5.853,9.091,6.4-6.4A.771.771,0,0,0,18.9,2.919l-6.4,6.4-.364,1.454Z" transform="translate(1703.722 800.166)" fill="#fa00a7" />
+                                    </g>
+                                </svg>
                             </div>
                         </div>
                         <div class="products">
@@ -219,6 +223,105 @@
                             </div>
                         </div>
 
+                        <div class="edit-product-heading">
+                            <div class="product-heading">
+                                <h5 class="name">Number of children </h5>
+                            </div>
+                            <div class="edit-product">
+                                <a class="btn btn-primary edit" href="#" role="button">edit
+                                </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10.214" height="10.213" viewBox="0 0 15.214 15.213">
+                                    <g id="Group_9157" data-name="Group 9157" transform="translate(-1710.096 -801.484)">
+                                        <path id="Path_213" data-name="Path 213" d="M13.191,18.254H3.563A2.066,2.066,0,0,1,1.5,16.191V6.563A2.066,2.066,0,0,1,3.563,4.5H8.377a.688.688,0,0,1,0,1.375H3.563a.689.689,0,0,0-.688.688v9.628a.689.689,0,0,0,.688.688h9.628a.689.689,0,0,0,.688-.688V11.377a.688.688,0,1,1,1.375,0v4.814A2.066,2.066,0,0,1,13.191,18.254Z" transform="translate(1708.596 798.442)" fill="#fa00a7" />
+                                        <path id="Path_214" data-name="Path 214" d="M19.44,1.318a2.147,2.147,0,0,1,1.518,3.664l-6.533,6.533a.688.688,0,0,1-.319.181l-2.751.688a.688.688,0,0,1-.834-.834L11.208,8.8a.688.688,0,0,1,.181-.319l6.533-6.533A2.133,2.133,0,0,1,19.44,1.318Zm-5.853,9.091,6.4-6.4A.771.771,0,0,0,18.9,2.919l-6.4,6.4-.364,1.454Z" transform="translate(1703.722 800.166)" fill="#fa00a7" />
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="products">
+                            <div class="abt-product">
+                                <div class="pro-dtl">
+                                    <!-- <h5 class="name">Contact Information</h5> -->
+                                    <ul class="variations">
+                                        <li>Children</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-price">
+                                <h4 class="price">2</h4>
+                            </div>
+                        </div>
+                        <div class="edit-product-heading">
+                            <div class="product-heading">
+                                <h5 class="name">Children Details</h5>
+                            </div>
+                            <div class="edit-product">
+                                <a class="btn btn-primary edit" href="#" role="button">edit
+                                </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10.214" height="10.213" viewBox="0 0 15.214 15.213">
+                                    <g id="Group_9157" data-name="Group 9157" transform="translate(-1710.096 -801.484)">
+                                        <path id="Path_213" data-name="Path 213" d="M13.191,18.254H3.563A2.066,2.066,0,0,1,1.5,16.191V6.563A2.066,2.066,0,0,1,3.563,4.5H8.377a.688.688,0,0,1,0,1.375H3.563a.689.689,0,0,0-.688.688v9.628a.689.689,0,0,0,.688.688h9.628a.689.689,0,0,0,.688-.688V11.377a.688.688,0,1,1,1.375,0v4.814A2.066,2.066,0,0,1,13.191,18.254Z" transform="translate(1708.596 798.442)" fill="#fa00a7" />
+                                        <path id="Path_214" data-name="Path 214" d="M19.44,1.318a2.147,2.147,0,0,1,1.518,3.664l-6.533,6.533a.688.688,0,0,1-.319.181l-2.751.688a.688.688,0,0,1-.834-.834L11.208,8.8a.688.688,0,0,1,.181-.319l6.533-6.533A2.133,2.133,0,0,1,19.44,1.318Zm-5.853,9.091,6.4-6.4A.771.771,0,0,0,18.9,2.919l-6.4,6.4-.364,1.454Z" transform="translate(1703.722 800.166)" fill="#fa00a7" />
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="products">
+                            <div class="abt-product">
+                                <div class="pro-dtl">
+                                    <!-- <h5 class="name">Contact Information</h5> -->
+                                    <ul class="variations">
+                                        <li>Name:</li>
+                                        <li>Age:</li>
+                                        <li>Name:</li>
+                                        <li>Age:</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-price">
+                                <h4 class="price">Michael</h4>
+                                <h4 class="price">03</h4>
+                                <h4 class="price">Jason</h4>
+                                <h4 class="price">05</h4>
+                            </div>
+                        </div>
+
+
+                        <div class="edit-product-heading">
+                            <div class="product-heading">
+                                <h5 class="name">Babysitter:</h5>
+                            </div>
+                            <!-- <div class="edit-product">
+                                <a class="btn btn-primary edit" href="#" role="button">edit
+                                </a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="10.214" height="10.213" viewBox="0 0 15.214 15.213">
+                                    <g id="Group_9157" data-name="Group 9157" transform="translate(-1710.096 -801.484)">
+                                        <path id="Path_213" data-name="Path 213" d="M13.191,18.254H3.563A2.066,2.066,0,0,1,1.5,16.191V6.563A2.066,2.066,0,0,1,3.563,4.5H8.377a.688.688,0,0,1,0,1.375H3.563a.689.689,0,0,0-.688.688v9.628a.689.689,0,0,0,.688.688h9.628a.689.689,0,0,0,.688-.688V11.377a.688.688,0,1,1,1.375,0v4.814A2.066,2.066,0,0,1,13.191,18.254Z" transform="translate(1708.596 798.442)" fill="#fa00a7" />
+                                        <path id="Path_214" data-name="Path 214" d="M19.44,1.318a2.147,2.147,0,0,1,1.518,3.664l-6.533,6.533a.688.688,0,0,1-.319.181l-2.751.688a.688.688,0,0,1-.834-.834L11.208,8.8a.688.688,0,0,1,.181-.319l6.533-6.533A2.133,2.133,0,0,1,19.44,1.318Zm-5.853,9.091,6.4-6.4A.771.771,0,0,0,18.9,2.919l-6.4,6.4-.364,1.454Z" transform="translate(1703.722 800.166)" fill="#fa00a7" />
+                                    </g>
+                                </svg>
+                            </div> -->
+                        </div>
+                        <div class="products pt-3">
+                            <div class="abt-product">
+                                <div class="pro-dtl">
+                                    <!-- <h5 class="name">Contact Information</h5> -->
+                                    <ul class="variations">
+                                        <li class="for_baby_sit">
+                                            <img src="img/babys.png" alt="">
+                                            <div class="text">
+                                                <h5>John Doe</h5>
+                                                <p class="small pink">Washington, USA</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-price baby_sit_price">
+                                <p><img src="img/star.png" alt=""> &nbsp;&nbsp;4.5</p>
+                                <p><img src="img/us.png" alt=""> &nbsp;&nbsp;4 years</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

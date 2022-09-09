@@ -59,7 +59,7 @@
                                         </div>
                                         <section class="persoal_information col-lg-10 col-md-12">
                                             <div class="heading">
-                                                <h6>Edit Profile</h6>
+                                                <h6>My Profile</h6>
                                             </div>
                                             <div class="personal_information_start">
                                                 <div class="row">
@@ -1008,10 +1008,10 @@
                             <h5>#1084598423154</h5>
                         </div>
                         <div class="booking_price text-end">
-                            <div class="single_price">
+                            <!-- <div class="single_price">
                                 <span class="fee">Booking Fee</span>
                                 <span class="payment">$158.07 </span>
-                            </div>
+                            </div> -->
                             <div class="single_price">
                                 <span class="fee">Total Amount</span>
                                 <span class="payment">$158.07 </span>
@@ -1082,10 +1082,10 @@
                             <h5>#1084598423154</h5>
                         </div>
                         <div class="booking_price text-end">
-                            <div class="single_price">
+                            <!-- <div class="single_price">
                                 <span class="fee">Booking Fee</span>
                                 <span class="payment">$158.07 </span>
-                            </div>
+                            </div> -->
                             <div class="single_price">
                                 <span class="fee">Total Amount</span>
                                 <span class="payment">$158.07 </span>
@@ -1155,10 +1155,10 @@
                             <h5>#1084598423154</h5>
                         </div>
                         <div class="booking_price text-end">
-                            <div class="single_price">
+                            <!-- <div class="single_price">
                                 <span class="fee">Booking Fee</span>
                                 <span class="payment">$158.07 </span>
-                            </div>
+                            </div> -->
                             <div class="single_price">
                                 <span class="fee">Total Amount</span>
                                 <span class="payment">$158.07 </span>
