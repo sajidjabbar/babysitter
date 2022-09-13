@@ -124,23 +124,36 @@
             function() {
                 $(".hover-effect").css("display", "none");
             });
+
     });
 
+    $('#markDays').click(function() {
+        $('#markDayDv').toggleClass('checked')
+        var classExist = $('.hover-effect').hasClass('checked');
+        if (!!classExist) {
+            $('#markDays').text("marked");
+        } else {
+            $('#markDays').text('mark');
+        }
+    })
 
-    $(document).ready(function() {
-        // Set div display to none
-        $("section.calendar .ui-datepicker .ui-datepicker-calendar .ui-state-active ").mouseover(function() {
-            $(".hover-effect1").css({
-                "display": "block",
-                "transition": "0.9s all"
 
+    if ('.hover-effect.checked')
+
+        $(document).ready(function() {
+            // Set div display to none
+            $("section.calendar .ui-datepicker .ui-datepicker-calendar .ui-state-active ").mouseover(function() {
+                $(".hover-effect1").css({
+                    "display": "block",
+                    "transition": "0.9s all"
+
+                });
             });
-        });
-        $("section.calendar .ui-datepicker .ui-datepicker-calendar .ui-state-active ").mouseout(function() {
-            $(".hover-effect1").css("display", "none");
-        });
+            $("section.calendar .ui-datepicker .ui-datepicker-calendar .ui-state-active ").mouseout(function() {
+                $(".hover-effect1").css("display", "none");
+            });
 
-    });
+        });
 
 
 

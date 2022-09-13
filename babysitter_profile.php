@@ -30,7 +30,7 @@
                             <h5>Jessica Millers</h5>
                         </div>
                         <ul class="nav nav-tabs tabs_side_bar" id="myTab" role="tablist">
-                            <li class="nav-item tabs_button_wrapper " role="presentation">
+                            <li class="nav-item tabs_button_wra pper " role="presentation">
                                 <button class="tabs_controller" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Calendar</button>
                             </li>
                             <li class="nav-item tabs_button_wrapper" role="presentation">
@@ -938,9 +938,9 @@
                                             <div class="heading">
                                                 <p class="main_para">Mark the dates from below as off days</p>
                                             </div>
-                                            <div class="hover-effect ">
+                                            <div class="hover-effect" id="markDayDv">
                                                 <h6>This day Marked As Off Days</h6>
-                                                <button class="calander-btn"> <a role="button">mark </a></button>
+                                                <button class="calander-btn" id="markDays"> <a role="button">mark </a></button>
                                             </div>
                                             <div class="hover-effect1 ">
                                                 <h6>Marked As Off Days</h6>
