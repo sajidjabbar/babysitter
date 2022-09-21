@@ -135,6 +135,12 @@
         } else {
             $('#markDays').text('mark');
         }
+
+        if (!!classExist) {
+            $('.ui-datepicker-calendar .ui-state-active').css("background", "#68c5fe");
+        } else {
+            $('.ui-datepicker-calendar .ui-state-active').css("background", "#fa00a7");
+        }
     })
 
 

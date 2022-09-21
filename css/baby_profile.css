@@ -294,8 +294,8 @@ section.calendar .ui-datepicker td.ui-datepicker-week-end {
 	pointer-events: none;
 }
 section.calendar .ui-datepicker td.ui-datepicker-week-end a {
-	background: #68c5fe;
-	color: #fff;
+	/* background: #68c5fe;
+	color: #fff; */
 	pointer-events: none;
 }
 section.calendar .ui-datepicker .ui-datepicker-calendar .ui-state-active {
