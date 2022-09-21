@@ -293,11 +293,11 @@ section.calendar .ui-datepicker .ui-datepicker-calendar a {
 /* section.calendar .ui-datepicker td.ui-datepicker-week-end {
 	pointer-events: none;
 } */
-section.calendar .ui-datepicker td.ui-datepicker-week-end a {
-	/* background: #68c5fe;
-	color: #fff; */
+/* section.calendar .ui-datepicker td.ui-datepicker-week-end a {
+	background: #68c5fe;
+	color: #fff;
 	pointer-events: none;
-}
+} */
 section.calendar .ui-datepicker .ui-datepicker-calendar .ui-state-active {
 	background: #ccc;
 	width: 45px;
